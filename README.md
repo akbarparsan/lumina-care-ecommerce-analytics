@@ -14,6 +14,8 @@ rekonsiliasi dan klaim ke platform, serta gerbang kualitas data.
 | Stack | PostgreSQL 14+ (diuji di 16, dijalankan pemilik proyek di 18), SQL murni, Python 3 (pemuat berkas & generator), Power BI Desktop (DAX, Power Query, Deneb/Vega-Lite) |
 
 ![Lumina ecommerce Dashboard](images/page_1_lumina_dashboard_ss.png)
+![Lumina ecommerce Dashboard](images/page_2_lumina_dashboard_ss.png)
+![Lumina ecommerce Dashboard](images/page_3_lumina_dashboard_ss.png)
 
 ---
 
