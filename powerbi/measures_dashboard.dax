@@ -1,0 +1,649 @@
+// =====================================================================================
+// measures_dashboard.dax : measure TAMBAHAN untuk dashboard hasil adaptasi referensi
+// (tempel di tabel _Measures, setelah measures.dax). Butuh tabel baru dari sql/14_mart_dashboard.sql:
+//   DimMonth  = mart.dim_month          KPIMonth = mart.v_kpi_month_all     Movers  = mart.v_sku_movers
+//   SubCat    = mart.v_subcat_month     CC       = mart.v_command_center    Money   = mart.v_money_on_table
+// dan tabel kontrol (Enter Data / Modeling > New parameter), dijelaskan di panduan:
+//   PlatSel(code, label)   Palette(code, label)   TopN (What-if 1..10, default 5)   ChartMode(code, label)
+//   Metrik = field parameter {Net GMV, Margin CM2, Belanja iklan}
+// Relasi tambahan: DimMonth[month_start] 1->* KPIMonth[month_start], Movers[month_start], SubCat[month_start], KPI_M[month_start]
+//                  DimPlatform[platform_code] 1->* Movers, SubCat, CC
+// =====================================================================================
+
+// ---------------------------------------------------------------- Pemilihan (pengganti tombol wilayah di referensi)
+Platform Terpilih   = SELECTEDVALUE ( PlatSel[code], "ALL" )
+Palet Terpilih      = SELECTEDVALUE ( Palette[code], "STD" )
+Mode Grafik         = SELECTEDVALUE ( ChartMode[code], "LINE" )
+TopN Nilai          = SELECTEDVALUE ( TopN[TopN], 5 )
+
+// ---------------------------------------------------------------- Kartu detail Command Center (tabel CC: 1 baris per platform + ALL)
+CC Net GMV =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( SUM ( CC[net_gmv] ), CC[platform_code] = p )
+CC CM2 =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( SUM ( CC[cm2] ), CC[platform_code] = p )
+CC CM2 % =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( MAX ( CC[cm2_pct] ), CC[platform_code] = p )
+CC TACOS =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( MAX ( CC[tacos] ), CC[platform_code] = p )
+CC ROAS =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( MAX ( CC[roas] ), CC[platform_code] = p )
+CC Order Valid =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( SUM ( CC[orders_net] ), CC[platform_code] = p )
+CC Klaim Rp =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( SUM ( CC[claim_idr] ), CC[platform_code] = p )
+CC Klaim Kasus =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( SUM ( CC[claim_cases] ), CC[platform_code] = p )
+CC Alert Harga =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( SUM ( CC[price_alerts] ), CC[platform_code] = p )
+CC Order Berisiko =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( SUM ( CC[flagged_orders] ), CC[platform_code] = p )
+CC Risiko Tinggi =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( SUM ( CC[high_risk_orders] ), CC[platform_code] = p )
+CC Pacing Status =
+VAR p = [Platform Terpilih]
+RETURN CALCULATE ( MAX ( CC[pacing_status] ), CC[platform_code] = p )
+CC Pacing Warning   = IF ( CONTAINSSTRING ( [CC Pacing Status], "BAWAH" ), 1, 0 )
+
+// Format rupiah ringkas: Rp7,28 mlr / Rp684 jt  (ikut pengaturan regional komputer: Indonesia = koma desimal)
+Rp Ringkas (CC Net GMV) =
+VAR v = [CC Net GMV]
+RETURN IF ( v >= 1000000000, "Rp" & FORMAT ( v / 1000000000, "0.00" ) & " mlr", "Rp" & FORMAT ( v / 1000000, "#,0" ) & " jt" )
+
+CC Klaim Teks       = "Rp" & FORMAT ( [CC Klaim Rp] / 1000000, "0.0" ) & " jt · " & FORMAT ( [CC Klaim Kasus], "#,0" ) & " kasus"
+
+// Kartu "uang di meja" (tabel Money: 1 baris)
+Uang Klaim          = "Rp" & FORMAT ( SUM ( Money[claimable_idr] ) / 1000000, "0.0" ) & " jt"
+Uang Kebocoran      = "Rp" & FORMAT ( SUM ( Money[price_leakage_idr] ) / 1000000, "0.0" ) & " jt"
+Uang Voucher        = "Rp" & FORMAT ( SUM ( Money[voucher_exposure_idr] ) / 1000000, "0.0" ) & " jt"
+Gerbang Data        = IF ( MAX ( Money[publish_gate] ) = "OK_TO_PUBLISH", "Aman", "Tahan publikasi" )
+Gerbang Data Detail = SUM ( Money[dq_passed] ) & " lulus · " & SUM ( Money[dq_failed] ) & " peringatan · " & SUM ( Money[dq_critical_failed] ) & " kritis"
+
+// ---------------------------------------------------------------- Kartu KPI gaya referensi (bulan aktif, rata-rata, bulan terbaik, variasi)
+// Pasang filter tingkat visual pada kartu: DimMonth[is_latest_month] = TRUE
+Bulan Aktif         = MAX ( DimMonth[month_start] )
+Net GMV Bulan       = SUM ( KPIMonth[net_gmv] )
+CM2 Bulan           = SUM ( KPIMonth[cm2] )
+Belanja Iklan Bulan = SUM ( KPIMonth[ad_spend] )
+TACOS Bulan         = DIVIDE ( [Belanja Iklan Bulan], [Net GMV Bulan] )
+
+Delta Net GMV       = SUM ( KPIMonth[delta_net_gmv] )
+Delta Net GMV %     = AVERAGE ( KPIMonth[delta_net_gmv_pct] )
+Delta CM2           = SUM ( KPIMonth[delta_cm2] )
+Delta CM2 %         = AVERAGE ( KPIMonth[delta_cm2_pct] )
+Delta Iklan         = SUM ( KPIMonth[delta_ad_spend] )
+Delta Iklan %       = AVERAGE ( KPIMonth[delta_ad_spend_pct] )
+
+Rata-rata Bulanan Net GMV = AVERAGEX ( ALL ( KPIMonth[month_start] ), CALCULATE ( SUM ( KPIMonth[net_gmv] ) ) )
+Rata-rata Bulanan CM2     = AVERAGEX ( ALL ( KPIMonth[month_start] ), CALCULATE ( SUM ( KPIMonth[cm2] ) ) )
+Rata-rata Bulanan Iklan   = AVERAGEX ( ALL ( KPIMonth[month_start] ), CALCULATE ( SUM ( KPIMonth[ad_spend] ) ) )
+
+Bulan Terbaik Net GMV =
+VAR best = FILTER ( ALL ( KPIMonth ), KPIMonth[is_best_net_gmv] )
+RETURN MAXX ( best, LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], KPIMonth[month_start] ) )
+Bulan Terbaik CM2 =
+VAR best = FILTER ( ALL ( KPIMonth ), KPIMonth[is_best_cm2] )
+RETURN MAXX ( best, LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], KPIMonth[month_start] ) )
+Bulan Puncak Iklan =
+VAR best = FILTER ( ALL ( KPIMonth ), KPIMonth[is_peak_ad_spend] )
+RETURN MAXX ( best, LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], KPIMonth[month_start] ) )
+
+// ---------------------------------------------------------------- Metrik berganti lewat tab (field parameter: Net GMV | CM2 | Iklan)
+// Cara membuat: Modeling > New parameter > Fields; pilih tiga measure di bawah. Power BI otomatis membuat tabel "Metrik".
+Metrik Net GMV      = [Net GMV Bulan]
+Metrik CM2          = [CM2 Bulan]
+Metrik Iklan        = [Belanja Iklan Bulan]
+// Kode tabel yang dibuat Power BI kira-kira begini (jangan diketik ulang bila sudah dibuat lewat menu):
+// Metrik = { ( "Net GMV", NAMEOF ( '_Measures'[Metrik Net GMV] ), 0 ), ( "Margin (CM2)", NAMEOF ( '_Measures'[Metrik CM2] ), 1 ), ( "Iklan", NAMEOF ( '_Measures'[Metrik Iklan] ), 2 ) }
+
+// Warna aksen mengikuti tab terpilih (pakai di Conditional formatting > Format by: Field value)
+Warna Aksen Tab =
+VAR t  = SELECTEDVALUE ( TabSel[urut], 0 )
+VAR cb = [Palet Terpilih] = "CB"
+RETURN SWITCH ( t,
+    0, IF ( cb, "#0072B2", "#1F6F78" ),
+    1, IF ( cb, "#D55E00", "#B8541F" ),
+    2, IF ( cb, "#CC79A7", "#5B4B9A" ),
+    "#1F6F78" )
+
+// ---------------------------------------------------------------- "Siapa naik, siapa turun" (tabel Movers; peringkat memakai selisih Rp)
+Mov Net GMV =
+VAR bln = [Bulan Akhir]
+RETURN CALCULATE ( SUM ( Movers[net_gmv] ), ALL ( DimMonth ), Movers[month_start] = bln )
+Mov Net GMV Lalu =
+VAR bln = [Bulan Akhir]
+RETURN CALCULATE ( SUM ( Movers[prev_net_gmv] ), ALL ( DimMonth ), Movers[month_start] = bln )
+Mov Delta Rp =
+VAR bln = [Bulan Akhir]
+RETURN CALCULATE ( SUM ( Movers[delta_idr] ), ALL ( DimMonth ), Movers[month_start] = bln )
+Mov Delta %         = DIVIDE ( [Mov Delta Rp], [Mov Net GMV Lalu] )
+Mov Lolos Basis     = IF ( [Mov Net GMV Lalu] >= 5000000, 1, 0 )          // basis minimum Rp5 jt (cegah % ekstrem dari basis kecil)
+
+Mov Rank Naik =
+IF ( [Mov Lolos Basis] = 1,
+     RANKX ( FILTER ( ALLSELECTED ( Movers[product_name], Movers[sub_category] ), [Mov Lolos Basis] = 1 ), [Mov Delta Rp], , DESC, DENSE ) )
+Mov Total Peringkat =
+COUNTROWS ( FILTER ( ALLSELECTED ( Movers[product_name], Movers[sub_category] ), [Mov Lolos Basis] = 1 ) )
+// Filter tingkat visual pada tabel: "Mov Tampil" = 1
+Mov Tampil =
+IF ( [Mov Lolos Basis] = 1 && ( [Mov Rank Naik] <= [TopN Nilai] || [Mov Rank Naik] > [Mov Total Peringkat] - [TopN Nilai] ), 1, 0 )
+Mov Nomor           = [Mov Rank Naik]
+Mov Panah           = IF ( [Mov Delta Rp] >= 0, "▲", "▼" )
+Mov Teks Delta      = [Mov Panah] & " " & IF ( [Mov Delta Rp] >= 0, "+", "−" ) & "Rp" & FORMAT ( ABS ( [Mov Delta Rp] ) / 1000000, "0.00" ) & " jt"
+Mov Teks Persen     = IF ( [Mov Delta %] >= 0, "+", "−" ) & FORMAT ( ABS ( [Mov Delta %] ), "0.0%" )
+// Warna batang (Conditional formatting > Data bars > Format by: Field value). Dua palet:
+Warna Naik          = IF ( [Palet Terpilih] = "CB", "#0072B2", "#1F6F78" )
+Warna Turun         = IF ( [Palet Terpilih] = "CB", "#D55E00", "#B8541F" )
+Mov Warna Batang    = IF ( [Mov Delta Rp] >= 0, [Warna Naik], [Warna Turun] )
+
+// ---------------------------------------------------------------- Sub-kategori + garis rata-rata (referensi: garis putus-putus)
+Sub Net GMV         = SUM ( SubCat[net_gmv] )
+Sub Rata-rata       = AVERAGEX ( ALLSELECTED ( SubCat[sub_category] ), [Sub Net GMV] )     // pakai juga Analytics pane > Average line
+Sub Porsi %         = DIVIDE ( [Sub Net GMV], CALCULATE ( [Sub Net GMV], ALLSELECTED ( SubCat[sub_category] ) ) )
+
+// ---------------------------------------------------------------- KALIMAT INSIGHT DINAMIS (pada kotak teks: tombol "fx" pada Value)
+// 1) Platform dengan perubahan bulanan paling tajam (dari KPI_M[net_gmv_mom])
+Insight Platform =
+VAR bln = CALCULATE ( MAX ( KPI_M[month_start] ), ALL ( KPI_M ) )
+VAR tbl = FILTER ( ALL ( KPI_M ), KPI_M[month_start] = bln && NOT ISBLANK ( KPI_M[net_gmv_mom] ) )
+VAR turun = TOPN ( 1, tbl, KPI_M[net_gmv_mom], ASC )
+VAR naik  = TOPN ( 1, tbl, KPI_M[net_gmv_mom], DESC )
+VAR nT = MAXX ( turun, KPI_M[platform_code] )
+VAR pT = MAXX ( turun, KPI_M[net_gmv_mom] )
+VAR nN = MAXX ( naik,  KPI_M[platform_code] )
+VAR pN = MAXX ( naik,  KPI_M[net_gmv_mom] )
+RETURN nT & " turun " & FORMAT ( ABS ( pT ), "0.0%" ) & " bulan ini, sedangkan " & nN & " naik " & FORMAT ( pN, "0.0%" ) & "."
+
+// 2) (dihapus) "Insight SKU Turun" digantikan oleh "Insight Naik Turun" di bawah, yang terkunci ke [Bulan Akhir].
+
+// 3) Peringatan JBP untuk platform terpilih
+Insight JBP =
+IF ( [Platform Terpilih] = "ALL",
+     IF ( CALCULATE ( COUNTROWS ( CC ), CC[pacing_status] = "DI BAWAH TIER 1" ) > 0, "Ada platform yang diproyeksikan di bawah Tier 1 JBP Q4.", "Semua platform berada di jalur Tier JBP." ),
+     [CC Pacing Status] )
+
+// 4) Kalimat KPI bulan aktif (untuk di bawah grafik tren)
+Insight Tren =
+VAR d = [Delta Net GMV %]
+RETURN "Net GMV " & IF ( d >= 0, "naik ", "turun " ) & FORMAT ( ABS ( d ), "0.0%" ) & " dibanding bulan lalu; bulan terbaik: " & [Bulan Terbaik Net GMV] & "."
+
+// ---------------------------------------------------------------- Catatan cakupan data (isi tombol "?" / tooltip halaman)
+Catatan Data =
+"Baris order dikarantina: " & FORMAT ( CALCULATE ( SUM ( DQLatest[metric_value] ), DQLatest[check_code] = "ORD12_QUARANTINE_RATE" ), "0.00" ) & " %. "
+& "Hari iklan tanpa data: " & FORMAT ( CALCULATE ( SUM ( DQLatest[metric_value] ), DQLatest[check_code] = "ADS03_MISSING_AD_DAYS" ), "0" ) & ". "
+& "Rasio iklan hanya memakai baris dengan spend andal."
+
+// ---------------------------------------------------------------- Grafik tren per platform: sorot platform terpilih
+// Dipakai sebagai nilai (Y) pada grafik garis, dengan legend KPI_M[platform_code]. Bila platform terpilih bukan ALL, garis platform lain disembunyikan.
+Net GMV Tampil =
+IF ( [Platform Terpilih] = "ALL" || [Platform Terpilih] = SELECTEDVALUE ( KPI_M[platform_code] ), SUM ( KPI_M[net_gmv] ), BLANK () )
+
+
+// =====================================================================================
+// HALAMAN ANALISIS: kartu, grafik, dan insight yang mengikuti TAB (tabel TabSel)
+// Semua measure berdiri sendiri (tidak bergantung filter tingkat-visual "bulan terakhir").
+// =====================================================================================
+Tab Aktif          = SELECTEDVALUE ( TabSel[urut], 0 )          // 0 = Net GMV, 1 = CM2, 2 = Iklan
+Bulan Akhir        = CALCULATE ( MAX ( KPIMonth[month_start] ), ALL ( KPIMonth ), ALL ( DimMonth ) )
+Bulan Awal         = CALCULATE ( MIN ( KPIMonth[month_start] ), ALL ( KPIMonth ), ALL ( DimMonth ) )
+Bulan Akhir Label  = LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], [Bulan Akhir] )
+Bulan Awal Label   = LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], [Bulan Awal] )
+
+// --- seri grafik: hanya seri milik tab aktif yang berisi data, sehingga warna garis/kolom berganti otomatis
+Seri Net GMV = IF ( [Tab Aktif] = 0, SUM ( KPIMonth[net_gmv] )   / 1000000, BLANK () )
+Seri CM2     = IF ( [Tab Aktif] = 1, SUM ( KPIMonth[cm2] )       / 1000000, BLANK () )
+Seri Iklan   = IF ( [Tab Aktif] = 2, SUM ( KPIMonth[ad_spend] )  / 1000000, BLANK () )
+
+// --- kartu KPI (nilai bulan terakhir menurut tab)
+KPI Nilai =
+VAR bln = [Bulan Akhir]
+RETURN SWITCH ( [Tab Aktif],
+    0, CALCULATE ( SUM ( KPIMonth[net_gmv] ),   ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ),
+    1, CALCULATE ( SUM ( KPIMonth[cm2] ),       ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ),
+       CALCULATE ( SUM ( KPIMonth[ad_spend] ),  ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ) )
+
+KPI Delta =
+VAR bln = [Bulan Akhir]
+RETURN SWITCH ( [Tab Aktif],
+    0, CALCULATE ( SUM ( KPIMonth[delta_net_gmv] ),   ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ),
+    1, CALCULATE ( SUM ( KPIMonth[delta_cm2] ),       ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ),
+       CALCULATE ( SUM ( KPIMonth[delta_ad_spend] ),  ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ) )
+
+KPI Delta Pct =
+VAR bln = [Bulan Akhir]
+RETURN SWITCH ( [Tab Aktif],
+    0, CALCULATE ( SUM ( KPIMonth[delta_net_gmv_pct] ),   ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ),
+    1, CALCULATE ( SUM ( KPIMonth[delta_cm2_pct] ),       ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ),
+       CALCULATE ( SUM ( KPIMonth[delta_ad_spend_pct] ),  ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ) )
+
+KPI Rata-rata = SWITCH ( [Tab Aktif], 0, [Rata-rata Bulanan Net GMV], 1, [Rata-rata Bulanan CM2], [Rata-rata Bulanan Iklan] )
+
+KPI Judul =
+SWITCH ( [Tab Aktif], 0, "Net GMV", 1, "CM2", "Belanja iklan" ) & " · " & [Bulan Akhir Label] & " " & YEAR ( [Bulan Akhir] )
+
+KPI Nilai Teks   = "Rp" & FORMAT ( [KPI Nilai] / 1000000, "#,0.0" ) & " jt"
+KPI Rata Teks    =
+"Rata-rata " & [Bulan Awal Label] & "–" & [Bulan Akhir Label] & " Rp" & FORMAT ( [KPI Rata-rata] / 1000000, "#,0.0" ) & " jt"
+    & IF ( [Tab Aktif] = 2, " · TACOS " & FORMAT ( [TACOS Akhir] * 100, "0.00" ) & " %", "" )
+
+KPI Terbaik Teks =
+VAR t = [Tab Aktif]
+VAR m = SWITCH ( t,
+    0, MAXX ( FILTER ( ALL ( KPIMonth ), KPIMonth[is_best_net_gmv] ),  KPIMonth[month_start] ),
+    1, MAXX ( FILTER ( ALL ( KPIMonth ), KPIMonth[is_best_cm2] ),      KPIMonth[month_start] ),
+       MAXX ( FILTER ( ALL ( KPIMonth ), KPIMonth[is_peak_ad_spend] ), KPIMonth[month_start] ) )
+VAR v = SWITCH ( t,
+    0, CALCULATE ( SUM ( KPIMonth[net_gmv] ),  ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = m ),
+    1, CALCULATE ( SUM ( KPIMonth[cm2] ),      ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = m ),
+       CALCULATE ( SUM ( KPIMonth[ad_spend] ), ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = m ) )
+RETURN LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], m ) & " (Rp" & FORMAT ( v / 1000000, "#,0.0" ) & " jt)"
+
+KPI Panah        = IF ( [KPI Delta] >= 0, "▲", "▼" )
+KPI Delta Teks   = [KPI Panah] & " " & IF ( [KPI Delta] >= 0, "+", "−" ) & "Rp" & FORMAT ( ABS ( [KPI Delta] ) / 1000000, "#,0.0" ) & " jt"
+KPI Delta Pct Teks = IF ( [KPI Delta Pct] >= 0, "+", "−" ) & FORMAT ( ABS ( [KPI Delta Pct] ) * 100, "0.0" ) & " % dari bulan sebelumnya"
+Warna Delta      = IF ( [KPI Delta] >= 0, [Warna Naik], [Warna Turun] )
+
+TACOS Akhir =
+VAR bln = [Bulan Akhir]
+RETURN DIVIDE (
+    CALCULATE ( SUM ( KPIMonth[ad_spend] ), ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ),
+    CALCULATE ( SUM ( KPIMonth[net_gmv] ),  ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ) )
+TACOS Awal =
+VAR bln = [Bulan Awal]
+RETURN DIVIDE (
+    CALCULATE ( SUM ( KPIMonth[ad_spend] ), ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ),
+    CALCULATE ( SUM ( KPIMonth[net_gmv] ),  ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln ) )
+
+KPI Extra =
+SWITCH ( [Tab Aktif],
+    0, "Net GMV valid, tanpa batal dan retur",
+    1, "Net sales − COGS − biaya platform − iklan",
+       "TACOS " & [Bulan Awal Label] & " " & FORMAT ( [TACOS Awal] * 100, "0.00" ) & " %" )
+
+// --- kalimat insight di bawah grafik (mengikuti tab)
+Insight Analisis =
+VAR bln   = [Bulan Akhir]
+VAR awal  = [Bulan Awal]
+VAR gAwal = CALCULATE ( SUM ( KPIMonth[net_gmv] ), ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = awal )
+VAR gAkhr = CALCULATE ( SUM ( KPIMonth[net_gmv] ), ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln )
+VAR dg    = CALCULATE ( SUM ( KPIMonth[delta_net_gmv_pct] ), ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln )
+VAR dc    = CALCULATE ( SUM ( KPIMonth[delta_cm2_pct] ),     ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln )
+VAR bestM = MAXX ( FILTER ( ALL ( KPIMonth ), KPIMonth[is_best_net_gmv] ), KPIMonth[month_start] )
+VAR bestL = LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], bestM )
+VAR da    = CALCULATE ( SUM ( KPIMonth[delta_ad_spend_pct] ), ALL ( KPIMonth ), ALL ( DimMonth ), KPIMonth[month_start] = bln )
+RETURN SWITCH ( [Tab Aktif],
+    0, "Net GMV " & IF ( gAkhr >= gAwal, "tumbuh ", "turun " ) & FORMAT ( ABS ( DIVIDE ( gAkhr, gAwal ) - 1 ) * 100, "0" ) & " % dari "
+         & [Bulan Awal Label] & " (Rp" & FORMAT ( gAwal / 1000000, "#,0" ) & " jt) ke " & [Bulan Akhir Label] & " (Rp" & FORMAT ( gAkhr / 1000000, "#,0" ) & " jt). "
+         & bestL & " menjadi puncak; " & [Bulan Akhir Label] & IF ( dg >= 0, " naik ", " turun " ) & FORMAT ( ABS ( dg ) * 100, "0.0" ) & " %.",
+    1, "CM2 " & IF ( dc >= 0, "naik ", "turun " ) & FORMAT ( ABS ( dc ) * 100, "0.0" ) & " % di " & [Bulan Akhir Label]
+         & " sementara Net GMV " & IF ( dg >= 0, "naik ", "turun " ) & FORMAT ( ABS ( dg ) * 100, "0.0" ) & " %: margin bergerak "
+         & IF ( dc > dg, "lebih baik", "lebih lemah" ) & " daripada penjualan.",
+       "Belanja iklan " & IF ( da >= 0, "naik ", "turun " ) & FORMAT ( ABS ( da ) * 100, "0.0" ) & " % di " & [Bulan Akhir Label]
+         & ", TACOS " & FORMAT ( [TACOS Akhir] * 100, "0.00" ) & " % "
+         & IF ( [TACOS Akhir] > [TACOS Awal], "di atas ", "di bawah " ) & [Bulan Awal Label] & " (" & FORMAT ( [TACOS Awal] * 100, "0.00" ) & " %): iklan "
+         & IF ( [TACOS Akhir] > [TACOS Awal], "makin mahal relatif terhadap penjualan.", "makin efisien relatif terhadap penjualan." ) )
+
+Insight Sub =
+VAR bln = [Bulan Akhir]
+VAR t = ADDCOLUMNS ( ALL ( SubCat[sub_category] ), "@v", CALCULATE ( SUM ( SubCat[net_gmv] ), ALL ( DimMonth ), SubCat[month_start] = bln ) )
+VAR tot = SUMX ( t, [@v] )
+VAR top1 = TOPN ( 1, t, [@v], DESC )
+VAR bot2 = TOPN ( 2, t, [@v], ASC )
+RETURN MAXX ( top1, SubCat[sub_category] ) & " = " & FORMAT ( DIVIDE ( MAXX ( top1, [@v] ), tot ) * 100, "0" ) & " % Net GMV " & [Bulan Akhir Label]
+       & "; " & CONCATENATEX ( bot2, SubCat[sub_category], " dan ", [@v], ASC ) & " paling rendah."
+
+// --- dua tabel (naik / turun) + teks selisih tanpa panah + warna teks
+Mov Tampil Atas  = IF ( [Mov Lolos Basis] = 1 && [Mov Rank Naik] <= [TopN Nilai], 1, 0 )
+Mov Tampil Bawah = IF ( [Mov Lolos Basis] = 1 && [Mov Rank Naik] > [Mov Total Peringkat] - [TopN Nilai], 1, 0 )
+Mov Delta Teks   = IF ( [Mov Delta Rp] >= 0, "+", "−" ) & "Rp" & FORMAT ( ABS ( [Mov Delta Rp] ) / 1000000, "0.00" ) & " jt"
+Mov Warna Teks =
+IF ( [Mov Delta Rp] >= 0,
+     IF ( [Palet Terpilih] = "CB", "#0072B2", "#2E8B57" ),
+     IF ( [Palet Terpilih] = "CB", "#D55E00", "#C0392B" ) )
+
+// --- sub-kategori bulan terakhir (untuk visual Deneb "Sub-kategori yang menopang")
+Sub Net GMV Akhir =
+VAR bln = [Bulan Akhir]
+RETURN CALCULATE ( SUM ( SubCat[net_gmv] ), ALL ( DimMonth ), SubCat[month_start] = bln )
+
+// ---------------------------------------------------------------- INSIGHT NAIK/TURUN & SUB-KATEGORI (tempel satu per satu)
+Insight Naik Turun =
+VAR bln = [Bulan Akhir]
+VAR t = FILTER (
+    ADDCOLUMNS ( ALLSELECTED ( Movers[product_name] ),
+        "@d", CALCULATE ( SUM ( Movers[delta_idr] ),     ALL ( DimMonth ), Movers[month_start] = bln ),
+        "@l", CALCULATE ( SUM ( Movers[prev_net_gmv] ), ALL ( DimMonth ), Movers[month_start] = bln ) ),
+    [@l] >= 5000000 )
+VAR up = TOPN ( 1, t, [@d], DESC )
+VAR dn = TOPN ( 1, t, [@d], ASC )
+RETURN
+"Naik terbesar: " & MAXX ( up, Movers[product_name] ) & " +Rp" & FORMAT ( MAXX ( up, [@d] ) / 1000000, "0.0" ) & " jt (+" & FORMAT ( DIVIDE ( MAXX ( up, [@d] ), MAXX ( up, [@l] ) ) * 100, "0.0" ) & " %). "
+& "Turun terbesar: " & MAXX ( dn, Movers[product_name] ) & " −Rp" & FORMAT ( ABS ( MAXX ( dn, [@d] ) ) / 1000000, "0.0" ) & " jt (−" & FORMAT ( ABS ( DIVIDE ( MAXX ( dn, [@d] ), MAXX ( dn, [@l] ) ) ) * 100, "0.0" ) & " %)."
+
+Insight Sub Gerak =
+VAR bln  = [Bulan Pilih]
+VAR lalu = EDATE ( bln, -1 )
+VAR lblN = LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], bln )
+VAR lblP = LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], lalu )
+VAR t = ADDCOLUMNS ( ALL ( SubCat[sub_category] ),
+    "@n", CALCULATE ( SUM ( SubCat[net_gmv] ), ALL ( DimMonth ), SubCat[month_start] = bln ),
+    "@p", CALCULATE ( SUM ( SubCat[net_gmv] ), ALL ( DimMonth ), SubCat[month_start] = lalu ) )
+VAR t2 = ADDCOLUMNS ( t, "@d", [@n] - [@p] )
+VAR up = TOPN ( 1, t2, [@d], DESC )
+VAR dn = TOPN ( 1, t2, [@d], ASC )
+RETURN
+IF ( ISBLANK ( lblP ),
+    "Tidak ada bulan pembanding sebelum " & lblN & ".",
+    lblN & " vs " & lblP & ": "
+    & MAXX ( up, SubCat[sub_category] ) & " " & IF ( MAXX ( up, [@d] ) >= 0, "+", "−" ) & "Rp" & FORMAT ( ABS ( MAXX ( up, [@d] ) ) / 1000000, "0.0" ) & " jt; "
+    & MAXX ( dn, SubCat[sub_category] ) & " " & IF ( MAXX ( dn, [@d] ) >= 0, "+", "−" ) & "Rp" & FORMAT ( ABS ( MAXX ( dn, [@d] ) ) / 1000000, "0.0" ) & " jt." )
+
+Insight Konsentrasi =
+VAR bln = [Bulan Akhir]
+VAR t = ADDCOLUMNS ( ALL ( SubCat[sub_category] ), "@v", CALCULATE ( SUM ( SubCat[net_gmv] ), ALL ( DimMonth ), SubCat[month_start] = bln ) )
+VAR tot = SUMX ( t, [@v] )
+VAR top2 = SUMX ( TOPN ( 2, t, [@v], DESC ), [@v] )
+RETURN "2 sub-kategori teratas = " & FORMAT ( DIVIDE ( top2, tot ) * 100, "0" ) & " % Net GMV " & [Bulan Akhir Label] & ", tiga lainnya " & FORMAT ( 100 - DIVIDE ( top2, tot ) * 100, "0" ) & " %."
+
+// ======================================================================================================
+// HALAMAN RECOVERY & KEPATUHAN  (tempel satu per satu; kolom hitung ada di blok "KOLOM HITUNG" di bawah)
+// ======================================================================================================
+// ---- Uang yang bisa diselamatkan (tabel AppealPack)
+Klaim Rp            = SUM ( AppealPack[claim_idr] )
+Klaim Kasus         = SUM ( AppealPack[cases] )
+Klaim Rp Ringkas    = "Rp" & FORMAT ( [Klaim Rp] / 1000000, "#,0.0" ) & " jt"
+Klaim Kasus Teks    = FORMAT ( [Klaim Kasus], "#,0" ) & " kasus yang cukup bukti untuk diajukan"
+Klaim Label         = [Klaim Rp Ringkas] & " · " & FORMAT ( [Klaim Kasus], "#,0" ) & " kasus"
+Klaim Settlement Porsi =
+DIVIDE ( CALCULATE ( [Klaim Rp], AppealPack[category] = "UNSETTLED_AGING" ), CALCULATE ( [Klaim Rp], ALL ( AppealPack[category] ) ) )
+
+// ---- Benefit program: dibayar vs seharusnya (tabel ProgramRecon)
+Prog Seharusnya     = SUM ( ProgramRecon[expected_idr] )
+Prog Dibayar        = SUM ( ProgramRecon[paid_idr] )
+Prog Kurang Klaim   = CALCULATE ( SUM ( ProgramRecon[shortfall_idr] ), ProgramRecon[recon_status] IN { "SHORT_PAID", "UNPAID" } )
+Prog Status Teks =
+SWITCH ( SELECTEDVALUE ( ProgramRecon[recon_status] ),
+    "SHORT_PAID", "▼ Kurang bayar", "UNPAID", "✖ Belum dibayar", "NOT_YET_DUE", "◔ Belum jatuh tempo", "MATCHED", "✔ Sesuai", "—" )
+Prog Status Warna =
+SWITCH ( SELECTEDVALUE ( ProgramRecon[recon_status] ),
+    "SHORT_PAID", "#C0392B", "UNPAID", "#C0392B", "NOT_YET_DUE", "#8A8F93", "MATCHED", "#2E8B57", "#5E676B" )
+Insight Program =
+VAR t = FILTER ( ProgramRecon, ProgramRecon[recon_status] IN { "SHORT_PAID", "UNPAID" } )
+VAR a = TOPN ( 1, t, ProgramRecon[shortfall_idr], DESC )
+VAR p = MAXX ( a, ProgramRecon[platform_code] )
+VAR g = MAXX ( a, ProgramRecon[program_code] ) & " " & MAXX ( a, ProgramRecon[period_label] )
+VAR r = MAXX ( a, ProgramRecon[shortfall_idr] )
+VAR s = MAXX ( a, ProgramRecon[recon_status] )
+RETURN IF ( ISBLANK ( r ), "Tidak ada selisih benefit program.",
+    p & " " & g & IF ( s = "UNPAID", " belum dibayar sama sekali", " dibayar kurang" ) & " (Rp" & FORMAT ( r / 1000000, "0.0" ) & " jt). Settlement belum cair = " & FORMAT ( [Klaim Settlement Porsi] * 100, "0" ) & " % dari total klaim." )
+
+// ---- Kepatuhan harga & promosi
+Episode             = COUNTROWS ( PriceEpisodes )
+Episode Reseller    = CALCULATE ( [Episode], PriceEpisodes[likely_root_cause] IN { "RESELLER_UNDERCUT_EPISODE", "RESELLER_PERSISTENT_UNDERCUT" } )
+Episode Salah Harga = CALCULATE ( [Episode], PriceEpisodes[likely_root_cause] = "PRICE_ERROR_INCIDENT" )
+Episode Teks        = FORMAT ( [Episode], "#,0" ) & " episode"
+Bocor Rp            = SUM ( PriceLeakage[leakage_idr] )
+Bocor Order         = SUM ( PriceLeakage[orders] )
+Bocor Rp Ringkas    = "Rp" & FORMAT ( [Bocor Rp] / 1000000, "#,0.0" ) & " jt"
+Bocor Order Teks    = FORMAT ( [Bocor Order], "#,0" ) & " order di bawah floor"
+Alert Aktif         = COUNTROWS ( PriceAlerts )
+Alert Rincian =
+FORMAT ( CALCULATE ( COUNTROWS ( PriceAlerts ), PriceAlerts[severity] = "CRITICAL" ), "0" ) & " kritis · "
+& FORMAT ( CALCULATE ( COUNTROWS ( PriceAlerts ), PriceAlerts[severity] = "HIGH" ), "0" ) & " tinggi · "
+& FORMAT ( CALCULATE ( COUNTROWS ( PriceAlerts ), PriceAlerts[severity] = "MEDIUM" ), "0" ) & " sedang · "
+& FORMAT ( CALCULATE ( COUNTROWS ( PriceAlerts ), PriceAlerts[severity] = "LOW" ), "0" ) & " rendah"
+Insight Kepatuhan =
+VAR tot = [Episode]
+VAR res = [Episode Reseller]
+RETURN IF ( tot = 0, "Tidak ada episode pelanggaran harga.",
+    "Pelanggaran harga terbanyak datang dari " & IF ( res * 2 >= tot, "reseller", "penjual lain" ) & " (" & FORMAT ( res, "#,0" ) & " dari " & FORMAT ( tot, "#,0" ) & " episode). "
+    & FORMAT ( [Episode Salah Harga], "0" ) & " insiden salah harga menjadi sumber kebocoran toko resmi." )
+
+// ---- Pelanggaran voucher (tabel VoucherViolations)
+Voucher Order       = SUM ( VoucherViolations[orders] )
+Voucher Paparan     = SUM ( VoucherViolations[exposure_idr] )
+Voucher Paparan Teks = "Rp" & FORMAT ( [Voucher Paparan] / 1000000, "#,0.0" ) & " jt"
+
+// ---- Order berisiko (tabel Suspicious)
+Order Berisiko      = COUNTROWS ( Suspicious )
+GMV Berisiko        = SUM ( Suspicious[gmv_placed] )
+GMV Berisiko Teks   = "Rp" & FORMAT ( [GMV Berisiko] / 1000000, "#,0.0" ) & " jt"
+Order Kritis        = CALCULATE ( COUNTROWS ( Suspicious ), Suspicious[risk_level] = "CRITICAL" )
+Order Menyala =
+SWITCH ( SELECTEDVALUE ( Aturan[kode] ),
+    "R1", CALCULATE ( COUNTROWS ( Suspicious ), Suspicious[r1_bulk_qty] = TRUE () ),
+    "R2", CALCULATE ( COUNTROWS ( Suspicious ), Suspicious[r2_velocity] = TRUE () ),
+    "R3", CALCULATE ( COUNTROWS ( Suspicious ), Suspicious[r3_farm] = TRUE () ),
+    "R4", CALCULATE ( COUNTROWS ( Suspicious ), Suspicious[r4_price] = TRUE () ),
+    "R5", CALCULATE ( COUNTROWS ( Suspicious ), Suspicious[r5_voucher] = TRUE () ) )
+Insight Risiko =
+VAR k  = [Order Kritis]
+VAR kk = CALCULATE ( COUNTROWS ( Suspicious ), Suspicious[risk_level] = "CRITICAL", Suspicious[r1_bulk_qty] = TRUE (), Suspicious[r4_price] = TRUE () )
+RETURN IF ( k = 0, "Tidak ada order kritis.",
+    IF ( kk = k, "Seluruh " & k & " order kritis", kk & " dari " & k & " order kritis" ) & " adalah kombinasi qty besar dan harga di bawah MAP." )
+
+// ---- Gerbang publikasi (tabel DQScore)
+Gerbang Teks =
+VAR r     = MAX ( DQScore[run_id] )
+VAR lulus = CALCULATE ( SUM ( DQScore[passed] ),          DQScore[run_id] = r )
+VAR gagal = CALCULATE ( SUM ( DQScore[failed] ),          DQScore[run_id] = r )
+VAR krit  = CALCULATE ( SUM ( DQScore[critical_failed] ), DQScore[run_id] = r )
+VAR gate  = CALCULATE ( MAX ( DQScore[publish_gate] ),    DQScore[run_id] = r )
+RETURN "Gerbang publikasi: " & IF ( gate = "OK_TO_PUBLISH", "aman", "TERTAHAN" ) & ". " & lulus & " pemeriksaan lulus, " & ( gagal - krit ) & " peringatan, " & krit & " kritis."
+Gerbang Warna =
+VAR r = MAX ( DQScore[run_id] )
+RETURN IF ( CALCULATE ( MAX ( DQScore[publish_gate] ), DQScore[run_id] = r ) = "OK_TO_PUBLISH", "#2E8B57", "#C0392B" )
+
+// ---- KOLOM HITUNG (Table view -> pilih tabel -> New column; BUKAN New measure)
+// AppealPack[Kategori Label] =
+//   SWITCH ( AppealPack[category], "UNSETTLED_AGING", "Settlement belum cair > 14 hari", "PROGRAM_SHORT_PAID", "Benefit program kurang bayar",
+//            "PROGRAM_UNPAID", "Benefit program tidak dibayar", "COMMISSION_OVERCHARGE", "Komisi dipotong berlebih",
+//            "VOUCHER_SUBSIDY_MISSING", "Subsidi voucher platform hilang", AppealPack[category] )
+// ProgramRecon[Program Periode] = ProgramRecon[program_code] & " · " & ProgramRecon[period_label]
+// PriceEpisodes[Akar Masalah] =
+//   SWITCH ( PriceEpisodes[likely_root_cause], "RESELLER_UNDERCUT_EPISODE", "Reseller di bawah floor (episode)",
+//            "RESELLER_PERSISTENT_UNDERCUT", "Reseller konsisten di bawah floor", "OFFICIAL_BELOW_MAP_OTHER", "Toko resmi di bawah MAP (lainnya)",
+//            "STRIKE_INFLATION", "Harga coret digelembungkan", "PRICE_ERROR_INCIDENT", "Insiden salah harga",
+//            "CAMPAIGN_OVERRUN", "Promo melewati jadwal", PriceEpisodes[likely_root_cause] )
+// VoucherViolations[Aturan Label] =
+//   SWITCH ( VoucherViolations[violation_type], "VOUCHER_BELOW_MIN_SPEND", "Di bawah minimum belanja", "VOUCHER_OVER_QUOTA", "Melebihi kuota",
+//            "VOUCHER_USED_AFTER_EXPIRY", "Dipakai setelah kedaluwarsa", VoucherViolations[violation_type] )
+// Suspicious[Level Label] =
+//   SWITCH ( Suspicious[risk_level], "CRITICAL", "◆ Kritis", "HIGH", "▲ Tinggi", "MEDIUM", "● Sedang", "LOW", "○ Rendah", Suspicious[risk_level] )
+// Suspicious[Level Urut] = SWITCH ( Suspicious[risk_level], "CRITICAL", 1, "HIGH", 2, "MEDIUM", 3, 4 )
+// Tabel kecil "Aturan" (Home > Enter data): kode R1..R5 | nama: Qty besar (bulk) / Lonjakan order (velocity) / Banyak akun (farm) / Harga di bawah MAP / Pelanggaran voucher | urut 1..5
+
+
+// ======================================================================================================
+// TAMBAHAN HASIL ITERASI DASHBOARD (ditambahkan setelah blok-blok di atas)
+// Tabel kontrol tambahan: RingkasRows(urut 1..3), PlatSel(code,label,warna), Region = mart.v_region_month
+// ======================================================================================================
+
+// ---- GRAFIK TREN PER PLATFORM (tiga lapisan garis)
+Net GMV Juta = SUM ( KPI_M[net_gmv] ) / 1000000
+Net GMV Juta Pilih =
+VAR p = [Platform Terpilih]
+RETURN IF ( p <> "ALL" && p = SELECTEDVALUE ( KPI_M[platform_code] ), [Net GMV Juta], BLANK () )
+Net GMV Juta Akhir =
+VAR akhir = CALCULATE ( MAX ( DimMonth[month_start] ), ALL ( DimMonth ) )
+RETURN IF ( MAX ( DimMonth[month_start] ) = akhir, [Net GMV Juta], BLANK () )
+Net GMV Juta Tampil =
+VAR p = [Platform Terpilih]
+RETURN
+IF ( p = "ALL" || p = SELECTEDVALUE ( KPI_M[platform_code] ),
+     SUM ( KPI_M[net_gmv] ) / 1000000,
+     BLANK () )
+Label Net GMV = "Net GMV · " & SELECTEDVALUE ( PlatSel[label], "Semua" )
+Warna Platform = SELECTEDVALUE ( PlatSel[warna], "#1F6F78" )
+Insight Tren Platform =
+VAR bln  = CALCULATE ( MAX ( KPI_M[month_start] ), ALL ( KPI_M ) )
+VAR awal = CALCULATE ( MIN ( KPI_M[month_start] ), ALL ( KPI_M ) )
+VAR t1 =
+    ADDCOLUMNS ( ALL ( KPI_M[platform_code] ),
+        "@mom",  CALCULATE ( MAX ( KPI_M[net_gmv_mom] ), KPI_M[month_start] = bln ),
+        "@now",  CALCULATE ( SUM ( KPI_M[net_gmv] ),     KPI_M[month_start] = bln ),
+        "@jan",  CALCULATE ( SUM ( KPI_M[net_gmv] ),     KPI_M[month_start] = awal ) )
+VAR t2 =
+    ADDCOLUMNS ( t1,
+        "@delta",  [@now] - DIVIDE ( [@now], 1 + [@mom] ),
+        "@tumbuh", DIVIDE ( [@now], [@jan] ) - 1 )
+VAR turun = TOPN ( 1, t2, [@mom],    ASC )
+VAR naik  = TOPN ( 1, t2, [@tumbuh], DESC )
+VAR kT = MAXX ( turun, KPI_M[platform_code] )
+VAR kN = MAXX ( naik,  KPI_M[platform_code] )
+VAR nT = LOOKUPVALUE ( DimPlatform[platform_name], DimPlatform[platform_code], kT )
+VAR nN = LOOKUPVALUE ( DimPlatform[platform_name], DimPlatform[platform_code], kN )
+RETURN
+nT & " turun " & FORMAT ( ABS ( MAXX ( turun, [@mom] ) ) * 100, "0.0" ) & " % di bulan terakhir (−Rp"
+  & FORMAT ( ABS ( MAXX ( turun, [@delta] ) ) / 1000000, "0.0" ) & " jt). "
+  & nN & " tumbuh " & FORMAT ( MAXX ( naik, [@tumbuh] ) * 100, "0" ) & " % sejak Januari."
+Insight Tren Pilih =
+VAR p = [Platform Terpilih]
+VAR akhir = CALCULATE ( MAX ( KPI_M[month_start] ), ALL ( KPI_M ) )
+VAR awal  = CALCULATE ( MIN ( KPI_M[month_start] ), ALL ( KPI_M ) )
+VAR nama  = LOOKUPVALUE ( DimPlatform[platform_name], DimPlatform[platform_code], p )
+VAR totAll = CALCULATE ( SUM ( KPI_M[net_gmv] ), ALL ( KPI_M ) )
+VAR totP   = CALCULATE ( SUM ( KPI_M[net_gmv] ), ALL ( KPI_M ), KPI_M[platform_code] = p )
+VAR pangsa = DIVIDE ( totP, totAll ) * 100
+VAR tblP   = FILTER ( ALL ( KPI_M ), KPI_M[platform_code] = p )
+VAR best   = TOPN ( 1, tblP, KPI_M[net_gmv], DESC )
+VAR bestM  = MAXX ( best, KPI_M[month_start] )
+VAR bestV  = MAXX ( best, KPI_M[net_gmv] )
+VAR bestLbl = LOOKUPVALUE ( DimMonth[month_label], DimMonth[month_start], bestM )
+VAR mom   = CALCULATE ( MAX ( KPI_M[net_gmv_mom] ), ALL ( KPI_M ), KPI_M[platform_code] = p, KPI_M[month_start] = akhir )
+VAR vAwal = CALCULATE ( SUM ( KPI_M[net_gmv] ), ALL ( KPI_M ), KPI_M[platform_code] = p, KPI_M[month_start] = awal )
+VAR vAkhr = CALCULATE ( SUM ( KPI_M[net_gmv] ), ALL ( KPI_M ), KPI_M[platform_code] = p, KPI_M[month_start] = akhir )
+VAR tumbuh = DIVIDE ( vAkhr, vAwal ) - 1
+RETURN
+IF ( p = "ALL",
+    [Insight Tren Platform] & " JBP Q4: " & [JBP Kalimat],
+    nama & " menyumbang " & FORMAT ( pangsa, "0" ) & " % Net GMV; " & bestLbl
+        & " (Rp" & FORMAT ( bestV / 1000000, "#,0" ) & " jt) adalah bulan terbaiknya. "
+        & "Bulan terakhir " & IF ( mom >= 0, "naik ", "turun " ) & FORMAT ( ABS ( mom ) * 100, "0.0" ) & " % dibanding bulan lalu; sejak Januari "
+        & IF ( tumbuh >= 0, "tumbuh ", "turun " ) & FORMAT ( ABS ( tumbuh ) * 100, "0" ) & " %. "
+        & "TACOS " & FORMAT ( [CC TACOS] * 100, "0.0" ) & " %; JBP: " & [CC Pacing Status] & "." )
+
+// ---- JBP, RINGKASAN, UANG DI MEJA (Command Center)
+JBP Kalimat =
+VAR t     = FILTER ( CC, CC[platform_code] <> "ALL" )
+VAR n     = COUNTROWS ( t )
+VAR bawah = FILTER ( t, CONTAINSSTRING ( CC[pacing_status], "DI BAWAH" ) )
+VAR nb    = COUNTROWS ( bawah )
+VAR nama  = CONCATENATEX ( bawah,
+                LOOKUPVALUE ( DimPlatform[platform_name], DimPlatform[platform_code], CC[platform_code] ), ", " )
+RETURN ( n - nb ) & " dari " & n & " platform di jalur tier" & IF ( nb = 0, ".", "; " & nama & " di bawah Tier 1." )
+JBP Ringkas =
+VAR t      = FILTER ( CC, CC[platform_code] <> "ALL" )
+VAR n      = COUNTROWS ( t )
+VAR bawah  = FILTER ( t, CONTAINSSTRING ( CC[pacing_status], "DI BAWAH" ) )
+VAR nb     = COUNTROWS ( bawah )
+VAR nama   = CONCATENATEX ( bawah,
+                 LOOKUPVALUE ( DimPlatform[platform_name], DimPlatform[platform_code], CC[platform_code] ),
+                 ", " )
+RETURN
+"JBP Q4 — " & ( n - nb ) & " dari " & n & " platform di jalur tier"
+    & IF ( nb = 0, ".", "; " & nama & " di bawah Tier 1." )
+JBP Detail =
+VAR p    = [Platform Terpilih]
+VAR proj = CALCULATE ( SUM ( CC[projected_quarter_gmv] ), CC[platform_code] = p )
+VAR t1   = CALCULATE ( SUM ( CC[tier1_threshold] ),       CC[platform_code] = p )
+RETURN
+IF ( p = "ALL",
+     [Insight JBP],
+     [CC Pacing Status] & " · proyeksi Rp" & FORMAT ( proj / 1000000, "#,0" ) & " jt vs Tier 1 Rp" & FORMAT ( t1 / 1000000, "#,0" ) & " jt" )
+JBP Ikon = IF ( COUNTROWS ( FILTER ( CC, CC[platform_code] <> "ALL" && CONTAINSSTRING ( CC[pacing_status], "DI BAWAH" ) ) ) > 0, "▲", "●" )
+CC Order Teks =
+FORMAT ( [CC Order Valid], "#,0" ) & " order valid"
+Ringkas Nilai =
+SWITCH ( SELECTEDVALUE ( RingkasRows[urut] ),
+    1, [CC Klaim Teks],
+    2, FORMAT ( [CC Alert Harga], "#,0" ),
+    3, FORMAT ( [CC Order Berisiko], "#,0" ) & " · " & FORMAT ( [CC Risiko Tinggi], "#,0" ) & " tinggi/kritis" )
+Uang Klaim Sub =
+VAR total = CALCULATE ( SUM ( AppealPack[claim_idr] ), ALL ( AppealPack ) )
+VAR aging = CALCULATE ( SUM ( AppealPack[claim_idr] ), ALL ( AppealPack ), AppealPack[category] = "UNSETTLED_AGING" )
+RETURN FORMAT ( SUM ( Money[claim_cases] ), "#,0" ) & " kasus · " & FORMAT ( DIVIDE ( aging, total ) * 100, "0" ) & " % berupa settlement belum cair > 14 hari"
+Uang Kebocoran Sub =
+FORMAT ( SUM ( Money[leakage_orders] ), "#,0" ) & " order terjual di bawah floor (" & COUNTROWS ( PriceLeakage ) & " insiden salah harga)"
+Uang Voucher Sub =
+FORMAT ( SUM ( Money[voucher_violation_orders] ), "#,0" ) & " order: di bawah min-spend, kedaluwarsa, over-kuota"
+Gerbang Ikon = IF ( MAX ( Money[publish_gate] ) = "OK_TO_PUBLISH", "✔ ", "⚠ " ) & [Gerbang Data]
+
+// ---- REGION (tabel Region = mart.v_region_month)
+Region Net GMV = SUM ( Region[net_gmv] )
+Region Rata-rata =
+AVERAGEX ( ALLSELECTED ( Region[region] ), CALCULATE ( SUM ( Region[net_gmv] ) ) )
+Region Label = "Rp" & FORMAT ( [Region Net GMV] / 1000000000, "0.00" ) & " mlr"
+Region Insight =
+VAR tot = SUMX ( ALLSELECTED ( Region[region] ), CALCULATE ( SUM ( Region[net_gmv] ) ) )
+VAR atas =
+    TOPN ( 1, ALLSELECTED ( Region[region] ), CALCULATE ( SUM ( Region[net_gmv] ) ), DESC )
+VAR namaAtas = MAXX ( atas, Region[region] )
+VAR pctAtas  = DIVIDE ( CALCULATE ( SUM ( Region[net_gmv] ), Region[region] = namaAtas ), tot ) * 100
+VAR bawah =
+    TOPN ( 2, ALLSELECTED ( Region[region] ), CALCULATE ( SUM ( Region[net_gmv] ) ), ASC )
+VAR namaBawah = CONCATENATEX ( bawah, Region[region], " dan ", CALCULATE ( SUM ( Region[net_gmv] ) ), ASC )
+RETURN
+namaAtas & " menyumbang " & FORMAT ( pctAtas, "0" ) & " % Net GMV; "
+    & namaBawah & " berada jauh di bawah rata-rata."
+
+// ---- HALAMAN ANALISIS: judul, bulan terpilih, sorotan bar tertinggi
+Judul Tren =
+SWITCH ( [Tab Aktif],
+    0, "Net GMV bulanan",
+    1, "Contribution Margin 2 (setelah iklan) bulanan",
+       "Belanja iklan bulanan" )
+Bulan Pilih =
+IF (
+    ISCROSSFILTERED ( DimMonth ),
+    MAX ( DimMonth[month_start] ),
+    [Bulan Akhir]
+)
+Nilai Seri Aktif =
+SWITCH (
+    [Tab Aktif],
+    0, SUM ( KPIMonth[net_gmv] ),
+    1, SUM ( KPIMonth[cm2] ),
+    SUM ( KPIMonth[ad_spend] )
+) / 1000000
+Warna Bar Tertinggi =
+VAR maks =
+    MAXX ( ALLSELECTED ( DimMonth[month_label] ), [Nilai Seri Aktif] )
+VAR skrg = [Nilai Seri Aktif]
+RETURN
+    IF ( NOT ISBLANK ( skrg ) && skrg = maks, [Warna Aksen Tab], "#CFC9BD" )
+Label Bar Tertinggi =
+VAR maks =
+    MAXX ( ALLSELECTED ( DimMonth[month_label] ), [Nilai Seri Aktif] )
+VAR skrg = [Nilai Seri Aktif]
+RETURN
+    IF ( skrg = maks, FORMAT ( skrg, "#,0.0" ) & " jt", BLANK () )
+// Suspicious[Level Nama] = SWITCH ( Suspicious[risk_level], "CRITICAL", "KRITIS", "HIGH", "TINGGI", "MEDIUM", "SEDANG", "LOW", "RENDAH", Suspicious[risk_level] )
+// Tabel kontrol "Aturan" (Enter data): R1 Qty besar (>= 12) | R2 Burst pembelian <= 60 menit | R3 Banyak akun, satu telepon + kota | R4 Harga < 50 % MAP | R5 Melanggar aturan voucher
+// Tabel kontrol "TabSel" (Enter data): urut 0/1/2 | label Net GMV / Margin (CM2) / Iklan  -- JANGAN diberi relasi ke tabel lain (hapus relasi otomatis)
+// Tabel kontrol "Palette" (Enter data): code STD/CB | label Warna standar / Ramah buta warna
+// ---- Teks pelengkap kartu
+GMV Berisiko Label  = "GMV " & [GMV Berisiko Teks]
+Klaim Kasus Singkat = FORMAT ( [Klaim Kasus], "#,0" ) & " kasus"
+
+// ---- Ikon SVG untuk tabel tingkat risiko (Data category = Image URL; warna ditulis %23 karena '#' memutus alamat data:)
+Level Ikon =
+VAR l = SELECTEDVALUE ( Suspicious[risk_level] )
+VAR svg =
+    SWITCH ( l,
+        "CRITICAL", "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 1 15 8 8 15 1 8Z' fill='%237A2E0E'/></svg>",
+        "HIGH",     "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 2 15 14H1Z' fill='%23C0602A'/></svg>",
+        "MEDIUM",   "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='2' y='2' width='12' height='12' rx='2' fill='%23E0A15C'/></svg>",
+        "LOW",      "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='5.5' fill='%23E2DCCF' stroke='%238A8F93'/></svg>",
+        BLANK () )
+RETURN IF ( ISBLANK ( svg ), BLANK (), "data:image/svg+xml;utf8," & svg )

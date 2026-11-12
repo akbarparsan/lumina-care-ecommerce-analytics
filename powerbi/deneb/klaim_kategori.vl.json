@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Uang yang bisa diselamatkan per kategori: batang horizontal dengan label di atas batang",
+  "width": "container",
+  "height": "container",
+  "background": "#F7F6F3",
+  "padding": { "left": 6, "right": 6, "top": 6, "bottom": 2 },
+  "data": { "name": "dataset" },
+  "transform": [
+    { "calculate": "datum['Kategori Label']", "as": "cat" },
+    { "calculate": "datum['Klaim Rp']", "as": "rp" },
+    { "calculate": "datum['Klaim Rp'] / 1000000", "as": "jt" },
+    { "calculate": "indexof(datum['Kategori Label'], 'Benefit') >= 0 ? 'kasus' : 'order'", "as": "unit" },
+    { "calculate": "'Rp' + replace(format(datum.jt, '.2f'), '.', ',') + ' jt · ' + format(datum['Klaim Kasus'], ',d') + ' ' + datum.unit", "as": "teks" },
+    { "joinaggregate": [ { "op": "max", "field": "rp", "as": "maks" } ] }
+  ],
+  "encoding": {
+    "y": {
+      "field": "cat",
+      "type": "nominal",
+      "sort": { "field": "rp", "order": "descending" },
+      "axis": null,
+      "scale": { "paddingInner": 0.3, "paddingOuter": 0.05 }
+    }
+  },
+  "layer": [
+    {
+      "description": "jalur abu penuh",
+      "mark": { "type": "bar", "size": 11, "cornerRadius": 6, "color": "#E9E5DC" },
+      "encoding": {
+        "x": { "field": "maks", "type": "quantitative", "axis": null, "scale": { "domainMin": 0, "nice": false } }
+      }
+    },
+    {
+      "description": "batang nilai",
+      "mark": { "type": "bar", "size": 11, "cornerRadius": 6, "color": "#B8541F" },
+      "encoding": {
+        "x": { "field": "rp", "type": "quantitative", "axis": null },
+        "tooltip": [
+          { "field": "cat", "type": "nominal", "title": "Kategori" },
+          { "field": "teks", "type": "nominal", "title": "Nilai" }
+        ]
+      }
+    },
+    {
+      "description": "label kategori (kiri atas)",
+      "mark": { "type": "text", "align": "left", "baseline": "bottom", "dy": -9, "fontSize": 13, "fontWeight": "bold", "color": "#2B2B2B" },
+      "encoding": {
+        "x": { "datum": 0, "type": "quantitative" },
+        "text": { "field": "cat", "type": "nominal" }
+      }
+    },
+    {
+      "description": "nilai dan jumlah kasus (kanan atas)",
+      "mark": { "type": "text", "align": "right", "baseline": "bottom", "dy": -9, "fontSize": 12, "color": "#6B6B6B" },
+      "encoding": {
+        "x": { "field": "maks", "type": "quantitative" },
+        "text": { "field": "teks", "type": "nominal" }
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": null },
+    "font": "Segoe UI"
+  }
+}

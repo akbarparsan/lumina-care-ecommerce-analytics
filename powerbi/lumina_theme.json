@@ -1,0 +1,27 @@
+{
+  "name": "Lumina Standar",
+  "dataColors": ["#1F6F78", "#B8541F", "#5B4B9A", "#2B6CB0", "#2F9E6E", "#E0A15C", "#8E5BB5", "#5E676B"],
+  "background": "#FFFFFF",
+  "foreground": "#1E2528",
+  "tableAccent": "#1F6F78",
+  "good": "#1F6F78",
+  "neutral": "#E0A15C",
+  "bad": "#B8541F",
+  "maximum": "#1F6F78",
+  "center": "#E0A15C",
+  "minimum": "#B8541F",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#1E2528" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 11, "color": "#5E676B" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#1E2528" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "border": [{ "show": true, "color": { "solid": { "color": "#E4DED3" } }, "radius": 14 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }]
+      }
+    },
+    "page": { "*": { "background": [{ "color": { "solid": { "color": "#F5F1EA" } }, "transparency": 0 }] } }
+  }
+}

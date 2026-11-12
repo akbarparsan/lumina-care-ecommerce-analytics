@@ -1,0 +1,27 @@
+{
+  "name": "Lumina Ramah Buta Warna",
+  "dataColors": ["#0072B2", "#E69F00", "#009E73", "#CC79A7", "#56B4E9", "#D55E00", "#F0E442", "#000000"],
+  "background": "#FFFFFF",
+  "foreground": "#1E2528",
+  "tableAccent": "#0072B2",
+  "good": "#0072B2",
+  "neutral": "#E69F00",
+  "bad": "#D55E00",
+  "maximum": "#0072B2",
+  "center": "#E69F00",
+  "minimum": "#D55E00",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#1E2528" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 11, "color": "#5E676B" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#1E2528" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "border": [{ "show": true, "color": { "solid": { "color": "#E4DED3" } }, "radius": 14 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }]
+      }
+    },
+    "page": { "*": { "background": [{ "color": { "solid": { "color": "#F5F1EA" } }, "transparency": 0 }] } }
+  }
+}

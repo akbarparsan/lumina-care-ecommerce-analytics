@@ -1,0 +1,37 @@
+sku,product_name,sub_category,rrp_idr,cogs_idr,map_floor_idr,campaign_floor_idr
+SKN-001,Lumina Gentle Face Wash 100ml,Skincare,39900,16800,32700,27900
+SKN-002,Lumina Gentle Face Wash 200ml,Skincare,69900,28700,57300,48900
+SKN-003,Lumina Brightening Serum 30ml,Skincare,129000,45200,105800,90300
+SKN-004,Lumina Niacinamide 10% Serum 20ml,Skincare,99000,32700,81200,69300
+SKN-005,Lumina Hydra Gel Moisturizer 50g,Skincare,79000,30000,64800,55300
+SKN-006,Lumina Barrier Repair Cream 30g,Skincare,109000,39200,89400,76300
+SKN-007,Lumina Daily Sunscreen SPF50 40ml,Skincare,89000,32900,73000,62300
+SKN-008,Lumina Sunscreen Stick SPF50 15g,Skincare,99000,38600,81200,69300
+SKN-009,Lumina Micellar Water 300ml,Skincare,59000,26000,48400,41300
+SKN-010,Lumina Calming Toner 150ml,Skincare,69000,27600,56600,48300
+SKN-011,Lumina Acne Spot Gel 15g,Skincare,45000,17100,36900,31500
+SKN-012,Lumina Lip Balm SPF15 4g,Skincare,29000,13000,23800,20300
+HCR-001,Lumina Anti-Dandruff Shampoo 340ml,Haircare,52000,26000,41600,36400
+HCR-002,Lumina Smooth Shine Shampoo 340ml,Haircare,49000,24500,39200,34300
+HCR-003,Lumina Smooth Conditioner 340ml,Haircare,52000,26000,41600,36400
+HCR-004,Lumina Repair Hair Serum 50ml,Haircare,59000,23600,47200,41300
+HCR-005,Lumina Keratin Hair Mask 200g,Haircare,89000,37400,71200,62300
+HCR-006,Lumina Anti Hair-Fall Tonic 100ml,Haircare,65000,26600,52000,45500
+HCR-007,Lumina Dry Shampoo Spray 150ml,Haircare,69000,31000,55200,48300
+HCR-008,Lumina Shampoo Refill 700ml,Haircare,79000,41100,63200,55300
+BDY-001,Lumina Brightening Body Lotion 400ml,Body Care,59000,27100,46000,41300
+BDY-002,Lumina Shea Butter Body Lotion 400ml,Body Care,59000,27100,46000,41300
+BDY-003,Lumina Fresh Body Wash 450ml,Body Care,55000,25800,42900,38500
+BDY-004,Lumina Milk Body Wash 450ml,Body Care,55000,25800,42900,38500
+BDY-005,Lumina Deodorant Roll-On 50ml,Body Care,35000,15000,27300,24500
+BDY-006,Lumina Deodorant Spray 150ml,Body Care,45000,19400,35100,31500
+BDY-007,Lumina Hand Cream 50g,Body Care,32000,13400,25000,22400
+BDY-008,Lumina Coffee Body Scrub 200g,Body Care,49000,21600,38200,34300
+ORL-001,Lumina Whitening Toothpaste 150g,Oral Care,24000,13200,19200,16800
+ORL-002,Lumina Sensitive Toothpaste 150g,Oral Care,28000,15400,22400,19600
+ORL-003,Lumina Mint Mouthwash 500ml,Oral Care,42000,21800,33600,29400
+ORL-004,Lumina Soft Toothbrush 3-Pack,Oral Care,35000,16800,28000,24500
+MEN-001,Lumina Men Oil Control Face Wash 100ml,Men Grooming,42000,17600,33600,29400
+MEN-002,Lumina Men Hair Pomade 75g,Men Grooming,59000,23600,47200,41300
+MEN-003,Lumina Men Body Spray 120ml,Men Grooming,49000,21100,39200,34300
+MEN-004,Lumina Men Shave Gel 150ml,Men Grooming,38000,17100,30400,26600

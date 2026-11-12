@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "name": "dataset" },
+  "width": "container",
+  "height": { "step": 58 },
+  "background": "#FFFFFF",
+  "padding": { "left": 4, "right": 4, "top": 8, "bottom": 8 },
+  "transform": [
+    { "joinaggregate": [
+        { "op": "max",  "field": "Sub Net GMV Akhir", "as": "maks" },
+        { "op": "mean", "field": "Sub Net GMV Akhir", "as": "rata" } ] },
+    { "calculate": "'Rp' + replace(format(datum['Sub Net GMV Akhir']/1e6, '.1f'), '.', ',') + ' jt'", "as": "teks" }
+  ],
+  "encoding": {
+    "y": { "field": "sub_category", "type": "nominal", "axis": null,
+           "sort": { "field": "Sub Net GMV Akhir", "order": "descending" } }
+  },
+  "layer": [
+    { "mark": { "type": "bar", "size": 18, "cornerRadius": 4, "color": "#F0ECE4" },
+      "encoding": { "x": { "field": "maks", "type": "quantitative", "axis": null } } },
+    { "mark": { "type": "bar", "size": 18, "cornerRadius": 4 },
+      "encoding": {
+        "x": { "field": "Sub Net GMV Akhir", "type": "quantitative", "axis": null },
+        "color": { "field": "Warna Aksen Tab", "type": "nominal", "scale": null, "legend": null } } },
+    { "mark": { "type": "text", "align": "left", "baseline": "bottom", "dy": -15,
+                "fontWeight": "bold", "fontSize": 13, "color": "#1E2528" },
+      "encoding": { "x": { "value": 0 }, "text": { "field": "sub_category" } } },
+    { "mark": { "type": "text", "align": "right", "baseline": "bottom", "dy": -15,
+                "fontSize": 13, "color": "#5E676B" },
+      "encoding": { "x": { "value": { "expr": "width" } }, "text": { "field": "teks" } } },
+    { "mark": { "type": "rule", "strokeDash": [4, 3], "strokeWidth": 2, "color": "#1E2528" },
+      "encoding": { "x": { "field": "rata", "type": "quantitative" },
+                    "y": { "value": 0 }, "y2": { "value": { "expr": "height" } } } }
+  ],
+  "config": { "view": { "stroke": null } }
+}

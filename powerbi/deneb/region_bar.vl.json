@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "name": "dataset" },
+  "width": "container",
+  "height": { "step": 56 },
+  "padding": { "left": 4, "right": 4, "top": 8, "bottom": 8 },
+  "transform": [
+    { "joinaggregate": [
+        { "op": "max",  "field": "Region Net GMV", "as": "maks" },
+        { "op": "mean", "field": "Region Net GMV", "as": "rata" } ] },
+    { "calculate": "'Rp' + replace(format(datum['Region Net GMV']/1e9, '.2f'), '.', ',') + ' mlr'", "as": "teks" }
+  ],
+  "encoding": {
+    "y": { "field": "region", "type": "nominal", "axis": null,
+           "sort": { "field": "Region Net GMV", "order": "descending" } }
+  },
+  "layer": [
+    { "mark": { "type": "bar", "size": 14, "cornerRadius": 7, "color": "#F0EBE3" },
+      "encoding": { "x": { "field": "maks", "type": "quantitative", "axis": null } } },
+    { "mark": { "type": "bar", "size": 14, "cornerRadius": 7, "color": "#1F6F78" },
+      "encoding": { "x": { "field": "Region Net GMV", "type": "quantitative", "axis": null } } },
+    { "mark": { "type": "text", "align": "left", "baseline": "bottom", "dy": -12,
+                "fontWeight": "bold", "fontSize": 13, "color": "#1E2528" },
+      "encoding": { "x": { "value": 0 }, "text": { "field": "region" } } },
+    { "mark": { "type": "text", "align": "right", "baseline": "bottom", "dy": -12,
+                "fontSize": 13, "color": "#5E676B" },
+      "encoding": { "x": { "value": { "expr": "width" } }, "text": { "field": "teks" } } },
+    { "mark": { "type": "rule", "strokeDash": [4, 3], "strokeWidth": 2, "color": "#1E2528" },
+      "encoding": { "x": { "field": "rata", "type": "quantitative" },
+                    "y": { "value": 0 }, "y2": { "value": { "expr": "height" } } } }
+  ],
+  "config": { "view": { "stroke": null } }
+}

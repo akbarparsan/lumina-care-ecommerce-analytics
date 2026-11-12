@@ -1,0 +1,68 @@
+alias_key,city,province,region
+jakarta selatan,Jakarta Selatan,DKI Jakarta,Jabodetabek
+jaksel,Jakarta Selatan,DKI Jakarta,Jabodetabek
+kota jakarta selatan,Jakarta Selatan,DKI Jakarta,Jabodetabek
+kota adm jakarta selatan,Jakarta Selatan,DKI Jakarta,Jabodetabek
+jakarta barat,Jakarta Barat,DKI Jakarta,Jabodetabek
+jakbar,Jakarta Barat,DKI Jakarta,Jabodetabek
+kota jakarta barat,Jakarta Barat,DKI Jakarta,Jabodetabek
+kota adm jakarta barat,Jakarta Barat,DKI Jakarta,Jabodetabek
+jakarta timur,Jakarta Timur,DKI Jakarta,Jabodetabek
+jaktim,Jakarta Timur,DKI Jakarta,Jabodetabek
+kota jakarta timur,Jakarta Timur,DKI Jakarta,Jabodetabek
+kota adm jakarta timur,Jakarta Timur,DKI Jakarta,Jabodetabek
+jakarta utara,Jakarta Utara,DKI Jakarta,Jabodetabek
+jakut,Jakarta Utara,DKI Jakarta,Jabodetabek
+kota jakarta utara,Jakarta Utara,DKI Jakarta,Jabodetabek
+kota adm jakarta utara,Jakarta Utara,DKI Jakarta,Jabodetabek
+jakarta pusat,Jakarta Pusat,DKI Jakarta,Jabodetabek
+jakpus,Jakarta Pusat,DKI Jakarta,Jabodetabek
+kota jakarta pusat,Jakarta Pusat,DKI Jakarta,Jabodetabek
+kota adm jakarta pusat,Jakarta Pusat,DKI Jakarta,Jabodetabek
+tangerang,Tangerang,Banten,Jabodetabek
+kota tangerang,Tangerang,Banten,Jabodetabek
+kab tangerang,Tangerang,Banten,Jabodetabek
+tangerang selatan,Tangerang Selatan,Banten,Jabodetabek
+tangsel,Tangerang Selatan,Banten,Jabodetabek
+kota tangerang selatan,Tangerang Selatan,Banten,Jabodetabek
+bekasi,Bekasi,Jawa Barat,Jabodetabek
+kota bekasi,Bekasi,Jawa Barat,Jabodetabek
+kab bekasi,Bekasi,Jawa Barat,Jabodetabek
+depok,Depok,Jawa Barat,Jabodetabek
+kota depok,Depok,Jawa Barat,Jabodetabek
+bogor,Bogor,Jawa Barat,Jabodetabek
+kota bogor,Bogor,Jawa Barat,Jabodetabek
+kab bogor,Bogor,Jawa Barat,Jabodetabek
+bandung,Bandung,Jawa Barat,Jawa
+kota bandung,Bandung,Jawa Barat,Jawa
+kab bandung,Bandung,Jawa Barat,Jawa
+semarang,Semarang,Jawa Tengah,Jawa
+kota semarang,Semarang,Jawa Tengah,Jawa
+kab semarang,Semarang,Jawa Tengah,Jawa
+yogyakarta,Yogyakarta,DI Yogyakarta,Jawa
+kota yogyakarta,Yogyakarta,DI Yogyakarta,Jawa
+jogja,Yogyakarta,DI Yogyakarta,Jawa
+surabaya,Surabaya,Jawa Timur,Jawa
+kota surabaya,Surabaya,Jawa Timur,Jawa
+sby,Surabaya,Jawa Timur,Jawa
+malang,Malang,Jawa Timur,Jawa
+kota malang,Malang,Jawa Timur,Jawa
+kab malang,Malang,Jawa Timur,Jawa
+denpasar,Denpasar,Bali,Bali-Nusa Tenggara
+kota denpasar,Denpasar,Bali,Bali-Nusa Tenggara
+medan,Medan,Sumatera Utara,Sumatera
+kota medan,Medan,Sumatera Utara,Sumatera
+palembang,Palembang,Sumatera Selatan,Sumatera
+kota palembang,Palembang,Sumatera Selatan,Sumatera
+pekanbaru,Pekanbaru,Riau,Sumatera
+kota pekanbaru,Pekanbaru,Riau,Sumatera
+batam,Batam,Kepulauan Riau,Sumatera
+kota batam,Batam,Kepulauan Riau,Sumatera
+makassar,Makassar,Sulawesi Selatan,Sulawesi
+kota makassar,Makassar,Sulawesi Selatan,Sulawesi
+manado,Manado,Sulawesi Utara,Sulawesi
+kota manado,Manado,Sulawesi Utara,Sulawesi
+balikpapan,Balikpapan,Kalimantan Timur,Kalimantan
+kota balikpapan,Balikpapan,Kalimantan Timur,Kalimantan
+banjarmasin,Banjarmasin,Kalimantan Selatan,Kalimantan
+kota banjarmasin,Banjarmasin,Kalimantan Selatan,Kalimantan

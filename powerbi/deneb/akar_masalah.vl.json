@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Episode pelanggaran harga menurut akar masalah: batang horizontal dengan label di atas batang",
+  "width": "container",
+  "height": "container",
+  "background": "#F7F6F3",
+  "padding": { "left": 6, "right": 6, "top": 6, "bottom": 2 },
+  "data": { "name": "dataset" },
+  "transform": [
+    { "calculate": "datum['Akar Masalah']", "as": "cat" },
+    { "calculate": "datum['Episode']", "as": "n" },
+    { "calculate": "format(datum['Episode'], ',d') + ' episode'", "as": "teks" },
+    { "joinaggregate": [ { "op": "max", "field": "n", "as": "maks" } ] }
+  ],
+  "encoding": {
+    "y": {
+      "field": "cat",
+      "type": "nominal",
+      "sort": { "field": "n", "order": "descending" },
+      "axis": null,
+      "scale": { "paddingInner": 0.3, "paddingOuter": 0.05 }
+    }
+  },
+  "layer": [
+    {
+      "description": "jalur abu penuh",
+      "mark": { "type": "bar", "size": 11, "cornerRadius": 5, "color": "#E9E5DC" },
+      "encoding": {
+        "x": { "field": "maks", "type": "quantitative", "axis": null, "scale": { "domainMin": 0, "nice": false } }
+      }
+    },
+    {
+      "description": "batang nilai",
+      "mark": { "type": "bar", "size": 11, "cornerRadius": 5, "color": "#5B4B9A" },
+      "encoding": {
+        "x": { "field": "n", "type": "quantitative", "axis": null },
+        "tooltip": [
+          { "field": "cat", "type": "nominal", "title": "Akar masalah" },
+          { "field": "teks", "type": "nominal", "title": "Jumlah" }
+        ]
+      }
+    },
+    {
+      "description": "label akar masalah (kiri atas)",
+      "mark": { "type": "text", "align": "left", "baseline": "bottom", "dy": -9, "fontSize": 13, "fontWeight": "bold", "color": "#2B2B2B" },
+      "encoding": {
+        "x": { "datum": 0, "type": "quantitative" },
+        "text": { "field": "cat", "type": "nominal" }
+      }
+    },
+    {
+      "description": "jumlah episode (kanan atas)",
+      "mark": { "type": "text", "align": "right", "baseline": "bottom", "dy": -9, "fontSize": 12, "color": "#6B6B6B" },
+      "encoding": {
+        "x": { "field": "maks", "type": "quantitative" },
+        "text": { "field": "teks", "type": "nominal" }
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": null },
+    "font": "Segoe UI"
+  }
+}

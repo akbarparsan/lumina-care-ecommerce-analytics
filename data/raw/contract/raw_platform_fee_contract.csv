@@ -1,0 +1,5 @@
+platform,commission_pct,service_fee_pct,payment_fee_pct,valid_from,valid_to
+Shopee,8.0,4.0,2.0,2026-01-01,2026-12-31
+TikTok Shop/Tokopedia,6.0,3.5,1.8,2026-01-01,2026-12-31
+Lazada,8.5,3.5,2.0,2026-01-01,2026-12-31
+Blibli,7.5,2.5,1.5,2026-01-01,2026-12-31

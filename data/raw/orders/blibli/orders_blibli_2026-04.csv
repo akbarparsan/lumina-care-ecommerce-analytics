@@ -1,0 +1,920 @@
+Order No;Order Date;Status;Merchant SKU;Product Name;Price;Qty;Item Discount;Total;Order Voucher Merchant;Order Voucher Blibli;Shipping;Customer;Phone;City;Payment;Merchant Voucher Code;Blibli Voucher Code
+BLI26040006786;04/25/2026 05:16:00 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 12.000;Rp 99.200;Rp 7.500;Rp 10.000;Rp 15.000;Ri*** Wi***;62812***889458;Kota Balikpapan;OVO;BLINEWB04;BLIPLT04
+BLI26040006545;04/19/2026 07:28:52 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 0;Rp 9.000;Ri*** Nu***;62852***963500;Kab. Bandung;COD;;
+BLI26040006370;04/16/2026 10:14:05 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;Rp 0;Rp 0;Rp 15.000;De*** Ku***;62852***051438;balikpapan;Transfer Bank;;
+BLI26040007105;04/29/2026 10:21:17 PM;Dibatalkan;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 0;Rp 50.000;;;;Le*** Sa***;62895***821787;KOTA MEDAN;COD;;
+BLI26040005957;04/08/2026 03:40:57 PM;Selesai;HCR-001;Lumina  Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;;;;Ba*** Am***;62812***993301;Tangsel;GoPay;;
+BLI26040005531;04/03/2026 10:24:50 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 4.700;Rp 19.800;Rp 0;Rp 0;Rp 22.000;Nu*** Hi***;62812***740751;MALANG;GoPay;;
+BLI26040006327;04/16/2026 09:20:07 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 7.500;Rp 0;Rp 22.000;Le*** Se***;62857***731138;Jaktim;COD;BLINEWB04;
+BLI26040006615;04/22/2026 10:07:50 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 0;Rp 0;Rp 15.000;Pu*** Le***;62812***887892;Semarang;GoPay;;
+BLI26040006920;04/26/2026 09:47:45 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 12.000;Rp 99.200;;;;Ri*** Le***;62857***654783;Bogor;OVO;;BLIPD04
+BLI26040006601;04/21/2026 09:32:45 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 0;Re*** Fa***;62895***138939;Denpasar;COD;;
+BLI26040006464;04/18/2026 11:13:11 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Fi*** Fa***;62857***829306;YOGYAKARTA;Kartu Kredit;;
+BLI26040006446;04/17/2026 10:08:53 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;2;Rp 14.400;Rp 167.200;;;;Si*** Hi***;62812***738040;Kota Adm. Jakarta Barat;COD;BLISAVE04;BLIPLT04
+BLI26040005547;04/04/2026 12:06:24 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;6;Rp 147.600;Rp 397.200;Rp 0;Rp 0;Rp 0;Pu*** Pe***;62812***205542;SEMARANG;OVO;;
+BLI26040005861;04/07/2026 12:33:41 AM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 18.000;Di*** Fa***;62895***864469;denpasar;OVO;;
+BLI26040007080;04/29/2026 07:29:16 PM;SELESAI;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 18.000;Ay*** Pe***;62896***828163;surabaya;Transfer Bank;;
+BLI26040005616;04/04/2026 12:02:39 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 24.600;Rp 66.200;Rp 0;Rp 0;Rp 0;An*** Ra***;62896***175258;Jakarta Pusat;Kartu Kredit;;
+BLI26040006849;04/26/2026 10:34:43 AM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;3;Rp 15.300;Rp 134.700;;;;Fa*** Hi***;62896***727103;Kota Palembang;OVO;;
+BLI26040006414;04/17/2026 01:41:54 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;2;Rp 2.400;Rp 83.200;Rp 0;Rp 4.100;Rp 0;He*** Ut***;62812***627040;Kota Palembang;Kartu Kredit;;BLIPLT04
+BLI26040005548;04/04/2026 12:07:29 AM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 13.100;Rp 36.900;Rp 0;Rp 0;Rp 15.000;Le*** Sa***;62852***953071;Palembang;COD;;
+BLI26040006092;04/11/2026 11:21:07 PM;Selesai;BDY-007 ;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;Rp 0;Rp 0;Rp 9.000;Yo*** Ku***;62857***885280;BALIKPAPAN;Transfer Bank;;
+BLI26040006755;04/25/2026 04:23:42 AM; Selesai ;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;3;Rp 17.700;Rp 120.000;Rp 0;Rp 9.600;Rp 18.000;In*** Ut***;62852***107423;Medan;GoPay;;BLIPD04
+BLI26040005518;04/03/2026 06:09:18 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 9.900;Rp 50.300;;;;Ma*** Ra***;62878***451935;jakarta selatan;GoPay;;
+BLI26040006888;04/26/2026 06:56:30 PM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 11.600;Rp 69.000;;;;In*** Ku***;62878***260262;Depok;Kartu Kredit;;BLIPLT04
+BLI26040006436;04/17/2026 09:21:48 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;4;Rp 20.000;Rp 180.000;Rp 0;Rp 9.000;Rp 12.000;Il*** An***;62821***408811;JAKARTA PUSAT;Transfer Bank;;BLIPLT04
+BLI26040006773;04/25/2026 11:23:47 AM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 9.400;Rp 50.800;;;;Si*** Se***;62852***628141;Tangsel;GoPay;;
+BLI26040006583;04/20/2026 11:31:25 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 0;Rp 0;Rp 12.000;Sa*** Sa***;62852***155248;surabaya;Transfer Bank;;
+BLI26040007151;04/30/2026 06:47:48 PM;Dibatalkan;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;2;Rp 9.000;Rp 82.800;;;;Di*** Se***;62896***070927;Jakarta Barat;Transfer Bank;;
+BLI26040006373;04/16/2026 10:29:12 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 9.000;Nu*** Am***;62878***330945;KOTA SURABAYA;GoPay;;
+BLI26040006452;04/18/2026 05:02:57 AM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;2;Rp 0;Rp 65.200;Rp 0;Rp 0;Rp 12.000;Ga*** Ma***;62812***044015;Kab. Bekasi;Transfer Bank;;
+BLI26040006308;04/15/2026 07:36:04 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;;;;Re*** Am***;62895***236349;Sby;OVO;;BLIPLT04
+BLI26040006568;04/20/2026 06:21:17 PM;Dibatalkan;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Tr*** Fa***;62857***972973;Kota Jakarta Utara;OVO;;
+BLI26040005738;04/05/2026 10:25:42 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;2;Rp 17.600;Rp 74.200;;;;Bu*** Ku***;62813***030570;Kota Adm. Jakarta Selatan;Kartu Kredit;;
+BLI26040005752;04/05/2026 01:02:36 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;2;Rp 15.600;Rp 84.400;Rp 0;Rp 0;Rp 12.000;An*** Se***;62852***025695;Kota Makassar;Transfer Bank;;
+BLI26040005761;04/05/2026 02:47:12 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 19.400;Rp 51.900;Rp 0;Rp 20.500;Rp 18.000;Fa*** Wi***;62852***160820;Kota Banjarmasin;Transfer Bank;;BLIDD04PLT
+BLI26040006212;04/13/2026 09:59:00 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;Na*** Sa***;62812***038261;Semarang;Kartu Kredit;;
+BLI26040005702;04/04/2026 08:43:56 PM; Selesai ;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;3;Rp 39.300;Rp 110.700;;;;Bu*** Se***;62878***797713;Kota Palembang;GoPay;;BLIDD04PLT
+BLI26040018290;04/13/2026 12:51:07 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;3;Rp 0;Rp 272.400;Rp 0;Rp 0;Rp 0;Fl*** Bu***;62895***214681;Medan;GoPay;;
+BLI26040006595;04/21/2026 01:48:49 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 0;Rp 42.800;Rp 0;Rp 0;Rp 9.000;Tr*** Pr***;62895***237857;Kab. Bandung;Transfer Bank;;
+BLI26040005475;04/02/2026 09:13:18 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;2;Rp 0;Rp 100.000;Rp 0;Rp 0;Rp 0;Il*** Fi***;62813***765157;bogor;Transfer Bank;;
+BLI26040018218;04/05/2026 09:14:14 AM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;15;Rp 111.000;Rp 684.000;Rp 0;Rp 0;Rp 18.000;Gr*** To***;62813***260024;tangerang;OVO;;
+BLI26040005999;04/09/2026 04:29:35 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 0;Fa*** Pe***;62896***916311;Kab. Tangerang;OVO;;
+BLI26040006749;04/24/2026 09:15:37 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;2;Rp 5.200;Rp 100.800;Rp 0;Rp 0;Rp 0;Ri*** Ra***;62895***962639;KAB. TANGERANG;Transfer Bank;;
+BLI26040005831;04/06/2026 05:00:57 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;3;Rp 0;Rp 333.600;Rp 0;Rp 0;Rp 15.000;An*** Nu***;62896***384214;KOTA DEPOK;Transfer Bank;;
+BLI26040005484;04/02/2026 10:21:13 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 0;Rp 5.500;Rp 15.000;He*** Le***;62852***895899;yogyakarta;Kartu Kredit;;BLIPLT04
+BLI26040007133;04/30/2026 12:17:36 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 0;Rp 0;Rp 15.000;Si*** Nu***;62857***189417;bandung;Transfer Bank;;
+BLI26040018168;04/01/2026 01:13:41 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;19;Rp 45.600;Rp 419.900;Rp 0;Rp 0;Rp 0;Gr*** To***;62895***543847;Kota Tangerang Selatan;Transfer Bank;;
+BLI26040005650;04/04/2026 05:20:30 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 8.100;Rp 41.900;Rp 8.800;Rp 0;Rp 18.000;Di*** Wi***;62895***364658;JAKARTA UTARA;COD;BLISAVE04;
+BLI26040006085;04/11/2026 05:03:15 PM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;;;;Fa*** Am***;62857***645561;Tangerang;Transfer Bank;;BLIPLT04
+BLI26040006790;04/25/2026 05:31:54 PM;Selesai;SKN-011 ;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 5.900;Rp 40.000;;;;Ri*** Nu***;62813***214602;balikpapan;Kartu Kredit;;BLIPD04
+BLI26040005788;04/05/2026 09:33:52 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 13.100;Rp 36.900;;;;Sa*** Sa***;62812***987877;surabaya;GoPay;BLINEWB04;
+BLI26040005687;04/04/2026 07:38:52 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 9.600;Rp 33.200;Rp 0;Rp 0;Rp 15.000;Re*** An***;62878***337101;medan;OVO;;
+BLI26040006198;04/13/2026 07:24:36 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Ag*** Pe***;62878***643303;semarang;Transfer Bank;;
+BLI26040006772;04/25/2026 10:31:04 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;He*** Ra***;62896***787618;Jaksel;GoPay;;
+BLI26040006456;04/18/2026 09:00:33 AM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 18.000;Ma*** Ut***;62895***406914;Denpasar;OVO;;
+BLI26040005989;04/09/2026 10:24:33 AM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 9.000;Fi*** Le***;62896***514147;medan;Kartu Kredit;;
+BLI26040006406;04/17/2026 01:16:17 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;2;Rp 5.600;Rp 106.600;;;;Ag*** Ku***;62896***000742;JAKARTA SELATAN;GoPay;;BLIPLT04
+BLI26040006818;04/25/2026 08:43:11 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 5.000;Rp 23.600;Rp 0;Rp 0;Rp 18.000;Ay*** Hi***;62812***082374;jakarta pusat;OVO;;
+BLI26040005836;04/06/2026 06:46:40 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;3;Rp 21.600;Rp 250.800;;;;Re*** Ku***;62896***503608;KOTA MEDAN;Transfer Bank;;
+BLI26040006926;04/26/2026 09:53:01 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 4.100;Rp 20.400;;;;Di*** Ma***;62812***240332;bandung;OVO;BLISAVE04;BLIPD04
+BLI26040005913;04/07/2026 09:14:12 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;3;Rp 18.000;Rp 162.600;Rp 0;Rp 0;Rp 0;An*** Ma***;62895***190698;Kota Depok;Kartu Kredit;;
+BLI26040007051;04/29/2026 12:14:44 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;2;Rp 4.800;Rp 44.200;;;;Sa*** Ut***;62895***623697;bandung;Transfer Bank;;
+BLI26040005620;04/04/2026 12:16:37 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 10.700;Rp 49.500;;;;Ri*** Fi***;62896***522612;Sby;OVO;;
+BLI26040005444;04/01/2026 10:47:17 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 7.500;Rp 4.600;Rp 15.000;Pu*** Pe***;62857***728276;Jaktim;Transfer Bank;BLINEWB04;BLIPLT04
+BLI26040006730;04/24/2026 07:19:24 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 15.000;Di*** Wi***;62813***279006;SURABAYA;Transfer Bank;;
+BLI26040007065;04/29/2026 03:42:08 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 2.100;Rp 68.300;;;;An*** Wi***;62813***344673;Kota Tangerang Selatan;COD;;
+BLI26040006594;04/21/2026 01:42:22 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 0;Rp 0;Rp 12.000;An*** Pr***;62812***877405;Kota Tangerang;OVO;;
+BLI26040006606;04/22/2026 04:26:34 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;Rp 0;Rp 0;Rp 15.000;Ri*** Ra***;62896***569678;MEDAN;OVO;;
+BLI26040007047;04/29/2026 08:46:48 AM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;2;Rp 0;Rp 100.000;;;;Di*** Nu***;62821***906705;semarang;Transfer Bank;;
+BLI26040007043;04/29/2026 08:38:46 AM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 0;Rp 80.600;Rp 0;Rp 0;Rp 15.000;Di*** Fa***;62813***321117;Kota Bogor;Transfer Bank;;
+BLI26040006832;04/25/2026 10:43:09 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Ga*** Wi***;62857***367688;surabaya;Transfer Bank;;
+BLI26040006534;04/19/2026 04:54:02 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 12.000;Le*** Wi***;62896***152734;MEDAN;GoPay;;
+BLI26040006392;04/17/2026 09:50:30 AM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;Rp 0;Rp 0;Rp 15.000;Bu*** Ku***;62852***489063;jakarta timur;Kartu Kredit;;
+BLI26040006911;04/26/2026 09:33:51 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 5.900;Rp 40.000;Rp 0;Rp 0;Rp 0;An*** Pu***;62857***030585;Kota Tangerang;Kartu Kredit;;
+BLI26040005544;04/04/2026 12:00:32 AM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 25.500;Rp 75.500;Rp 0;Rp 0;Rp 18.000;Ba*** Pr***;62878***738998;Kab. Tangerang;GoPay;;
+BLI26040006267;04/15/2026 06:17:33 AM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 12.000;Fa*** Am***;62812***482542;Malang;GoPay;;
+BLI26040005878;04/07/2026 01:30:51 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;Rp 0;Rp 0;Rp 12.000;Nu*** Fa***;62896***496269;Kota Medan;COD;;
+BLI26040006703;04/24/2026 10:20:57 AM;Selesai;MEN-002;  Lumina Men Hair Pomade 75g Original ;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Ri*** Ma***;62852***583073;Palembang;Kartu Kredit;;BLIPLT04
+BLI26040007041;04/29/2026 06:59:11 AM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 4.600;Rp 12.000;Ga*** Fi***;62857***988368;KOTA MAKASSAR;OVO;;BLIPLT04
+BLI26040006981;04/28/2026 07:54:40 AM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;Rp 0;Rp 0;Rp 9.000;Re*** Fi***;62896***939351;Yogyakarta;OVO;;
+BLI26040007057;04/29/2026 02:27:07 PM;Selesai;SKN-002;  Lumina Gentle Face Wash 200ml Original ;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 14.900;Rp 0;Rp 0;Bu*** Pr***;62812***182383;jakarta selatan;Transfer Bank;BLISAVE04;
+BLI26040005547;04/04/2026 12:06:24 AM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 8.100;Rp 34.700;;;;Pu*** Pe***;62812***205542;SEMARANG;OVO;;
+BLI26040005645;04/04/2026 03:57:48 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 8.800;Rp 37.100;Rp 0;Rp 0;Rp 0;Il*** An***;62821***408811;Jakarta Pusat;Kartu Kredit;;
+BLI26040005710;04/04/2026 10:29:00 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 10.000;Rp 50.200;;;;An*** Ut***;62813***102927;Tangerang;COD;;BLIPLT04
+BLI26040007012;04/28/2026 06:35:08 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 0;Rp 0;Rp 15.000;Ba*** Se***;62821***398050;BEKASI;Kartu Kredit;;
+BLI26040006416;04/17/2026 05:41:51 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;2;Rp 4.800;Rp 44.200;Rp 0;Rp 0;Rp 9.000;Nu*** Sa***;62852***777788;Tangsel;Kartu Kredit;;
+BLI26040007134;04/30/2026 01:36:51 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;;;;Wa*** Ra***;62852***490036;Jogja;GoPay;;
+BLI26040006524;04/19/2026 11:49:58 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 9.000;Bu*** Se***;62813***788471;JAKARTA BARAT;Kartu Kredit;;
+BLI26040006400;04/17/2026 10:11:51 AM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 4.200;Rp 15.000;Fa*** Nu***;62878***879938;Palembang;Transfer Bank;;BLIPLT04
+BLI26040005680;04/04/2026 07:11:01 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;3;Rp 32.100;Rp 136.200;;;;Le*** Ma***;62857***124971;KOTA SURABAYA;GoPay;;
+BLI26040006242;04/14/2026 06:22:51 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;2;Rp 16.000;Rp 186.000;Rp 0;Rp 0;Rp 18.000;Ri*** Nu***;62813***214602;Balikpapan;Kartu Kredit;;
+BLI26040005733;04/05/2026 09:12:47 AM;Dibatalkan;HCR-008;  Lumina Shampoo Refill 700ml Original ;Rp 80.600;1;Rp 12.700;Rp 67.900;Rp 0;Rp 0;Rp 0;Ri*** Ra***;62895***760383;denpasar;GoPay;;
+BLI26040007146;04/30/2026 06:03:03 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 11.100;Rp 0;Rp 9.000;Di*** Wi***;62813***965537;Jakarta Barat;Kartu Kredit;BLISAVE04;
+BLI26040006615;04/22/2026 10:07:50 AM;Selesai;MEN-004;Lumina Men Shave Gel 150ml Original;Rp 38.800;1;Rp 3.100;Rp 35.700;;;;Pu*** Le***;62812***887892;Semarang;GoPay;;
+BLI26040006566;04/20/2026 02:54:30 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;4;Rp 24.000;Rp 216.800;Rp 15.000;Rp 0;Rp 15.000;Ga*** Pu***;62821***848478;Tangerang;GoPay;BLISAVE04;
+BLI26040005732;04/05/2026 07:18:51 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;2;Rp 17.600;Rp 74.200;Rp 0;Rp 0;Rp 0;Na*** Se***;62896***900366;Makassar;Transfer Bank;;
+BLI26040005939;04/08/2026 11:06:06 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 12.000;Le*** Wi***;62852***769994;Sby;Transfer Bank;;
+BLI26040005495;04/03/2026 11:04:09 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 24.600;Rp 66.200;Rp 0;Rp 0;Rp 0;Pu*** Sa***;62821***393472;Sby;Kartu Kredit;;
+BLI26040006007;04/09/2026 07:44:05 PM;SELESAI;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 16.000;Rp 186.000;Rp 0;Rp 0;Rp 18.000;Ri*** Nu***;62813***214602;KOTA BALIKPAPAN;COD;;
+BLI26040007138;04/30/2026 04:16:31 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 0;Ci*** Pe***;62896***767395;Medan;OVO;;
+BLI26040005780;04/05/2026 06:50:42 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 8.800;Rp 44.200;Rp 0;Rp 0;Rp 9.000;Ba*** Pr***;62896***325867;KOTA SURABAYA;Transfer Bank;;
+BLI26040005767;04/05/2026 04:31:31 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 4.700;Rp 19.800;Rp 0;Rp 0;Rp 12.000;Pu*** Nu***;62821***777630;depok;COD;;
+BLI26040005902;04/07/2026 06:37:03 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;2;Rp 0;Rp 81.400;Rp 0;Rp 0;Rp 15.000;Il*** Nu***;62895***856291;JAKARTA PUSAT;Transfer Bank;;
+BLI26040006066;04/11/2026 12:07:52 PM;Retur;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;3;Rp 0;Rp 88.800;Rp 0;Rp 0;Rp 0;Ag*** Ma***;62895***103162;KOTA DEPOK;Kartu Kredit;;
+BLI26040005623;04/04/2026 12:17:18 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 9.900;Rp 50.300;Rp 0;Rp 0;Rp 15.000;Di*** Pe***;62896***160534;Jakarta Barat;GoPay;;
+BLI26040006366;04/16/2026 09:07:11 PM;Selesai;ORL001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;;;;Ri*** Nu***;62813***214602;KOTA BALIKPAPAN;Transfer Bank;BLISAVE04;
+BLI26040006676;04/23/2026 11:02:04 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;2;Rp 0;Rp 112.200;Rp 0;Rp 0;Rp 0;In*** Sa***;62896***755395;KOTA BALIKPAPAN;GoPay;;
+BLI26040006534;04/19/2026 04:54:02 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;2;Rp 2.400;Rp 83.200;;;;Le*** Wi***;62896***152734;MEDAN;GoPay;;
+BLI26040006011;04/09/2026 09:43:49 PM;Selesai;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;1;Rp 6.600;Rp 59.700;;;;Ri*** Wi***;62812***889458;BALIKPAPAN;Kartu Kredit;;
+BLI26040006329;04/16/2026 10:31:31 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 15.000;Pu*** Nu***;62878***860617;Bekasi;Transfer Bank;;
+BLI26040005890;04/07/2026 06:04:23 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;3;Rp 21.000;Rp 190.200;Rp 7.500;Rp 0;Rp 9.000;An*** Sa***;62813***470780;palembang;Transfer Bank;BLINEWB04;
+BLI26040006242;04/14/2026 06:22:51 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;3;Rp 10.500;Rp 96.600;;;;Ri*** Nu***;62813***214602;Balikpapan;Kartu Kredit;;
+BLI26040006680;04/23/2026 02:40:33 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;Rp 7.500;Rp 0;Rp 0;Sa*** Sa***;62857***168837;Kota Jakarta Timur;Transfer Bank;BLINEWB04;
+BLI26040007047;04/29/2026 08:46:48 AM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;;;;Di*** Nu***;62821***906705;semarang;Transfer Bank;;
+BLI26040005650;04/04/2026 05:20:30 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 9.900;Rp 46.200;;;;Di*** Wi***;62895***364658;JAKARTA UTARA;COD;BLISAVE04;
+BLI26040006762;04/25/2026 08:14:09 AM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 4.500;Rp 36.200;Rp 7.500;Rp 0;Rp 18.000;Bu*** Sa***;62857***138334;Tangerang;GoPay;BLINEWB04;
+BLI26040006550;04/19/2026 08:05:51 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;2;Rp 4.800;Rp 44.200;Rp 0;Rp 0;Rp 0;Nu*** Ma***;62857***603355;Bandung;COD;;
+BLI26040006499;04/18/2026 10:45:17 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;;;;Si*** Ku***;62896***117783;Jaksel;Transfer Bank;;
+BLI26040006145;04/12/2026 07:52:51 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;;;;Yo*** Hi***;62878***037764;surabaya;GoPay;BLISAVE04;
+BLI26040018317;04/13/2026 01:12:14 PM;Selesai;SKN-007;  Lumina Daily Sunscreen SPF50 40ml Original ;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 12.000;Fl*** Bu***;62895***214681;Medan;GoPay;;
+BLI26040005747;04/05/2026 12:59:28 PM;Dibatalkan;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;4;Rp 114.800;Rp 330.000;Rp 0;Rp 0;Rp 18.000;Bu*** Sa***;62895***658287;BEKASI;Transfer Bank;;
+BLI26040006085;04/11/2026 05:03:15 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;;;;Fa*** Am***;62857***645561;Tangerang;Transfer Bank;;BLIPLT04
+BLI26040006459;04/18/2026 09:06:31 AM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;Tr*** Wi***;62878***164809;MAKASSAR;OVO;;
+BLI26040006225;04/14/2026 09:02:57 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;;;;Fa*** Nu***;62895***091957;BOGOR;GoPay;;
+BLI26040005955;04/08/2026 01:41:19 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;Rp 0;Rp 0;Rp 12.000;Ga*** Sa***;62813***702215;bekasi;Kartu Kredit;;
+BLI26040005970;04/08/2026 07:51:08 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 7.200;Rp 83.600;Rp 0;Rp 4.100;Rp 0;Ba*** Am***;62852***310122;Jakarta Barat;OVO;;BLIPLT04
+BLI26040006757;04/25/2026 07:18:31 AM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 7.200;Rp 35.600;;;;An*** Le***;62878***451266;Kota Manado;Kartu Kredit;;BLIPD04
+BLI26040005944;04/08/2026 11:40:33 AM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 0;Rp 80.600;Rp 0;Rp 0;Rp 0;An*** Pu***;62813***287338;Kota Bogor;Transfer Bank;;
+BLI26040006106;04/12/2026 11:56:13 AM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;Rp 15.000;Rp 0;Rp 0;Ba*** Fi***;62821***909998;yogyakarta;OVO;BLISAVE04;
+BLI26030003704;03/03/2026 07:30:57 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 21.800;Rp 69.000;;;;Nu*** Sa***;62821***795202;manado;Transfer Bank;;
+BLI26040006588;04/21/2026 10:23:20 AM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 0;Rp 10.000;Rp 0;Ma*** Sa***;62895***304926;Depok;Kartu Kredit;;BLIPLT04
+BLI26040006246;04/14/2026 07:12:39 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;Rp 0;Rp 0;Rp 22.000;Re*** Se***;62878***655895;bekasi;Transfer Bank;;
+BLI26040006562;04/20/2026 11:28:57 AM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 12.000;Fa*** Hi***;62852***030827;Tangerang;Kartu Kredit;;
+BLI26040006097;04/12/2026 09:45:41 AM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;;;;Ga*** Wi***;62895***329892;Bekasi;Transfer Bank;;
+BLI26040005522;04/03/2026 07:26:40 PM;Selesai;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;2;Rp 34.000;Rp 98.600;;;;In*** An***;62878***763113;Malang;Transfer Bank;;
+BLI26040005574;04/04/2026 07:51:17 AM;Dibatalkan;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 17.800;Rp 62.800;Rp 7.500;Rp 0;Rp 12.000;Sa*** Le***;62813***750710;Sby;Kartu Kredit;BLINEWB04;
+BLI26040005753;04/05/2026 01:23:14 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;2;Rp 14.800;Rp 91.200;Rp 0;Rp 0;Rp 12.000;Ek*** Ku***;62812***602804;Kota Adm. Jakarta Selatan;Transfer Bank;;
+BLI26040007143;04/30/2026 05:13:47 PM;Dibatalkan;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;Rp 0;Rp 0;Rp 18.000;In*** Am***;62878***778583;MEDAN;GoPay;;
+BLI26040018304;04/13/2026 01:13:48 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;3;Rp 0;Rp 272.400;Rp 0;Rp 0;Rp 9.000;Fl*** Bu***;62895***214681;Kota Medan;Kartu Kredit;;
+BLI26040006637;04/22/2026 07:06:24 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 12.000;Wa*** Sa***;62812***855168;KAB. TANGERANG;Transfer Bank;;
+BLI26040006446;04/17/2026 10:08:53 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 0;Rp 181.600;Rp 15.000;Rp 10.000;Rp 12.000;Si*** Hi***;62812***738040;Kota Adm. Jakarta Barat;COD;BLISAVE04;BLIPLT04
+BLI26040006614;04/22/2026 09:38:35 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 10.000;Rp 12.000;Di*** Am***;62895***147712;jakarta selatan;COD;;BLIPLT04
+BLI26040006831;04/25/2026 09:51:49 PM;Retur;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;2;Rp 9.000;Rp 82.800;Rp 0;Rp 0;Rp 15.000;Fa*** Am***;62813***657350;Kota Jakarta Pusat;Transfer Bank;;
+BLI26040006319;04/15/2026 09:52:18 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 15.000;Fi*** Sa***;62821***492241;KOTA SURABAYA;Transfer Bank;;
+BLI26040005620;04/04/2026 12:16:37 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 10.000;Rp 50.200;Rp 0;Rp 0;Rp 12.000;Ri*** Fi***;62896***522612;Sby;OVO;;
+BLI26040005868;04/07/2026 11:06:56 AM;Dibatalkan;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 12.000;Di*** Fa***;62896***271828;BALIKPAPAN;GoPay;;
+BLI26040005918;04/07/2026 11:17:07 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;Rp 0;Rp 0;Rp 0;Ma*** Nu***;62895***814444;bandung;Kartu Kredit;;
+BLI26040007033;04/28/2026 09:22:10 PM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;;;;De*** Ma***;62857***915757;Kota Adm. Jakarta Timur;Transfer Bank;;
+BLI26040005685;04/04/2026 07:29:46 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 9.900;Rp 46.200;;;;Ci*** Ut***;62852***121181;Kota Bogor;GoPay;BLINEWB04;BLIPLT04
+BLI26040006062;04/10/2026 11:50:08 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 0;Rp 18.000;Ay*** Hi***;62878***956750;Banjarmasin;COD;;
+BLI26040006790;04/25/2026 05:31:54 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;3;Rp 15.000;Rp 70.800;;;;Ri*** Nu***;62813***214602;balikpapan;Kartu Kredit;;BLIPD04
+BLI26040006085;04/11/2026 05:03:15 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Fa*** Am***;62857***645561;Tangerang;Transfer Bank;;BLIPLT04
+BLI26040005582;04/04/2026 08:54:16 AM;SELESAI;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 8.800;Rp 37.100;;;;Ek*** Le***;62857***581054;JAKARTA BARAT;COD;BLINEWB04;
+BLI26040006283;04/15/2026 12:55:49 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;2;Rp 8.000;Rp 92.000;Rp 0;Rp 0;Rp 22.000;He*** Ra***;62857***478581;Kota Adm. Jakarta Barat;COD;;
+BLI26040006119;04/12/2026 03:16:21 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;2;Rp 4.800;Rp 44.200;Rp 0;Rp 0;Rp 9.000;Di*** Pe***;62852***277926;Kota Bekasi;OVO;;
+BLI26030004543;03/16/2026 05:57:29 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 4.800;Rp 86.000;Rp 0;Rp 4.300;Rp 0;Na*** Ra***;62852***295641;Kota Bandung;Transfer Bank;;BLIPLT03
+TEST-BLI-0005;04/21/2026 01:48:49 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 100;1;Rp 0;Rp 100;Rp 0;Rp 0;Rp 9.000;test_qa_buyer;62895***237857;Kab. Bandung;Transfer Bank;;
+BLI26040005850;04/06/2026 10:12:39 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 18.000;Bu*** Se***;62812***326564;KOTA BANDUNG;GoPay;;
+BLI26040006309;04/15/2026 08:52:12 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 7.500;Rp 4.600;Rp 12.000;Si*** Pr***;62857***720337;pekanbaru;Kartu Kredit;BLINEWB04;BLIPLT04
+BLI26040007159;04/30/2026 08:17:33 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;Rp 0;Rp 0;Rp 18.000;Fa*** Pu***;62813***138061;pekanbaru;COD;;
+BLI26040006712;04/24/2026 02:17:13 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Ag*** Ku***;62896***921101;Medan;Transfer Bank;BLINEWB04;
+BLI26040006079;04/11/2026 02:05:04 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 9.000;Bu*** Ra***;62821***489799;tangerang;GoPay;;
+BLI26040007088;04/29/2026 08:08:45 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 16.000;Rp 186.000;Rp 0;Rp 0;Rp 0;Ri*** Sa***;62821***291256;MAKASSAR;GoPay;;
+BLI26040005830;04/06/2026 02:15:35 PM;Dibatalkan;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;;;;Pu*** Nu***;62813***111274;MEDAN;Transfer Bank;;
+BLI26040006302;04/15/2026 05:51:29 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 9.000;De*** Se***;62895***787528;Kota Depok;Kartu Kredit;;
+BLI26040006352;04/16/2026 04:49:12 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 9.000;Ba*** Wi***;62896***258416;jakarta barat;COD;;
+BLI26040006989;04/28/2026 10:18:13 AM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;3;Rp 12.000;Rp 229.800;Rp 0;Rp 10.000;Rp 15.000;Nu*** Ku***;62813***866940;pekanbaru;GoPay;;BLIPLT04
+BLI26040006488;04/18/2026 06:21:13 PM;Dibatalkan;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;;;;Yo*** Ra***;62857***297825;Kota Tangerang;GoPay;;BLIPLT04
+BLI26040006173;04/13/2026 09:39:31 AM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;Rp 0;Rp 0;Rp 12.000;Si*** Sa***;62812***455129;Kota Jakarta Utara;Transfer Bank;;
+BLI26040006720;04/24/2026 04:48:42 PM;Selesai;BDY-005 ;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 9.000;In*** Am***;62895***332514;Kab. Bandung;GoPay;;
+BLI26040006164;04/12/2026 11:06:23 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Ay*** Le***;62878***822419;Kab. Semarang;GoPay;;BLIPLT04
+BLI26040006035;04/10/2026 01:23:45 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 22.000;Ag*** Ku***;62813***239498;Kota Medan;GoPay;;
+BLI26040006183;04/13/2026 03:43:18 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;2;Rp 4.800;Rp 44.200;;;;Di*** Wi***;62852***319439;denpasar;Transfer Bank;;
+BLI26040005449;04/01/2026 10:49:30 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;;;;Ag*** Am***;62852***340298;KOTA MAKASSAR;GoPay;;BLIPLT04
+BLI26040018323;04/13/2026 01:17:10 PM;Selesai;SKN-007;Lumina  Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 15.000;Fl*** Bu***;62895***214681;Medan;Transfer Bank;;
+BLI26040006308;04/15/2026 07:36:04 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Re*** Am***;62895***236349;Sby;OVO;;BLIPLT04
+BLI26040006839;04/25/2026 11:41:43 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 8.100;Rp 62.300;;;;Ay*** Ma***;62812***391890;Kab. Bandung;Kartu Kredit;BLISAVE04;BLIPD04
+BLI26040006929;04/27/2026 07:09:50 AM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 8.300;Rp 41.700;;;;De*** Se***;62896***080837;KOTA BALIKPAPAN;Transfer Bank;;
+BLI26040007134;04/30/2026 01:36:51 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;2;Rp 0;Rp 81.400;Rp 0;Rp 0;Rp 22.000;Wa*** Ra***;62852***490036;Jogja;GoPay;;
+BLI26040006609;04/22/2026 09:27:42 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 15.000;In*** Fi***;62896***655361;malang;GoPay;;
+BLI26040006844;04/26/2026 08:59:58 AM;Selesai;MEN-004;Lumina Men Shave Gel 150ml Original;Rp 38.800;1;Rp 5.400;Rp 33.400;Rp 7.500;Rp 0;Rp 0;Le*** Ra***;62895***282384;BANDUNG;Transfer Bank;BLINEWB04;
+BLI26040005732;04/05/2026 07:18:51 AM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;3;Rp 39.300;Rp 110.700;;;;Na*** Se***;62896***900366;Makassar;Transfer Bank;;
+BLI26040006853;04/26/2026 10:39:26 AM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 5.000;Rp 23.600;Rp 0;Rp 0;Rp 18.000;Yo*** Pe***;62857***822984;Jaksel;OVO;;
+BLI26040006839;04/25/2026 11:41:43 PM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 11.600;Rp 69.000;;;;Ay*** Ma***;62812***391890;Kab. Bandung;Kartu Kredit;BLISAVE04;BLIPD04
+BLI26040006517;04/19/2026 10:02:16 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Ga*** Pu***;62821***848478;Tangerang;Kartu Kredit;;BLIPLT04
+BLI26040006991;04/28/2026 12:05:48 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;Rp 0;Rp 0;Rp 0;Ci*** Ra***;62813***653328;BANDUNG;Transfer Bank;;
+BLI26040006366;04/16/2026 09:07:11 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;Rp 13.000;Rp 0;Rp 15.000;Ri*** Nu***;62813***214602;KOTA BALIKPAPAN;Transfer Bank;BLISAVE04;
+BLI26040005710;04/04/2026 10:29:00 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 28.700;Rp 82.500;;;;An*** Ut***;62813***102927;Tangerang;COD;;BLIPLT04
+BLI26040005533;04/03/2026 10:32:00 PM;Dibatalkan;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;2;Rp 13.200;Rp 58.200;Rp 0;Rp 0;Rp 9.000;He*** Ra***;62896***941427;Kota Denpasar;GoPay;;
+BLI26040006292;04/15/2026 01:55:01 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;3;Rp 3.600;Rp 124.800;;;;Fa*** Hi***;62878***805258;Batam;Transfer Bank;;BLIPLT04
+BLI26040006634;04/22/2026 05:18:24 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 16.000;Rp 186.000;Rp 0;Rp 0;Rp 0;Tr*** Pr***;62895***237857;Bandung;Transfer Bank;;
+BLI26040006145;04/12/2026 07:52:51 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 15.000;Rp 0;Rp 15.000;Yo*** Hi***;62878***037764;surabaya;GoPay;BLISAVE04;
+BLI26040006671;04/23/2026 06:51:50 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 15.000;Di*** Le***;62821***046817;Jakarta Utara;Transfer Bank;;
+BLI26040006741;04/24/2026 08:46:57 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 15.000;Wa*** Se***;62852***364948;Kota Bekasi;GoPay;;
+BLI26040005470;04/02/2026 08:39:24 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;;;;Tr*** Le***;62878***275416;Denpasar;OVO;;BLIPLT04
+BLI26040007049;04/29/2026 12:03:42 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 0;Rp 42.800;Rp 0;Rp 0;Rp 15.000;Fa*** Sa***;62896***126919;Kota Surabaya;Transfer Bank;;
+BLI26040006952;04/27/2026 02:22:22 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 4.500;Rp 36.200;Rp 0;Rp 0;Rp 0;Wa*** Pu***;62852***333880;jakarta selatan;GoPay;;
+BLI26040007020;04/28/2026 07:07:55 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 15.000;Sa*** Le***;62812***844489;BEKASI;GoPay;;
+BLI26040006925;04/26/2026 09:52:33 PM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;2;Rp 23.200;Rp 138.000;Rp 13.800;Rp 0;Rp 15.000;Ci*** Ut***;62895***082813;surabaya;Transfer Bank;BLISAVE04;
+BLI26040018298;04/13/2026 12:59:48 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;3;Rp 0;Rp 272.400;Rp 0;Rp 0;Rp 0;Fl*** Bu***;62895***214681;Medan;Kartu Kredit;;
+BLI26040006226;04/14/2026 11:21:03 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;;;;Ri*** Am***;62857***493342;TANGERANG;Kartu Kredit;BLINEWB04;BLIPLT04
+BLI26040006683;04/23/2026 02:55:43 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 0;Rp 0;Rp 0;Ba*** Ra***;62812***824068;DEPOK;Transfer Bank;;
+BLI26040007113;04/29/2026 10:47:16 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 0;Ga*** Sa***;62852***839815;TANGERANG;OVO;;
+BLI26040006794;04/25/2026 06:39:47 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.600;Rp 45.400;Rp 7.500;Rp 0;Rp 15.000;Ek*** Wi***;62813***530415;Kota Adm. Jakarta Timur;OVO;BLINEWB04;
+BLI26040007106;04/29/2026 10:26:42 PM;Dibatalkan;SKN-003 ;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 0;Rp 6.200;Rp 9.000;Ri*** Sa***;62812***797294;Surabaya;Transfer Bank;;BLIPLT04
+BLI26040005716;04/04/2026 10:41:15 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;3;Rp 69.000;Rp 325.800;Rp 10.000;Rp 10.000;Rp 9.000;Fi*** Se***;62895***614683;Bekasi;COD;;BLIDD04CF
+BLI26040005523;04/03/2026 07:57:52 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 8.800;Rp 44.200;Rp 0;Rp 0;Rp 12.000;Di*** Pe***;62852***154441;Sby;Transfer Bank;;
+BLI26040006838;04/25/2026 11:32:12 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 3.800;Rp 25.800;;;;Ri*** Fa***;62895***621155;KOTA MEDAN;GoPay;;
+BLI26040006404;04/17/2026 12:27:12 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;2;Rp 7.000;Rp 64.400;Rp 0;Rp 0;Rp 18.000;Nu*** An***;62812***284665;KOTA MEDAN;Transfer Bank;;
+BLI26040006752;04/24/2026 09:45:27 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;Rp 0;Rp 0;Rp 12.000;Ri*** Wi***;62852***804097;DENPASAR;Transfer Bank;;
+BLI26040006567;04/20/2026 03:28:29 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Fi*** Am***;62878***568069;SEMARANG;OVO;;
+BLI26040006323;04/16/2026 08:08:44 AM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 7.200;Rp 83.600;Rp 0;Rp 0;Rp 22.000;In*** Nu***;62813***170896;Kab. Malang;Transfer Bank;;
+BLI26040005582;04/04/2026 08:54:16 AM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 8.100;Rp 41.900;;;;Ek*** Le***;62857***581054;JAKARTA BARAT;COD;BLINEWB04;
+BLI26040006886;04/26/2026 06:55:14 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 9.700;Rp 46.400;Rp 0;Rp 0;Rp 9.000;Yo*** Ma***;62895***649804;Jakarta Barat;Transfer Bank;;
+BLI26040005976;04/08/2026 08:26:36 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Nu*** Fi***;62813***071958;Kota Jakarta Barat;OVO;BLINEWB04;
+BLI26040006684;04/23/2026 03:48:06 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 0;Rp 42.800;Rp 0;Rp 0;Rp 0;Ma*** Nu***;62857***736674;Kota Adm. Jakarta Timur;Kartu Kredit;;
+BLI26040007040;04/28/2026 11:25:09 PM;Retur;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;De*** Se***;62896***080837;KOTA BALIKPAPAN;Kartu Kredit;;
+BLI26040006634;04/22/2026 05:18:24 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;;;;Tr*** Pr***;62895***237857;Bandung;Transfer Bank;;
+BLI26040005554;04/04/2026 12:20:36 AM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 8.100;Rp 41.900;Rp 0;Rp 0;Rp 9.000;Fi*** Ut***;62878***611947;Jakbar;Transfer Bank;;
+BLI26040006712;04/24/2026 02:17:13 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 7.500;Rp 0;Rp 15.000;Ag*** Ku***;62896***921101;Medan;Transfer Bank;BLINEWB04;
+BLI26040005433;04/01/2026 08:04:02 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;;;;Il*** Nu***;62895***856291;JAKARTA PUSAT;Kartu Kredit;;
+BLI26040006727;04/24/2026 06:52:28 PM;Dibatalkan;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 15.000;Pu*** Pe***;62812***205542;semarang;Transfer Bank;;
+BLI26040007113;04/29/2026 10:47:16 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;2;Rp 0;Rp 112.200;;;;Ga*** Sa***;62852***839815;TANGERANG;OVO;;
+BLI26040007024;04/28/2026 07:19:07 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;3;Rp 7.200;Rp 66.300;Rp 0;Rp 0;Rp 15.000;In*** Fi***;62896***703960;jakarta selatan;COD;;
+BLI26040006358;04/16/2026 07:14:43 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;2;Rp 9.600;Rp 110.800;Rp 0;Rp 5.500;Rp 0;In*** Wi***;62896***931870;KOTA MEDAN;COD;;BLIPLT04
+BLI26040006211;04/13/2026 09:36:46 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 12.000;Na*** Ra***;62878***548816;KOTA PALEMBANG;OVO;;
+BLI26040006815;04/25/2026 08:42:34 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 13.700;Rp 77.100;Rp 0;Rp 0;Rp 15.000;Fi*** Ku***;62813***157487;JAKARTA TIMUR;GoPay;;
+BLI26040005659;04/04/2026 05:22:56 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;2;Rp 38.800;Rp 103.800;Rp 10.000;Rp 10.000;Rp 0;Ga*** Sa***;62896***006864;TANGERANG;Transfer Bank;;BLIDD04CF
+BLI26040006129;04/12/2026 05:44:29 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Ay*** Ku***;62857***861085;KOTA SURABAYA;OVO;;BLIPLT04
+BLI26040006823;04/25/2026 09:05:53 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 14.800;Rp 86.200;Rp 0;Rp 0;Rp 9.000;Ci*** Fa***;62821***721040;jakarta selatan;Transfer Bank;;
+BLI26040006880;04/26/2026 05:26:08 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 14.800;Rp 86.200;Rp 7.500;Rp 6.500;Rp 9.000;Na*** Sa***;62895***463319;BOGOR;GoPay;BLINEWB04;BLIPLT04
+BLI26040005549;04/04/2026 12:17:36 AM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;2;Rp 17.600;Rp 88.400;Rp 12.300;Rp 0;Rp 22.000;Nu*** Sa***;62821***383467;KOTA DEPOK;Transfer Bank;BLISAVE04;
+BLI26040006601;04/21/2026 09:32:45 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;;;;Re*** Fa***;62895***138939;Denpasar;COD;;
+BLI26040005978;04/08/2026 08:40:40 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 22.000;An*** Fi***;62878***554970;Jakarta Utara;OVO;;
+BLI26040006929;04/27/2026 07:09:50 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 12.000;Rp 99.200;Rp 0;Rp 0;Rp 18.000;De*** Se***;62896***080837;KOTA BALIKPAPAN;Transfer Bank;;
+BLI26040006517;04/19/2026 10:02:16 AM;Selesai;SKN-003;  Lumina Brightening Serum 30ml Original ;Rp 131.600;1;Rp 6.500;Rp 125.100;;;;Ga*** Pu***;62821***848478;Tangerang;Kartu Kredit;;BLIPLT04
+BLI26040006212;04/13/2026 09:59:00 PM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;2;Rp 9.000;Rp 82.800;;;;Na*** Sa***;62812***038261;Semarang;Kartu Kredit;;
+BLI26040006274;04/15/2026 09:12:47 AM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 7.200;Rp 83.600;;;;Ga*** Ma***;62821***102255;Kota Adm. Jakarta Pusat;Transfer Bank;BLINEWB04;
+BLI26040005465;04/02/2026 08:35:51 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 4.600;Rp 0;Bu*** Fa***;62895***593724;denpasar;Transfer Bank;;BLIPLT04
+BLI26040006041;04/10/2026 03:06:23 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 0;Fa*** Wi***;62878***289172;Kota Jakarta Barat;GoPay;;
+BLI26040007159;04/30/2026 08:17:33 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Fa*** Pu***;62813***138061;pekanbaru;COD;;
+BLI26040006957;04/27/2026 02:41:15 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 7.200;Rp 35.600;Rp 0;Rp 0;Rp 0;Yo*** Pu***;62852***414689;Jakarta Selatan;GoPay;;
+BLI26040006517;04/19/2026 10:02:16 AM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;;;;Ga*** Pu***;62821***848478;Tangerang;Kartu Kredit;;BLIPLT04
+BLI26040007011;04/28/2026 06:07:17 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 15.000;Di*** Ut***;62813***887044;medan;Transfer Bank;;
+BLI26040006129;04/12/2026 05:44:29 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;;;;Ay*** Ku***;62857***861085;KOTA SURABAYA;OVO;;BLIPLT04
+BLI26040006290;04/15/2026 01:49:00 PM;Dibatalkan;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;3;Rp 13.500;Rp 124.200;Rp 0;Rp 0;Rp 0;Re*** Pe***;62878***256596;Bekasi;Kartu Kredit;;
+BLI26040006860;04/26/2026 12:19:36 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 11.300;Rp 60.000;Rp 0;Rp 4.300;Rp 15.000;Il*** Ma***;62821***668257;BATAM;Kartu Kredit;;BLIPLT04
+BLI26040006763;04/25/2026 08:41:32 AM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 3.800;Rp 25.800;;;;Ag*** Pe***;62813***925771;Kota Jakarta Pusat;Kartu Kredit;;BLIPD04
+BLI26040006797;04/25/2026 07:06:43 PM;Retur;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 9.700;Rp 46.400;Rp 0;Rp 0;Rp 15.000;In*** Wi***;62896***931870;KOTA MEDAN;Transfer Bank;;
+BLI26040005528;04/03/2026 09:02:36 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 51.000;Rp 151.000;Rp 0;Rp 0;Rp 15.000;De*** Le***;62896***978196;Surabaya;Kartu Kredit;;
+BLI26040005799;04/05/2026 10:30:04 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 11.200;Rp 49.000;;;;Fa*** Pe***;62813***898083;KAB. BEKASI;Transfer Bank;;BLIPLT04
+BLI26040006607;04/22/2026 09:20:14 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Ag*** Le***;62895***892917;medan;Transfer Bank;BLINEWB04;
+BLI26040006256;04/14/2026 09:06:53 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 2.100;Rp 68.300;Rp 0;Rp 0;Rp 22.000;Ri*** Sa***;62857***062202;KOTA MAKASSAR;Transfer Bank;;
+BLI26040005479;04/02/2026 10:19:59 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 9.000;An*** Ku***;62878***839932;Sby;GoPay;;
+BLI26040007105;04/29/2026 10:21:17 PM;Dibatalkan;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;2;Rp 14.000;Rp 126.800;;;;Le*** Sa***;62895***821787;KOTA MEDAN;COD;;
+BLI26040018309;04/13/2026 01:00:52 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 12.000;Fl*** Bu***;62895***214681;Kota Medan;GoPay;;
+BLI26040006930;04/27/2026 07:15:51 AM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 9.700;Rp 46.400;Rp 0;Rp 4.300;Rp 0;Di*** Ut***;62857***105845;BANDUNG;Transfer Bank;;BLIPLT04
+BLI26040006895;04/26/2026 07:06:13 PM;Selesai;BDY-005;Lumina  Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 4.800;Rp 30.900;Rp 0;Rp 0;Rp 18.000;Sa*** Pr***;62812***959563;DENPASAR;GoPay;;
+BLI26040005799;04/05/2026 10:30:04 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 6.200;Rp 22.400;;;;Fa*** Pe***;62813***898083;KAB. BEKASI;Transfer Bank;;BLIPLT04
+BLI26040005933;04/08/2026 10:43:54 AM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;Rp 0;Rp 0;Rp 22.000;An*** Ku***;62812***932566;Kota Adm. Jakarta Utara;Transfer Bank;;
+BLI26040006397;04/17/2026 10:03:55 AM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;2;Rp 5.200;Rp 100.800;;;;Di*** Wi***;62821***968680;Kab. Bekasi;COD;;
+BLI26040006153;04/12/2026 08:34:58 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 0;Rp 42.800;Rp 0;Rp 0;Rp 9.000;Pu*** Pr***;62896***422281;Kota Tangerang;GoPay;;
+BLI26040006570;04/20/2026 07:15:49 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;;;;Ag*** Ku***;62813***239498;MEDAN;Kartu Kredit;;BLIPLT04
+BLI26040006002;04/09/2026 07:01:37 PM;Selesai;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;4;Rp 26.400;Rp 238.800;Rp 0;Rp 10.000;Rp 0;Nu*** An***;62852***442179;Tangerang Selatan;Kartu Kredit;;BLIPLT04
+BLI26040006013;04/10/2026 12:15:02 AM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;Rp 0;Rp 0;Rp 0;Tr*** Le***;62812***549057;Kota Jakarta Selatan;GoPay;;
+BLI26040006567;04/20/2026 03:28:29 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;;;;Fi*** Am***;62878***568069;SEMARANG;OVO;;
+BLI26040007091;04/29/2026 09:06:11 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;;;;He*** Ra***;62896***787618;Kota Jakarta Selatan;Transfer Bank;;
+BLI26040006799;04/25/2026 07:35:47 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 8.600;Rp 51.600;Rp 0;Rp 0;Rp 0;Di*** Ut***;62878***879554;jakarta timur;Kartu Kredit;;
+BLI26040006680;04/23/2026 02:40:33 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;2;Rp 5.200;Rp 100.800;;;;Sa*** Sa***;62857***168837;Kota Jakarta Timur;Transfer Bank;BLINEWB04;
+BLI26040006869;04/26/2026 02:43:47 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 5.000;Rp 23.600;Rp 0;Rp 0;Rp 12.000;Si*** Le***;62878***073820;Sby;COD;;
+BLI26040006757;04/25/2026 07:18:31 AM; Selesai ;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 4.500;Rp 36.200;Rp 0;Rp 14.800;Rp 18.000;An*** Le***;62878***451266;Kota Manado;Kartu Kredit;;BLIPD04
+BLI26040006663;04/22/2026 11:08:05 PM;Dibatalkan;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;;;;Nu*** Ra***;62857***293863;Kota Manado;GoPay;;
+BLI26040006082;04/11/2026 03:05:28 PM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 0;Rp 80.600;Rp 0;Rp 0;Rp 0;Tr*** Le***;62878***275416;Jaktim;OVO;;
+BLI26040006888;04/26/2026 06:56:30 PM;Selesai;hcr-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.600;Rp 45.400;;;;In*** Ku***;62878***260262;Depok;Kartu Kredit;;BLIPLT04
+BLI26040007138;04/30/2026 04:16:31 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;3;Rp 7.800;Rp 151.200;;;;Ci*** Pe***;62896***767395;Medan;OVO;;
+BLI26040006159;04/12/2026 10:07:10 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;2;Rp 11.400;Rp 131.200;Rp 0;Rp 0;Rp 0;He*** Pr***;62813***660943;semarang;Kartu Kredit;;
+BLI26040005852;04/06/2026 10:36:52 PM;Dibatalkan;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;;;;Ga*** Wi***;62812***169575;MEDAN;Transfer Bank;;
+BLI26040005909;04/07/2026 07:42:35 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;3;Rp 0;Rp 122.100;Rp 0;Rp 0;Rp 18.000;Ga*** Hi***;62813***904991;Kota Jakarta Utara;COD;;
+BLI26040006446;04/17/2026 10:08:53 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;;;;Si*** Hi***;62812***738040;Kota Adm. Jakarta Barat;COD;BLISAVE04;BLIPLT04
+BLI26040006316;04/15/2026 09:14:39 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 0;Rp 42.800;Rp 0;Rp 0;Rp 0;In*** Ut***;62896***345453;KOTA MAKASSAR;Kartu Kredit;;
+BLI26040005806;04/05/2026 10:50:22 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;3;Rp 29.700;Rp 150.900;;;;Fi*** Sa***;62852***147824;Kota Adm. Jakarta Utara;OVO;;BLIDD04CF
+BLI26040006274;04/15/2026 09:12:47 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;;;;Ga*** Ma***;62821***102255;Kota Adm. Jakarta Pusat;Transfer Bank;BLINEWB04;
+BLI26040005806;04/05/2026 10:50:22 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 14.300;Rp 45.900;;;;Fi*** Sa***;62852***147824;Kota Adm. Jakarta Utara;OVO;;BLIDD04CF
+BLI26040006338;04/16/2026 01:08:20 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 7.200;Rp 83.600;Rp 0;Rp 0;Rp 15.000;Fi*** An***;62878***341095;Jogja;Transfer Bank;;
+BLI26040006605;04/21/2026 09:38:20 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 22.000;Na*** Wi***;62813***263798;Kota Medan;Kartu Kredit;;
+BLI26040005697;04/04/2026 08:42:46 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;3;Rp 76.500;Rp 226.500;Rp 0;Rp 10.000;Rp 18.000;Fi*** Wi***;62878***418274;Kota Bekasi;OVO;;BLIPLT04
+BLI26040006024;04/10/2026 09:00:07 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;2;Rp 0;Rp 222.400;Rp 0;Rp 0;Rp 22.000;Ba*** Fa***;62896***257230;KOTA SEMARANG;Transfer Bank;;
+BLI26040005934;04/08/2026 10:49:55 AM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;Rp 0;Rp 0;Rp 9.000;An*** Pr***;62878***978587;Kota Makassar;Kartu Kredit;;
+BLI26040006650;04/22/2026 08:06:05 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 7.500;Rp 0;Rp 22.000;Tr*** Ku***;62895***172950;Kab. Tangerang;Kartu Kredit;BLINEWB04;
+BLI26040005966;04/08/2026 06:54:44 PM;Retur;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 0;Rp 0;Rp 12.000;Ga*** Nu***;62896***749818;Jakarta Timur;Kartu Kredit;;
+BLI26040005569;04/04/2026 07:28:34 AM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 16.800;Rp 53.600;Rp 15.000;Rp 0;Rp 0;Ba*** Fa***;62857***462444;Denpasar;Kartu Kredit;BLISAVE04;
+BLI26040005980;04/08/2026 09:05:32 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;Rp 0;Rp 0;Rp 12.000;Na*** Hi***;62852***676027;BEKASI;Transfer Bank;;
+BLI26040006711;04/24/2026 10:54:58 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 9.000;Di*** Le***;62852***277049;Semarang;Transfer Bank;;
+BLI26040005660;04/04/2026 05:35:34 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 9.900;Rp 50.300;Rp 0;Rp 0;Rp 12.000;Si*** Wi***;62813***102630;Malang;Transfer Bank;;
+BLI26040006016;04/10/2026 06:55:03 AM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 22.000;Re*** Ma***;62895***747694;KOTA BATAM;GoPay;;
+BLI26040006567;04/20/2026 03:28:29 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;;;;Fi*** Am***;62878***568069;SEMARANG;OVO;;
+BLI26040006800;04/25/2026 07:50:01 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 6.200;Rp 43.800;;;;Pu*** An***;62821***054622;Kota Makassar;GoPay;;
+BLI26040006164;04/12/2026 11:06:23 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 16.000;Rp 186.000;Rp 0;Rp 10.000;Rp 22.000;Ay*** Le***;62878***822419;Kab. Semarang;GoPay;;BLIPLT04
+BLI26040006464;04/18/2026 11:13:11 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 12.000;Fi*** Fa***;62857***829306;YOGYAKARTA;Kartu Kredit;;
+BLI26040005989;04/09/2026 10:24:33 AM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;2;Rp 10.000;Rp 90.000;;;;Fi*** Le***;62896***514147;medan;Kartu Kredit;;
+BLI26040005411;04/01/2026 11:41:51 AM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 0;Si*** Fa***;62896***219491;Sby;Transfer Bank;;
+BLI26040005882;04/07/2026 01:32:22 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 12.000;Ri*** Am***;62857***493342;KAB. TANGERANG;Kartu Kredit;;
+BLI26040006130;04/12/2026 06:01:34 PM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;Rp 0;Rp 0;Rp 12.000;He*** Pr***;62821***058588;Kab. Tangerang;GoPay;;
+BLI26040006585;04/21/2026 12:17:21 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Re*** Ku***;62857***171159;Banjarmasin;OVO;;
+BLI26040006940;04/27/2026 01:18:40 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 9.300;Rp 91.700;Rp 0;Rp 0;Rp 15.000;He*** Ku***;62852***124834;Kab. Tangerang;GoPay;;
+BLI26040005821;04/06/2026 11:34:31 AM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;2;Rp 13.000;Rp 250.200;Rp 0;Rp 0;Rp 15.000;Ag*** Fi***;62852***050304;Yogyakarta;OVO;;
+BLI26040006314;04/15/2026 09:14:24 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 15.000;Il*** Wi***;62878***802645;Makassar;Kartu Kredit;;
+BLI26040006757;04/25/2026 07:18:31 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 11.300;Rp 60.000;;;;An*** Le***;62878***451266;Kota Manado;Kartu Kredit;;BLIPD04
+BLI26040005549;04/04/2026 12:17:36 AM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 8.100;Rp 34.700;;;;Nu*** Sa***;62821***383467;KOTA DEPOK;Transfer Bank;BLISAVE04;
+BLI26040006212;04/13/2026 09:59:00 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Na*** Sa***;62812***038261;Semarang;Kartu Kredit;;
+BLI26040006352;04/16/2026 04:49:12 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Ba*** Wi***;62896***258416;jakarta barat;COD;;
+BLI26040006763;04/25/2026 08:41:32 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 12.000;Rp 99.200;;;;Ag*** Pe***;62813***925771;Kota Jakarta Pusat;Kartu Kredit;;BLIPD04
+BLI26040006225;04/14/2026 09:02:57 AM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;Rp 0;Rp 0;Rp 9.000;Fa*** Nu***;62895***091957;BOGOR;GoPay;;
+BLI26040006227;04/14/2026 12:47:16 PM;Dibatalkan;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;;;;Pu*** Le***;62896***415280;Surabaya;Transfer Bank;;
+BLI26040007051;04/29/2026 12:14:44 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 18.000;Sa*** Ut***;62895***623697;bandung;Transfer Bank;;
+BLI26040018313;04/13/2026 12:49:56 PM; Selesai ;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 0;Rp 181.600;Rp 0;Rp 0;Rp 0;Fl*** Bu***;62895***214681;KOTA MEDAN;Kartu Kredit;;
+BLI26040005982;04/08/2026 10:34:48 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 12.000;Yo*** Ma***;62895***285888;Kota Semarang;Transfer Bank;;
+BLI26040006691;04/23/2026 05:14:43 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;;;;Re*** Nu***;62821***447118;Tangsel;Kartu Kredit;;
+BLI26040006476;04/18/2026 02:19:00 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;2;Rp 8.000;Rp 92.000;Rp 0;Rp 0;Rp 0;Ma*** Fi***;62857***740828;Kota Malang;GoPay;;
+BLI26040006785;04/25/2026 03:13:33 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;6;Rp 88.800;Rp 517.200;;;;Si*** Pr***;62878***868096;KAB. BEKASI;COD;;
+BLI26040005787;04/05/2026 09:17:15 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 25.500;Rp 75.500;Rp 0;Rp 0;Rp 0;Pu*** Pr***;62813***449722;jakarta timur;Kartu Kredit;;
+BLI26040006024;04/10/2026 09:00:07 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Ba*** Fa***;62896***257230;KOTA SEMARANG;Transfer Bank;;
+BLI26040005501;04/03/2026 11:19:37 AM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 20.700;Rp 80.300;Rp 0;Rp 0;Rp 22.000;He*** Pr***;62896***345529;Kota Jakarta Timur;GoPay;;
+BLI26040005825;04/06/2026 12:31:23 PM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;;;;Sa*** Ma***;62878***805341;KOTA BANDUNG;OVO;BLINEWB04;
+BLI26040005898;04/07/2026 06:18:01 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Re*** Pe***;62878***256596;bekasi;Transfer Bank;;BLIPLT04
+BLI26040005733;04/05/2026 09:12:47 AM;Dibatalkan;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;3;Rp 18.600;Rp 67.200;;;;Ri*** Ra***;62895***760383;denpasar;GoPay;;
+BLI26040005852;04/06/2026 10:36:52 PM;Dibatalkan;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 0;Rp 15.000;Ga*** Wi***;62812***169575;MEDAN;Transfer Bank;;
+BLI26040006655;04/22/2026 09:40:19 PM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;Rp 0;Rp 0;Rp 15.000;Bu*** Ma***;62896***207995;depok;OVO;;
+BLI26040006321;04/15/2026 10:29:38 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 2.100;Rp 68.300;Rp 0;Rp 0;Rp 15.000;An*** Sa***;62821***206104;KOTA SURABAYA;Kartu Kredit;;
+BLI26040006928;04/26/2026 10:06:32 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;;;;Ba*** Sa***;62812***074695;DEPOK;Kartu Kredit;;BLIPD04
+BLI26040006542;04/19/2026 06:15:49 PM;Selesai;BDY-008;  Lumina Coffee Body Scrub 200g Original ;Rp 50.000;1;Rp 0;Rp 50.000;Rp 0;Rp 0;Rp 0;Ek*** Hi***;62812***138481;KOTA SURABAYA;COD;;
+BLI26040006100;04/12/2026 10:22:11 AM;Dibatalkan;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;Rp 7.500;Rp 5.400;Rp 9.000;Le*** Wi***;62821***836893;JAKARTA SELATAN;Transfer Bank;BLINEWB04;BLIPLT04
+BLI26040006030;04/10/2026 10:56:23 AM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 0;Ek*** Am***;62812***933713;Bekasi;GoPay;;
+BLI26040006939;04/27/2026 09:25:17 AM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 13.600;Rp 67.000;Rp 0;Rp 0;Rp 18.000;Ri*** Sa***;62812***618996;BANJARMASIN;OVO;;
+BLI26040007056;04/29/2026 12:49:01 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;;;;Il*** Ma***;62852***110191;Kota Batam;Transfer Bank;;
+BLI26040006637;04/22/2026 07:06:24 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Wa*** Sa***;62812***855168;KAB. TANGERANG;Transfer Bank;;
+BLI26040007069;04/29/2026 04:05:04 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 9.000;Ay*** Pr***;62878***460966;Kota Bandung;Kartu Kredit;;
+BLI26040006182;04/13/2026 02:30:49 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;;;;De*** Ma***;62857***915757;jakarta timur;GoPay;;
+BLI26040006353;04/16/2026 04:52:18 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;Rp 0;Rp 0;Rp 9.000;Di*** Fi***;62812***346633;Kota Jakarta Selatan;COD;;
+BLI26040006536;04/19/2026 05:26:19 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;3;Rp 0;Rp 88.800;Rp 0;Rp 0;Rp 22.000;Ag*** Nu***;62857***332822;Tangerang Selatan;Kartu Kredit;;
+BLI26040005808;04/05/2026 11:16:30 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 16.800;Rp 53.600;Rp 0;Rp 0;Rp 12.000;Nu*** Hi***;62812***740751;Kota Bandung;Transfer Bank;;
+BLI26040005898;04/07/2026 06:18:01 PM; Selesai ;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 5.800;Rp 15.000;Re*** Pe***;62878***256596;bekasi;Transfer Bank;;BLIPLT04
+BLI26040006410;04/17/2026 01:25:38 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 22.000;Fa*** Ut***;62813***351327;Kota Tangerang Selatan;GoPay;;
+BLI26040007037;04/28/2026 11:00:13 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;2;Rp 3.600;Rp 116.800;Rp 0;Rp 0;Rp 15.000;Le*** Ra***;62895***282384;BANDUNG;GoPay;;
+BLI26040005536;04/03/2026 10:45:07 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 13.100;Rp 36.900;Rp 0;Rp 0;Rp 12.000;Si*** Am***;62852***447539;palembang;Transfer Bank;;
+BLI26040006566;04/20/2026 02:54:30 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Ga*** Pu***;62821***848478;Tangerang;GoPay;BLISAVE04;
+BLI26040005619;04/04/2026 12:14:51 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 6.200;Rp 22.400;;;;Sa*** Se***;62896***899743;Kota Adm. Jakarta Barat;Transfer Bank;;
+BLI26040005711;04/04/2026 10:31:22 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 9.700;Rp 31.000;Rp 0;Rp 0;Rp 18.000;Ga*** Ra***;62821***281174;Kota Pekanbaru;Transfer Bank;;
+BLI26040007011;04/28/2026 06:07:17 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;2;Rp 7.000;Rp 64.400;;;;Di*** Ut***;62813***887044;medan;Transfer Bank;;
+BLI26040006949;04/27/2026 01:51:16 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 14.800;Rp 86.200;Rp 0;Rp 0;Rp 12.000;Bu*** Hi***;62812***542920;Kota Jakarta Utara;COD;;
+BLI26040006903;04/26/2026 08:10:48 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 6.800;Rp 49.300;;;;In*** Pe***;62852***937411;Kota Depok;Transfer Bank;;
+BLI26040007056;04/29/2026 12:49:01 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 12.000;Il*** Ma***;62852***110191;Kota Batam;Transfer Bank;;
+BLI26040005676;04/04/2026 07:09:26 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 17.800;Rp 62.800;Rp 0;Rp 0;Rp 0;Sa*** Ma***;62813***463799;Kota Semarang;GoPay;;
+BLI26040006456;04/18/2026 09:00:33 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;;;;Ma*** Ut***;62895***406914;Denpasar;OVO;;
+BLI26040005547;04/04/2026 12:06:24 AM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 10.700;Rp 49.500;;;;Pu*** Pe***;62812***205542;SEMARANG;OVO;;
+BLI26040006785;04/25/2026 03:13:33 PM;Selesai;SKN-001 ;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 4.500;Rp 36.200;Rp 0;Rp 0;Rp 9.000;Si*** Pr***;62878***868096;KAB. BEKASI;COD;;
+BLI26040006176;04/13/2026 11:35:44 AM;Dibatalkan;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 15.000;Si*** Ku***;62821***599380;Tangerang;GoPay;;
+BLI26040005416;04/01/2026 01:00:46 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 22.000;De*** Ra***;62852***079445;Kota Jakarta Pusat;Transfer Bank;;
+BLI26040005544;04/04/2026 12:00:32 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;2;Rp 17.600;Rp 74.200;;;;Ba*** Pr***;62878***738998;Kab. Tangerang;GoPay;;
+BLI26040005868;04/07/2026 11:06:56 AM;Dibatalkan;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;3;Rp 0;Rp 88.800;;;;Di*** Fa***;62896***271828;BALIKPAPAN;GoPay;;
+BLI26040018303;04/13/2026 12:52:38 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 0;Rp 181.600;Rp 0;Rp 0;Rp 18.000;Fl*** Bu***;62895***214681;Medan;GoPay;;
+BLI26040005629;04/04/2026 12:33:53 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 20.700;Rp 80.300;Rp 7.500;Rp 0;Rp 0;Fi*** Fi***;62813***378204;BEKASI;Transfer Bank;BLINEWB04;
+BLI26040006724;04/24/2026 05:13:38 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;2;Rp 2.400;Rp 83.200;Rp 0;Rp 0;Rp 12.000;Ay*** Pe***;62821***818384;Kota Adm. Jakarta Selatan;Kartu Kredit;;
+BLI26040005866;04/07/2026 06:49:36 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;3;Rp 0;Rp 137.700;Rp 7.500;Rp 0;Rp 0;In*** Fa***;62852***774629;BOGOR;COD;BLINEWB04;
+BLI26040006780;04/25/2026 12:50:58 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 9.600;Rp 50.600;Rp 0;Rp 0;Rp 12.000;Ma*** Nu***;62895***814444;BANDUNG;OVO;;
+BLI26040005416;04/01/2026 01:00:46 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;;;;De*** Ra***;62852***079445;Kota Jakarta Pusat;Transfer Bank;;
+BLI26040005528;04/03/2026 09:02:36 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 8.100;Rp 41.900;;;;De*** Le***;62896***978196;Surabaya;Kartu Kredit;;
+BLI26040005453;04/02/2026 01:08:47 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;3;Rp 0;Rp 168.300;Rp 0;Rp 0;Rp 0;Pu*** Pe***;62821***693144;BEKASI;COD;;
+BLI26040006975;04/27/2026 11:59:15 PM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 11.600;Rp 69.000;Rp 0;Rp 9.400;Rp 12.000;Pu*** Sa***;62812***631129;BANDUNG;Kartu Kredit;;BLIPD04
+BLI26040006035;04/10/2026 01:23:45 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;;;;Ag*** Ku***;62813***239498;Kota Medan;GoPay;;
+BLI26040005744;04/05/2026 12:45:22 PM;Dibatalkan;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 14.300;Rp 45.900;Rp 0;Rp 0;Rp 0;Ma*** Sa***;62857***941829;KOTA BANJARMASIN;Transfer Bank;;
+BLI26040006431;04/17/2026 09:04:11 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 2.100;Rp 68.300;Rp 0;Rp 0;Rp 22.000;Di*** Nu***;62857***808150;bekasi;COD;;
+BLI26040006908;04/26/2026 09:11:18 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;6;Rp 56.400;Rp 304.800;;;;Na*** Sa***;62821***009512;Kota Adm. Jakarta Barat;GoPay;;BLIPLT04
+BLI26040005932;04/08/2026 10:40:59 AM;Selesai;HCR006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;1;Rp 6.600;Rp 59.700;Rp 0;Rp 0;Rp 0;Sa*** Pu***;62812***056790;Kota Bekasi;Transfer Bank;;
+BLI26040005932;04/08/2026 10:40:59 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Sa*** Pu***;62812***056790;Kota Bekasi;Transfer Bank;;
+BLI26040006148;04/12/2026 08:26:14 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 0;Il*** Wi***;62821***023991;manado;Kartu Kredit;;
+BLI26040007091;04/29/2026 09:06:11 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;2;Rp 7.000;Rp 64.400;;;;He*** Ra***;62896***787618;Kota Jakarta Selatan;Transfer Bank;;
+BLI26040006875;04/26/2026 05:10:28 PM;Selesai;HCR-008;  Lumina Shampoo Refill 700ml Original ;Rp 80.600;1;Rp 11.600;Rp 69.000;Rp 0;Rp 0;Rp 0;Pu*** Le***;62896***415280;Kota Surabaya;GoPay;;
+BLI26040006928;04/26/2026 10:06:32 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 19.400;Rp 112.200;Rp 0;Rp 25.000;Rp 18.000;Ba*** Sa***;62812***074695;DEPOK;Kartu Kredit;;BLIPD04
+BLI26040005492;04/03/2026 09:55:03 AM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.400;Rp 45.600;Rp 17.500;Rp 10.000;Rp 12.000;Ri*** Fa***;62857***402783;KOTA PALEMBANG;OVO;BLINEWB04;BLIDD04CF
+BLI26040006301;04/15/2026 05:20:28 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 18.000;Yo*** Hi***;62852***744079;Kota Banjarmasin;GoPay;;
+BLI26040007151;04/30/2026 06:47:48 PM;Dibatalkan;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 15.000;Di*** Se***;62896***070927;Jakarta Barat;Transfer Bank;;
+BLI26040005664;04/04/2026 06:28:25 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;2;Rp 17.600;Rp 88.400;Rp 7.500;Rp 4.400;Rp 9.000;Il*** Nu***;62895***856291;Jakpus;Kartu Kredit;BLINEWB04;BLIPLT04
+BLI26040006778;04/25/2026 11:59:26 AM;Retur;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;2;Rp 8.200;Rp 40.800;Rp 0;Rp 0;Rp 0;Fa*** Sa***;62896***991308;Kota Pekanbaru;Transfer Bank;;
+BLI26040005663;04/04/2026 06:17:29 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 9.700;Rp 31.000;Rp 0;Rp 0;Rp 0;Ag*** Ra***;62813***455521;surabaya;COD;;
+BLI26040006293;04/15/2026 01:58:28 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;;;;Pu*** Pu***;62857***548431;BEKASI;GoPay;BLISAVE04;
+BLI26040006702;04/24/2026 09:31:10 AM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 8.000;Rp 22.000;Sa*** Sa***;62852***877600;Tangerang Selatan;Transfer Bank;;BLIPLT04
+BLI26040006456;04/18/2026 09:00:33 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;4;Rp 0;Rp 224.400;;;;Ma*** Ut***;62895***406914;Denpasar;OVO;;
+BLI26040005485;04/02/2026 10:29:38 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 15.000;Il*** An***;62813***008258;KOTA MANADO;COD;;
+BLI26040006197;04/13/2026 05:35:01 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 0;In*** Ra***;62895***112374;SEMARANG;GoPay;;
+BLI26040006037;04/10/2026 01:24:19 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 0;Rp 0;Fi*** Wi***;62812***216588;KOTA MALANG;OVO;;
+BLI26040006269;04/15/2026 07:52:10 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;Re*** Wi***;62813***435532;jakarta selatan;Transfer Bank;;
+BLI26040006515;04/19/2026 08:57:07 AM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;Rp 0;Rp 0;Rp 0;Ek*** Ra***;62821***632034;Jakarta Timur;Transfer Bank;;
+BLI26040005821;04/06/2026 11:34:31 AM;SELESAI;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;;;;Ag*** Fi***;62852***050304;Yogyakarta;OVO;;
+BLI26040006702;04/24/2026 09:31:10 AM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 2.100;Rp 68.300;;;;Sa*** Sa***;62852***877600;Tangerang Selatan;Transfer Bank;;BLIPLT04
+BLI26040006202;04/13/2026 08:16:58 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 22.000;Na*** Se***;62896***900366;Makassar;Transfer Bank;;
+BLI26040006620;04/22/2026 12:00:01 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 0;Ek*** Sa***;62852***409195;Kota Bandung;OVO;;
+BLI26040007037;04/28/2026 11:00:13 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Le*** Ra***;62895***282384;BANDUNG;GoPay;;
+BLI26040006849;04/26/2026 10:34:43 AM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 0;Fa*** Hi***;62896***727103;Kota Palembang;OVO;;
+BLI26040006362;04/16/2026 08:43:23 PM; Selesai ;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 15.000;Rp 0;Rp 9.000;Na*** Sa***;62821***009512;Kota Adm. Jakarta Barat;GoPay;BLISAVE04;
+BLI26040006055;04/10/2026 08:17:00 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 0;Rp 0;Rp 15.000;Si*** Fi***;62852***099560;Jakarta Barat;COD;;
+BLI26040006517;04/19/2026 10:02:16 AM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 10.000;Rp 12.000;Ga*** Pu***;62821***848478;Tangerang;Kartu Kredit;;BLIPLT04
+BLI26040005992;04/09/2026 11:51:52 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Di*** Wi***;62813***965537;Jakarta Barat;Kartu Kredit;;
+BLI26040007124;04/30/2026 09:00:58 AM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 0;Rp 0;Rp 15.000;In*** Ku***;62812***734022;Kota Bogor;Transfer Bank;;
+BLI26040006135;04/12/2026 07:34:32 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;Rp 0;Rp 0;Rp 0;Fa*** Am***;62812***482542;MALANG;GoPay;;
+BLI26040006591;04/21/2026 12:43:41 PM; Selesai ;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;1;Rp 6.600;Rp 59.700;Rp 0;Rp 0;Rp 0;Di*** Wi***;62813***965537;Jakarta Barat;Transfer Bank;;
+BLI26040005836;04/06/2026 06:46:40 PM;Selesai;SKN-005 ;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 0;Re*** Ku***;62896***503608;KOTA MEDAN;Transfer Bank;;
+BLI26040006188;04/13/2026 04:02:01 PM;Selesai;ORL003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;2;Rp 0;Rp 85.600;;;;Ay*** Ra***;62821***098196;Tangerang Selatan;Kartu Kredit;;
+BLI26040006867;04/26/2026 02:11:57 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 5.400;Rp 37.400;Rp 0;Rp 0;Rp 9.000;Sa*** Le***;62878***749991;bandung;COD;;
+BLI26040006838;04/25/2026 11:32:12 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 13.200;Rp 77.600;Rp 0;Rp 0;Rp 0;Ri*** Fa***;62895***621155;KOTA MEDAN;GoPay;;
+BLI26040005473;04/02/2026 08:53:44 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;2;Rp 5.200;Rp 100.800;Rp 7.500;Rp 0;Rp 15.000;Re*** Am***;62821***478774;Kota Tangerang Selatan;Kartu Kredit;BLINEWB04;
+BLI26040006106;04/12/2026 11:56:13 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;;;;Ba*** Fi***;62821***909998;yogyakarta;OVO;BLISAVE04;
+BLI26040006686;04/23/2026 04:52:57 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;Rp 0;Rp 0;Rp 0;Wa*** Ra***;62896***113862;SURABAYA;Kartu Kredit;;
+BLI26040006585;04/21/2026 12:17:21 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 0;Rp 0;Rp 12.000;Re*** Ku***;62857***171159;Banjarmasin;OVO;;
+BLI26040005743;04/05/2026 12:00:57 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 25.500;Rp 75.500;Rp 0;Rp 0;Rp 22.000;Di*** Sa***;62878***703280;Kota Jakarta Barat;COD;;
+BLI26040007062;04/29/2026 03:01:51 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 18.000;Si*** Sa***;62812***361979;Jakarta Barat;OVO;;
+BLI26040006743;04/24/2026 08:53:42 PM;Retur;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;2;Rp 4.800;Rp 44.200;Rp 0;Rp 0;Rp 0;Na*** Fa***;62896***568503;Kota Jakarta Timur;Transfer Bank;;
+BLI26040006406;04/17/2026 01:16:17 PM;Selesai;SKN-004;Lumina  Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 10.000;Rp 15.000;Ag*** Ku***;62896***000742;JAKARTA SELATAN;GoPay;;BLIPLT04
+BLI26040006832;04/25/2026 10:43:09 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 14.800;Rp 86.200;Rp 0;Rp 0;Rp 22.000;Ga*** Wi***;62857***367688;surabaya;Transfer Bank;;
+BLI26040006415;04/17/2026 04:02:07 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;Rp 0;Rp 0;Rp 0;Ci*** Ku***;62821***457460;jakarta selatan;OVO;;
+BLI26040007003;04/28/2026 02:04:22 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;Rp 0;Rp 0;Rp 0;In*** Le***;62878***251954;JAKARTA TIMUR;Transfer Bank;;
+BLI26040006754;04/24/2026 10:08:46 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 12.000;Re*** Am***;62813***754088;Kota Adm. Jakarta Timur;GoPay;;
+BLI26040006501;04/18/2026 11:44:00 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;2;Rp 14.000;Rp 126.800;Rp 0;Rp 0;Rp 0;Si*** Se***;62812***198230;Kota Palembang;Transfer Bank;;
+BLI26040006768;04/25/2026 10:08:37 AM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 7.500;Rp 45.500;;;;Nu*** Ma***;62857***603355;Kota Bandung;Transfer Bank;BLISAVE04;BLIPD04
+BLI26040005962;04/08/2026 06:45:44 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;2;Rp 0;Rp 222.400;Rp 0;Rp 0;Rp 0;Tr*** Ra***;62895***618804;BOGOR;Transfer Bank;;
+BLI26040005582;04/04/2026 08:54:16 AM;Selesai;HCR-008 ;Lumina Shampoo Refill 700ml Original;Rp 80.600;2;Rp 25.400;Rp 135.800;;;;Ek*** Le***;62857***581054;JAKARTA BARAT;COD;BLINEWB04;
+BLI26040006469;04/18/2026 01:10:40 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 12.000;Il*** Pr***;62821***352890;KOTA BANJARMASIN;Transfer Bank;;
+BLI26040006237;04/14/2026 04:49:25 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Fa*** An***;62878***677945;Kota Adm. Jakarta Barat;OVO;;
+BLI26040007152;04/30/2026 06:58:28 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 0;Rp 50.000;Rp 0;Rp 0;Rp 0;Sa*** Ra***;62852***473076;Kab. Malang;Transfer Bank;;
+BLI26040006732;04/24/2026 08:10:49 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 15.000;Ga*** Ku***;62812***554358;semarang;Kartu Kredit;;
+BLI26040005503;04/03/2026 11:29:09 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 49.200;Rp 132.400;Rp 0;Rp 6.600;Rp 15.000;Ci*** Fi***;62896***483685;TANGERANG SELATAN;Kartu Kredit;;BLIPLT04
+BLI26040006264;04/15/2026 12:25:47 AM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;Rp 0;Rp 0;Rp 0;Bu*** Pr***;62813***451397;Kota Depok;Kartu Kredit;;
+BLI26040005760;04/05/2026 02:40:21 PM;Selesai;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;1;Rp 17.000;Rp 49.300;Rp 0;Rp 0;Rp 18.000;An*** Pu***;62813***270450;Kota Surabaya;Kartu Kredit;;
+BLI26040006097;04/12/2026 09:45:41 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 0;Rp 0;Rp 0;Ga*** Wi***;62895***329892;Bekasi;Transfer Bank;;
+BLI26040005438;04/01/2026 08:14:34 PM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;Rp 7.500;Rp 0;Rp 22.000;De*** Sa***;62895***406420;JAKARTA BARAT;Kartu Kredit;BLINEWB04;
+BLI26040006464;04/18/2026 11:13:11 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Fi*** Fa***;62857***829306;YOGYAKARTA;Kartu Kredit;;
+BLI26040006067;04/11/2026 12:56:00 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 7.200;Rp 83.600;Rp 0;Rp 0;Rp 18.000;Ri*** Sa***;62878***600880;SEMARANG;Transfer Bank;;
+BLI26040005492;04/03/2026 09:55:03 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;4;Rp 40.000;Rp 200.800;;;;Ri*** Fa***;62857***402783;KOTA PALEMBANG;OVO;BLINEWB04;BLIDD04CF
+BLI26040006485;04/18/2026 03:48:23 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 9.000;An*** Fa***;62813***047410;medan;Transfer Bank;;
+BLI26040007101;04/29/2026 10:10:48 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 18.000;Le*** Ra***;62852***487196;Kab. Bogor;Kartu Kredit;;
+BLI26040006663;04/22/2026 11:08:05 PM;Dibatalkan;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;;;;Nu*** Ra***;62857***293863;Kota Manado;GoPay;;
+BLI26040006198;04/13/2026 07:24:36 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 0;Ag*** Pe***;62878***643303;semarang;Transfer Bank;;
+BLI26040005995;04/09/2026 12:37:53 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;3;Rp 0;Rp 272.400;Rp 0;Rp 0;Rp 12.000;An*** Am***;62812***198346;Kota Pekanbaru;Transfer Bank;;
+BLI26040006625;04/22/2026 01:07:44 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 0;Fi*** Ra***;62878***673481;Banjarmasin;OVO;;
+BLI26040006430;04/17/2026 08:33:22 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Ri*** Ku***;62852***197931;Kab. Tangerang;OVO;BLINEWB04;
+BLI26040018234;04/05/2026 07:09:47 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;13;Rp 61.100;Rp 257.400;;;;Gr*** To***;62852***076352;KAB. TANGERANG;OVO;;
+BLI26040006663;04/22/2026 11:08:05 PM;Dibatalkan;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 0;Rp 181.600;Rp 0;Rp 0;Rp 15.000;Nu*** Ra***;62857***293863;Kota Manado;GoPay;;
+BLI26040007047;04/29/2026 08:46:48 AM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;Rp 0;Rp 0;Rp 15.000;Di*** Nu***;62821***906705;semarang;Transfer Bank;;
+BLI26040006188;04/13/2026 04:02:01 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;4;Rp 0;Rp 200.000;Rp 0;Rp 0;Rp 12.000;Ay*** Ra***;62821***098196;Tangerang Selatan;Kartu Kredit;;
+BLI26040006658;04/22/2026 10:20:25 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 22.000;Nu*** Pr***;62821***269651;malang;Kartu Kredit;;
+BLI26040006948;04/27/2026 01:42:29 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 13.600;Rp 67.000;Rp 0;Rp 0;Rp 9.000;Ba*** Pe***;62852***742191;Kota Adm. Jakarta Barat;Kartu Kredit;;
+BLI26040005607;04/04/2026 11:21:36 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 24.600;Rp 66.200;;;;Ma*** Am***;62813***915727;Kota Jakarta Timur;OVO;;
+BLI26040005840;04/06/2026 07:37:04 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;;;;Di*** Wi***;62813***965537;jakarta barat;Transfer Bank;;
+BLI26040006077;04/11/2026 01:55:08 PM;Dibatalkan;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 12.000;Re*** An***;62821***459611;Kab. Semarang;Transfer Bank;;
+BLI26040006908;04/26/2026 09:11:18 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 8.300;Rp 41.700;;;;Na*** Sa***;62821***009512;Kota Adm. Jakarta Barat;GoPay;;BLIPLT04
+BLI26040005702;04/04/2026 08:43:56 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 49.200;Rp 132.400;Rp 0;Rp 29.100;Rp 0;Bu*** Se***;62878***797713;Kota Palembang;GoPay;;BLIDD04PLT
+BLI26040006117;04/12/2026 02:52:18 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 16.000;Rp 186.000;Rp 0;Rp 9.300;Rp 0;Ma*** Am***;62813***915727;Jakarta Timur;Transfer Bank;;BLIPLT04
+BLI26040005515;04/03/2026 04:20:19 PM;Dibatalkan;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 6.600;Rp 29.100;;;;Na*** Pu***;62878***993847;Kab. Malang;Transfer Bank;;
+BLI26040005428;04/01/2026 06:58:34 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;Rp 0;Rp 0;Rp 15.000;Na*** Sa***;62821***009512;Jakarta Barat;GoPay;;
+BLI26040006828;04/25/2026 09:08:01 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;4;Rp 24.000;Rp 216.800;Rp 0;Rp 10.000;Rp 0;Pu*** Ma***;62857***358550;Bogor;GoPay;;BLIPLT04
+BLI26040006072;04/11/2026 01:26:36 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;2;Rp 4.200;Rp 136.600;Rp 0;Rp 6.800;Rp 0;Il*** Pu***;62852***332288;SURABAYA;Kartu Kredit;;BLIPLT04
+BLI26040006811;04/25/2026 08:40:48 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;6;Rp 24.600;Rp 122.400;;;;Ri*** Sa***;62821***589919;JAKARTA SELATAN;OVO;BLISAVE04;
+BLI26040005799;04/05/2026 10:30:04 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 6.600;Rp 29.100;;;;Fa*** Pe***;62813***898083;KAB. BEKASI;Transfer Bank;;BLIPLT04
+BLI26040006710;04/24/2026 10:23:45 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 11.100;Rp 0;Rp 0;Fi*** Ku***;62813***157487;Jakarta Timur;GoPay;BLISAVE04;
+BLI26040005676;04/04/2026 07:09:26 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 9.600;Rp 33.200;;;;Sa*** Ma***;62813***463799;Kota Semarang;GoPay;;
+BLI26040005508;04/03/2026 11:32:56 AM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;3;Rp 29.700;Rp 150.900;;;;Sa*** Am***;62821***049964;Kota Jakarta Timur;Kartu Kredit;;BLIDD04PLT
+BLI26040006032;04/10/2026 12:01:24 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;Rp 0;Rp 0;Rp 0;Yo*** Am***;62857***646404;Kota Adm. Jakarta Barat;Kartu Kredit;;
+BLI26040005492;04/03/2026 09:55:03 AM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 13.300;Rp 77.500;;;;Ri*** Fa***;62857***402783;KOTA PALEMBANG;OVO;BLINEWB04;BLIDD04CF
+BLI26040006568;04/20/2026 06:21:17 PM;Dibatalkan;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;;;;Tr*** Fa***;62857***972973;Kota Jakarta Utara;OVO;;
+BLI26040005781;04/05/2026 07:33:36 PM;Dibatalkan;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;2;Rp 57.400;Rp 165.000;Rp 0;Rp 0;Rp 0;Na*** Pe***;62857***389904;Denpasar;Kartu Kredit;;
+BLI26040005999;04/09/2026 04:29:35 PM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;;;;Fa*** Pe***;62896***916311;Kab. Tangerang;OVO;;
+BLI26040006286;04/15/2026 01:30:18 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;;;;Ay*** Ku***;62852***919144;KOTA BANDUNG;GoPay;;
+BLI26040006989;04/28/2026 10:18:13 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Nu*** Ku***;62813***866940;pekanbaru;GoPay;;BLIPLT04
+BLI26040005909;04/07/2026 07:42:35 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;;;;Ga*** Hi***;62813***904991;Kota Jakarta Utara;COD;;
+BLI26040006736;04/24/2026 08:43:37 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 0;Rp 42.800;Rp 0;Rp 0;Rp 0;An*** Fa***;62812***148057;Jaktim;GoPay;;
+BLI26040005784;04/05/2026 07:47:20 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;3;Rp 53.400;Rp 157.800;;;;Ma*** Am***;62895***226720;Kota Tangerang;COD;BLISAVE04;
+BLI26040006903;04/26/2026 08:10:48 PM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 11.600;Rp 69.000;;;;In*** Pe***;62852***937411;Kota Depok;Transfer Bank;;
+BLI26040006716;04/24/2026 03:58:39 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 0;Ri*** Ku***;62896***114582;balikpapan;COD;;
+BLI26040005922;04/08/2026 09:05:25 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;2;Rp 7.000;Rp 64.400;Rp 0;Rp 0;Rp 9.000;Ag*** Sa***;62878***444974;Jaksel;GoPay;;
+BLI26040005539;04/03/2026 11:39:36 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 19.400;Rp 51.900;Rp 0;Rp 0;Rp 9.000;Sa*** Sa***;62857***669578;KOTA SURABAYA;GoPay;;
+BLI26040006496;04/18/2026 08:22:05 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 0;Pu*** Nu***;62821***777630;depok;Transfer Bank;;
+BLI26040005569;04/04/2026 07:28:34 AM; Selesai ;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 17.800;Rp 52.600;;;;Ba*** Fa***;62857***462444;Denpasar;Kartu Kredit;BLISAVE04;
+BLI26040006768;04/25/2026 10:08:37 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 26.400;Rp 155.200;Rp 15.000;Rp 16.000;Rp 0;Nu*** Ma***;62857***603355;Kota Bandung;Transfer Bank;BLISAVE04;BLIPD04
+BLI26040005728;04/05/2026 07:11:27 AM;Selesai;MEN-004;Lumina Men Shave Gel 150ml Original;Rp 38.800;1;Rp 5.500;Rp 33.300;Rp 0;Rp 0;Rp 12.000;Sa*** Sa***;62852***155248;Sby;COD;;
+BLI26040005607;04/04/2026 11:21:36 AM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 4.600;Rp 28.000;;;;Ma*** Am***;62813***915727;Kota Jakarta Timur;OVO;;
+BLI26040005761;04/05/2026 02:47:12 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 10.700;Rp 45.400;;;;Fa*** Wi***;62852***160820;Kota Banjarmasin;Transfer Bank;;BLIDD04PLT
+BLI26040006219;04/14/2026 08:02:16 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;2;Rp 0;Rp 222.400;Rp 0;Rp 0;Rp 12.000;Bu*** Nu***;62852***314955;Kab. Malang;Transfer Bank;;
+BLI26040018196;04/03/2026 07:54:59 PM;Selesai;BDY001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;23;Rp 230.000;Rp 1.154.600;Rp 0;Rp 0;Rp 22.000;Gr*** To***;62821***011746;Kota Surabaya;Transfer Bank;;
+BLI26040005775;04/05/2026 05:42:37 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 11.200;Rp 49.000;Rp 0;Rp 0;Rp 22.000;Ay*** Ra***;62812***182153;BANDUNG;GoPay;;
+BLI26040006042;04/10/2026 04:51:59 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;3;Rp 0;Rp 150.000;Rp 0;Rp 0;Rp 12.000;Ga*** Pr***;62852***440611;Kota Bekasi;COD;;
+BLI26040006158;04/12/2026 08:54:37 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;2;Rp 7.000;Rp 64.400;Rp 0;Rp 0;Rp 0;Re*** An***;62821***495220;jakarta pusat;COD;;
+BLI26040006148;04/12/2026 08:26:14 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;3;Rp 18.000;Rp 162.600;;;;Il*** Wi***;62821***023991;manado;Kartu Kredit;;
+BLI26040005613;04/04/2026 11:41:11 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 19.400;Rp 51.900;Rp 0;Rp 0;Rp 0;Ma*** Am***;62813***915727;Jaktim;COD;;
+BLI26040006077;04/11/2026 01:55:08 PM;Dibatalkan;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;;;;Re*** An***;62821***459611;Kab. Semarang;Transfer Bank;;
+BLI26040006270;04/15/2026 08:17:05 AM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 12.000;Ba*** Le***;62896***773990;Balikpapan;Transfer Bank;;
+BLI26040006250;04/14/2026 07:37:13 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 0;Ag*** Ra***;62878***576762;KOTA SURABAYA;COD;;
+BLI26040006849;04/26/2026 10:34:43 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;0;Rp 36.000;Rp 325.200;;;;Fa*** Hi***;62896***727103;Kota Palembang;OVO;;
+BLI26040006979;04/28/2026 06:34:15 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Sa*** Pu***;62813***619857;Kab. Bandung;Kartu Kredit;;
+BLI26040006766;04/25/2026 09:50:36 AM;Selesai;SKN-011;  Lumina Acne Spot Gel 15g Original ;Rp 45.900;3;Rp 17.700;Rp 120.000;;;;He*** Se***;62821***055212;BEKASI;Kartu Kredit;BLISAVE04;
+BLI26040006183;04/13/2026 03:43:18 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 15.000;Di*** Wi***;62852***319439;denpasar;Transfer Bank;;
+BLI26040006221;04/14/2026 08:34:34 AM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;Rp 0;Rp 0;Rp 15.000;Bu*** Fi***;62896***618356;medan;Transfer Bank;;
+BLI26040005917;04/07/2026 09:49:36 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;Rp 0;Rp 0;Rp 9.000;An*** Sa***;62896***502065;Jakarta Selatan;OVO;;
+BLI26040006885;04/26/2026 05:58:03 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 6.800;Rp 49.300;;;;Ri*** Nu***;62813***214602;Balikpapan;Transfer Bank;;
+BLI26040005603;04/04/2026 11:17:56 AM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;2;Rp 22.400;Rp 98.000;Rp 0;Rp 4.900;Rp 18.000;Yo*** Am***;62878***628703;denpasar;Transfer Bank;;BLIPLT04
+BLI26040005845;04/06/2026 08:40:52 PM;Selesai;HCR004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 7.500;Rp 0;Rp 22.000;Fi*** Hi***;62878***787453;KOTA MANADO;COD;BLINEWB04;
+BLI26040007166;04/30/2026 08:29:45 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 0;Rp 6.200;Rp 0;De*** Sa***;62821***754495;Jakarta Barat;Transfer Bank;;BLIPLT04
+BLI26040006112;04/12/2026 12:55:40 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;2;Rp 2.400;Rp 83.200;;;;Ag*** Sa***;62895***866007;Tangerang Selatan;Kartu Kredit;;
+BLI26040005784;04/05/2026 07:47:20 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 19.400;Rp 51.900;Rp 15.000;Rp 0;Rp 15.000;Ma*** Am***;62895***226720;Kota Tangerang;COD;BLISAVE04;
+BLI26040007137;04/30/2026 02:00:31 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;;;;Di*** Pr***;62812***479224;BEKASI;COD;;
+BLI26040006832;04/25/2026 10:43:09 PM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;;;;Ga*** Wi***;62857***367688;surabaya;Transfer Bank;;
+BLI26040006009;04/09/2026 09:21:05 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 22.000;Ri*** Fi***;62878***473358;yogyakarta;Kartu Kredit;;
+BLI26040006280;04/15/2026 12:38:58 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;2;Rp 4.200;Rp 136.600;Rp 0;Rp 0;Rp 15.000;Ri*** Ra***;62813***437723;semarang;Transfer Bank;;
+BLI26040007119;04/30/2026 08:53:26 AM;Dibatalkan;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;2;Rp 0;Rp 112.200;Rp 7.500;Rp 0;Rp 15.000;Nu*** Ut***;62821***411547;semarang;Kartu Kredit;BLINEWB04;
+BLI26040005669;04/04/2026 06:54:07 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;3;Rp 23.400;Rp 126.600;Rp 0;Rp 6.300;Rp 12.000;De*** Ku***;62857***731103;Kota Medan;Transfer Bank;;BLIPLT04
+BLI26040005672;04/04/2026 06:56:54 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 16.800;Rp 53.600;Rp 0;Rp 0;Rp 0;Sa*** Ma***;62813***037334;Jaktim;Transfer Bank;;
+BLI26040006580;04/20/2026 10:06:16 PM;Selesai;HCR-008;Lumina  Shampoo Refill 700ml Original;Rp 80.600;1;Rp 0;Rp 80.600;Rp 0;Rp 0;Rp 12.000;Di*** Fi***;62852***429389;Depok;Transfer Bank;;
+BLI26040005403;04/01/2026 08:24:26 AM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;Rp 0;Rp 0;Rp 0;Di*** Sa***;62895***532185;Kota Adm. Jakarta Timur;COD;;
+BLI26040006219;04/14/2026 08:02:16 AM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;2;Rp 4.200;Rp 136.600;;;;Bu*** Nu***;62852***314955;Kab. Malang;Transfer Bank;;
+BLI26040006227;04/14/2026 12:47:16 PM;Dibatalkan;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Pu*** Le***;62896***415280;Surabaya;Transfer Bank;;
+BLI26040006232;04/14/2026 03:17:16 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 7.500;Rp 0;Rp 0;Le*** Sa***;62878***804605;JAKARTA BARAT;GoPay;BLINEWB04;
+BLI26040006754;04/24/2026 10:08:46 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;;;;Re*** Am***;62813***754088;Kota Adm. Jakarta Timur;GoPay;;
+BLI26040006975;04/27/2026 11:59:15 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 6.800;Rp 49.300;;;;Pu*** Sa***;62812***631129;BANDUNG;Kartu Kredit;;BLIPD04
+BLI26040005756;04/05/2026 01:37:51 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 49.200;Rp 132.400;Rp 0;Rp 0;Rp 0;Pu*** Wi***;62878***544108;JAKARTA BARAT;Kartu Kredit;;
+BLI26040005659;04/04/2026 05:22:56 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;2;Rp 22.400;Rp 98.000;;;;Ga*** Sa***;62896***006864;TANGERANG;Transfer Bank;;BLIDD04CF
+BLI26040005733;04/05/2026 09:12:47 AM;Dibatalkan;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;2;Rp 19.200;Rp 66.400;;;;Ri*** Ra***;62895***760383;denpasar;GoPay;;
+BLI26040006504;04/19/2026 04:52:04 AM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;2;Rp 8.000;Rp 153.200;Rp 0;Rp 0;Rp 15.000;Ga*** Sa***;62857***086236;Kota Adm. Jakarta Selatan;Kartu Kredit;;
+BLI26040006490;04/18/2026 07:27:21 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;2;Rp 3.600;Rp 116.800;Rp 0;Rp 0;Rp 0;Sa*** Sa***;62821***679903;Manado;GoPay;;
+BLI26040006164;04/12/2026 11:06:23 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Ay*** Le***;62878***822419;Kab. Semarang;GoPay;;BLIPLT04
+BLI26040006391;04/17/2026 09:11:03 AM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 15.000;Le*** Sa***;62857***757072;BOGOR;GoPay;;
+BLI26040018226;04/09/2026 09:23:43 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;29;Rp 0;Rp 2.633.200;Rp 0;Rp 0;Rp 22.000;Gr*** To***;62821***011746;Surabaya;Transfer Bank;;
+BLI26040006504;04/19/2026 04:52:04 AM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 7.200;Rp 83.600;;;;Ga*** Sa***;62857***086236;Kota Adm. Jakarta Selatan;Kartu Kredit;;
+BLI26040007129;04/30/2026 09:39:19 AM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Ma*** Sa***;62895***935898;Kota Pekanbaru;Kartu Kredit;;BLIPLT04
+BLI26040005950;04/08/2026 01:28:44 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 0;Rp 18.000;Ba*** Ra***;62852***028095;Jakarta Timur;Transfer Bank;;
+BLI26040006920;04/26/2026 09:47:45 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 5.900;Rp 40.000;;;;Ri*** Le***;62857***654783;Bogor;OVO;;BLIPD04
+BLI26040005703;04/04/2026 09:17:13 PM;Dibatalkan;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;2;Rp 21.400;Rp 90.800;Rp 0;Rp 0;Rp 9.000;Ag*** Ra***;62852***258051;KOTA PEKANBARU;Transfer Bank;;
+BLI26040007065;04/29/2026 03:42:08 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 9.000;An*** Wi***;62813***344673;Kota Tangerang Selatan;COD;;
+BLI26040006969;04/27/2026 09:36:04 PM;Dibatalkan;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 4.900;Rp 27.700;;;;De*** Sa***;62857***347612;Kota Tangerang;Transfer Bank;;
+BLI26040006930;04/27/2026 07:15:51 AM;Selesai;BDY-006;Lumina  Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;;;;Di*** Ut***;62857***105845;BANDUNG;Transfer Bank;;BLIPLT04
+BLI26040006441;04/17/2026 09:52:29 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 4.500;Rp 22.000;Tr*** Am***;62857***486745;Tangerang;COD;;BLIPLT04
+BLI26040006512;04/19/2026 08:43:43 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;3;Rp 7.200;Rp 66.300;;;;Na*** Pe***;62878***706229;Pekanbaru;Transfer Bank;;
+BLI26040006605;04/21/2026 09:38:20 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Na*** Wi***;62813***263798;Kota Medan;Kartu Kredit;;
+BLI26040006112;04/12/2026 12:55:40 PM;Selesai;BDY-001;  Lumina Brightening Body Lotion 400ml Original ;Rp 60.200;0;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 15.000;Ag*** Sa***;62895***866007;Tangerang Selatan;Kartu Kredit;;
+BLI26040006647;04/22/2026 07:58:05 PM;Selesai;HCR-007;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 2.100;Rp 68.300;Rp 0;Rp 0;Rp 22.000;Na*** Wi***;62857***666137;Kota Medan;GoPay;;
+BLI26040006566;04/20/2026 02:54:30 PM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;2;Rp 0;Rp 65.200;;;;Ga*** Pu***;62821***848478;Tangerang;GoPay;BLISAVE04;
+BLI26040006011;04/09/2026 09:43:49 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;;;;Ri*** Wi***;62812***889458;BALIKPAPAN;Kartu Kredit;;
+BLI26040006160;04/12/2026 10:21:13 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;2;Rp 2.400;Rp 83.200;Rp 0;Rp 0;Rp 12.000;Ba*** Ku***;62895***191709;Surabya;Transfer Bank;;
+BLI26040006568;04/20/2026 06:21:17 PM;Dibatalkan;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 18.000;Tr*** Fa***;62857***972973;Kota Jakarta Utara;OVO;;
+BLI26040005449;04/01/2026 10:49:30 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 0;Rp 7.000;Rp 22.000;Ag*** Am***;62852***340298;KOTA MAKASSAR;GoPay;;BLIPLT04
+BLI26040005598;04/04/2026 10:41:40 AM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 17.800;Rp 62.800;Rp 0;Rp 0;Rp 22.000;Il*** Ku***;62813***804198;Jaktim;Kartu Kredit;;
+BLI26040006168;04/12/2026 11:40:19 PM;Dibatalkan;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 12.000;Wa*** Hi***;62878***004140;Jaksel;Kartu Kredit;;
+BLI26040005761;04/05/2026 02:47:12 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;2;Rp 17.600;Rp 74.200;;;;Fa*** Wi***;62852***160820;Kota Banjarmasin;Transfer Bank;;BLIDD04PLT
+BLI26040006985;04/28/2026 10:16:25 AM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 0;Ek*** Pe***;62857***060484;Sby;Kartu Kredit;;
+BLI26040006097;04/12/2026 09:45:41 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;;;;Ga*** Wi***;62895***329892;Bekasi;Transfer Bank;;
+BLI26040005544;04/04/2026 12:00:32 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 6.600;Rp 29.100;;;;Ba*** Pr***;62878***738998;Kab. Tangerang;GoPay;;
+BLI26040006140;04/12/2026 07:35:02 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 15.000;Wa*** Fa***;62878***648227;JAKARTA UTARA;OVO;;
+BLI26040006277;04/15/2026 11:31:21 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 15.000;De*** Wi***;62852***397365;Malang;Transfer Bank;;
+BLI26040006011;04/09/2026 09:43:49 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 12.000;Ri*** Wi***;62812***889458;BALIKPAPAN;Kartu Kredit;;
+BLI26040005511;04/03/2026 03:44:57 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 28.700;Rp 82.500;Rp 0;Rp 0;Rp 0;An*** Sa***;62852***566762;JAKARTA BARAT;Kartu Kredit;;
+BLI26040006090;04/11/2026 09:29:32 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;Rp 0;Rp 0;Rp 15.000;Ma*** Nu***;62812***203206;KOTA PALEMBANG;Transfer Bank;;
+BLI26040006286;04/15/2026 01:30:18 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 0;Ay*** Ku***;62852***919144;KOTA BANDUNG;GoPay;;
+BLI26040005582;04/04/2026 08:54:16 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 19.400;Rp 51.900;Rp 7.500;Rp 0;Rp 0;Ek*** Le***;62857***581054;JAKARTA BARAT;COD;BLINEWB04;
+BLI26040005488;04/03/2026 09:21:45 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 19.400;Rp 51.900;Rp 0;Rp 0;Rp 15.000;Ma*** Sa***;62896***598323;Kota Depok;Kartu Kredit;;
+BLI26040005942;04/08/2026 11:17:23 AM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;3;Rp 15.000;Rp 135.000;Rp 0;Rp 0;Rp 22.000;De*** Ku***;62857***731103;Medan;Transfer Bank;;
+BLI26040006766;04/25/2026 09:50:36 AM;Selesai;skn-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 13.600;Rp 67.000;Rp 15.000;Rp 0;Rp 18.000;He*** Se***;62821***055212;BEKASI;Kartu Kredit;BLISAVE04;
+BLI26040006334;04/16/2026 12:42:58 PM; Selesai ;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 15.000;Re*** Am***;62878***082680;DEPOK;GoPay;;
+BLI26040006198;04/13/2026 07:24:36 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;;;;Ag*** Pe***;62878***643303;semarang;Transfer Bank;;
+BLI26040006050;04/10/2026 07:10:02 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;2;Rp 9.600;Rp 110.800;;;;Ri*** Se***;62895***120364;Jaksel;Kartu Kredit;;
+BLI26040005589;04/04/2026 10:16:55 AM;Dibatalkan;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 10.700;Rp 49.500;Rp 0;Rp 0;Rp 0;Ba*** Am***;62813***973930;SURABAYA;Transfer Bank;;
+BLI26040005708;04/04/2026 09:52:55 PM;Dibatalkan;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 9.700;Rp 31.000;Rp 0;Rp 0;Rp 18.000;Ag*** Fi***;62895***333630;bandung;Transfer Bank;;
+BLI26040005654;04/04/2026 05:21:16 PM;Selesai;SKN-008;  Lumina Sunscreen Stick SPF50 15g Original ;Rp 101.000;1;Rp 20.700;Rp 80.300;Rp 0;Rp 0;Rp 18.000;Il*** Ra***;62857***766366;Jaksel;GoPay;;
+BLI26040005812;04/05/2026 11:35:58 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 8.800;Rp 44.200;Rp 0;Rp 0;Rp 22.000;Nu*** Ma***;62857***603355;Kota Bandung;GoPay;;
+BLI26040005788;04/05/2026 09:33:52 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 4.900;Rp 24.700;Rp 7.500;Rp 0;Rp 18.000;Sa*** Sa***;62812***987877;surabaya;GoPay;BLINEWB04;
+BLI26040006989;04/28/2026 10:18:13 AM;Selesai;BDY-007;Lumina  Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;;;;Nu*** Ku***;62813***866940;pekanbaru;GoPay;;BLIPLT04
+BLI26040006426;04/17/2026 08:04:39 PM; Selesai ;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;Rp 0;Rp 0;Rp 0;Fa*** Ra***;62896***702850;MEDAN;Transfer Bank;;
+BLI26040005692;04/04/2026 08:07:00 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 10.000;Rp 50.200;Rp 0;Rp 0;Rp 22.000;Yo*** Ut***;62857***429822;bandung;Transfer Bank;;
+BLI26040006101;04/12/2026 10:29:00 AM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 22.000;Ri*** Pr***;62896***104715;Jakarta Timur;Transfer Bank;;
+BLI26040005680;04/04/2026 07:11:01 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 49.200;Rp 132.400;;;;Le*** Ma***;62857***124971;KOTA SURABAYA;GoPay;;
+BLI26040007131;04/30/2026 09:55:12 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;Rp 0;Rp 0;Rp 9.000;Fa*** Fi***;62896***760471;Batam;GoPay;;
+BLI26040005871;04/07/2026 12:31:25 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;Rp 0;Rp 0;Rp 0;Yo*** Ra***;62895***520191;PALEMBANG;Kartu Kredit;;
+BLI26040005976;04/08/2026 08:26:36 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;2;Rp 11.400;Rp 131.200;Rp 7.500;Rp 0;Rp 0;Nu*** Fi***;62813***071958;Kota Jakarta Barat;OVO;BLINEWB04;
+BLI26040007157;04/30/2026 07:32:57 PM;Selesai;ORL-002;Lumina  Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Pu*** Wi***;62821***950220;pekanbaru;Kartu Kredit;;
+BLI26040005633;04/04/2026 01:51:26 PM;Dibatalkan;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 4.700;Rp 19.800;;;;Wa*** Se***;62857***941339;SURABAYA;GoPay;;
+BLI26040006928;04/26/2026 10:06:32 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 12.000;Rp 99.200;;;;Ba*** Sa***;62812***074695;DEPOK;Kartu Kredit;;BLIPD04
+BLI26040006607;04/22/2026 09:20:14 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 7.500;Rp 0;Rp 15.000;Ag*** Le***;62895***892917;medan;Transfer Bank;BLINEWB04;
+BLI26040005874;04/07/2026 01:07:08 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 9.000;He*** Ra***;62857***347098;MEDAN;Transfer Bank;;
+BLI26040006989;04/28/2026 10:18:13 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;;;;Nu*** Ku***;62813***866940;pekanbaru;GoPay;;BLIPLT04
+BLI26040006026;04/10/2026 09:44:28 AM;Dibatalkan;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;Rp 0;Rp 0;Rp 15.000;Wa*** Fa***;62878***542183;DEPOK;Transfer Bank;;
+BLI26040005983;04/09/2026 06:50:01 AM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;;;;Nu*** Le***;62813***944686;KOTA PALEMBANG;Kartu Kredit;;BLIPLT04
+BLI26040005685;04/04/2026 07:29:46 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 14.300;Rp 45.900;Rp 7.500;Rp 4.600;Rp 12.000;Ci*** Ut***;62852***121181;Kota Bogor;GoPay;BLINEWB04;BLIPLT04
+BLI26040006237;04/14/2026 04:49:25 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;0;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 18.000;Fa*** An***;62878***677945;Kota Adm. Jakarta Barat;OVO;;
+BLI26040006999;04/28/2026 01:34:01 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 18.000;Tr*** Pr***;62895***237857;Bandung;COD;;
+BLI26040005497;04/03/2026 11:17:20 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 8.800;Rp 37.100;;;;Ci*** Ra***;62821***261487;Medan;Transfer Bank;;BLIPLT04
+BLI26040005710;04/04/2026 10:29:00 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 16.800;Rp 53.600;;;;An*** Ut***;62813***102927;Tangerang;COD;;BLIPLT04
+BLI26040006030;04/10/2026 10:56:23 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;;;;Ek*** Am***;62812***933713;Bekasi;GoPay;;
+BLI26040005974;04/08/2026 08:16:43 PM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 0;Rp 80.600;;;;Na*** Le***;62813***818774;PEKANBARU;OVO;;
+BLI26040006504;04/19/2026 04:52:04 AM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;2;Rp 14.000;Rp 126.800;;;;Ga*** Sa***;62857***086236;Kota Adm. Jakarta Selatan;Kartu Kredit;;
+BLI26040006521;04/19/2026 11:17:46 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;3;Rp 7.200;Rp 66.300;Rp 7.500;Rp 0;Rp 0;Ma*** Fi***;62813***164112;surabaya;GoPay;BLINEWB04;
+BLI26040005840;04/06/2026 07:37:04 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;3;Rp 21.600;Rp 250.800;;;;Di*** Wi***;62813***965537;jakarta barat;Transfer Bank;;
+BLI26040006362;04/16/2026 08:43:23 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;;;;Na*** Sa***;62821***009512;Kota Adm. Jakarta Barat;GoPay;BLISAVE04;
+BLI26040005817;04/06/2026 10:02:59 AM;Selesai;MEN003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;;;;Fa*** Ku***;62821***506156;jakarta timur;Kartu Kredit;BLISAVE04;BLIPLT04
+BLI26040006492;04/18/2026 07:44:23 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;Rp 0;Rp 0;Rp 15.000;Ri*** Se***;62895***224324;bogor;Transfer Bank;;
+BLI26040006836;04/25/2026 10:54:46 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 3.800;Rp 25.800;Rp 7.500;Rp 0;Rp 0;Nu*** Hi***;62812***740751;KOTA BANDUNG;Kartu Kredit;BLINEWB04;
+BLI26040005909;04/07/2026 07:42:35 PM;Selesai;MEN-004;Lumina Men Shave Gel 150ml Original;Rp 38.800;1;Rp 3.100;Rp 35.700;;;;Ga*** Hi***;62813***904991;Kota Jakarta Utara;COD;;
+BLI26040006107;04/12/2026 12:54:30 PM;DIBATALKAN;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;Rp 0;Rp 0;Rp 9.000;De*** Nu***;62813***916176;BEKASI;GoPay;;
+BLI26040006529;04/19/2026 01:13:38 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 18.000;Wa*** Pr***;62813***202785;Kota Bandung;Transfer Bank;;
+BLI26040006206;04/13/2026 08:41:35 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 0;Rp 0;Rp 0;Ba*** Sa***;62896***359486;Bogor;Kartu Kredit;;
+BLI26040006934;04/27/2026 08:49:23 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 11.300;Rp 60.000;Rp 0;Rp 0;Rp 0;Ay*** Ra***;62857***251334;Banjarmasin;Kartu Kredit;;
+BLI26040005835;04/06/2026 06:28:50 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 0;Rp 0;Rp 0;An*** Wi***;62852***380531;Kota Surabaya;Transfer Bank;;
+BLI26040006012;04/09/2026 09:58:32 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 15.000;Ay*** Ma***;62812***938705;TANGERANG;Transfer Bank;;
+BLI26040006790;04/25/2026 05:31:54 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;3;Rp 11.400;Rp 77.400;;;;Ri*** Nu***;62813***214602;balikpapan;Kartu Kredit;;BLIPD04
+BLI26040005571;04/04/2026 07:33:19 AM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 10.700;Rp 49.500;Rp 0;Rp 0;Rp 0;Na*** Sa***;62896***056571;bandung;Kartu Kredit;;
+BLI26040006762;04/25/2026 08:14:09 AM; Selesai ;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 9.700;Rp 46.400;;;;Bu*** Sa***;62857***138334;Tangerang;GoPay;BLINEWB04;
+BLI26040005635;04/04/2026 02:00:37 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 13.300;Rp 77.500;Rp 7.500;Rp 0;Rp 15.000;Ri*** Nu***;62813***214602;balikpapan;Kartu Kredit;BLINEWB04;
+BLI26040006703;04/24/2026 10:20:57 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 5.600;Rp 18.000;Ri*** Ma***;62852***583073;Palembang;Kartu Kredit;;BLIPLT04
+BLI26040007137;04/30/2026 02:00:31 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 0;Di*** Pr***;62812***479224;BEKASI;COD;;
+BLI26040005450;04/02/2026 11:42:24 AM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 0;Rp 22.000;Sa*** Pr***;62852***165453;Kota Pekanbaru;Transfer Bank;;
+BLI26040006295;04/15/2026 03:01:37 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;;;;Yo*** Nu***;62821***446683;TANGERANG SELATAN;Transfer Bank;;BLIPLT04
+BLI26040005607;04/04/2026 11:21:36 AM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 8.100;Rp 34.700;;;;Ma*** Am***;62813***915727;Kota Jakarta Timur;OVO;;
+BLI26040005607;04/04/2026 11:21:36 AM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 25.500;Rp 75.500;Rp 0;Rp 0;Rp 12.000;Ma*** Am***;62813***915727;Kota Jakarta Timur;OVO;;
+BLI26040006314;04/15/2026 09:14:24 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;;;;Il*** Wi***;62878***802645;Makassar;Kartu Kredit;;
+BLI26040005633;04/04/2026 01:51:26 PM;Dibatalkan;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 9.700;Rp 31.000;Rp 0;Rp 0;Rp 0;Wa*** Se***;62857***941339;SURABAYA;GoPay;;
+BLI26040005905;04/07/2026 07:03:31 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 12.000;Sa*** Se***;62813***532347;Kota Medan;Kartu Kredit;;
+BLI26040006720;04/24/2026 04:48:42 PM;Selesai;ORL-003;  Lumina Mint Mouthwash 500ml Original ;Rp 42.800;1;Rp 0;Rp 42.800;;;;In*** Am***;62895***332514;Kab. Bandung;GoPay;;
+BLI26040005927;04/08/2026 09:12:53 AM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 0;An*** Sa***;62895***539543;Kab. Tangerang;Kartu Kredit;;
+BLI26040006979;04/28/2026 06:34:15 AM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 9.000;Sa*** Pu***;62813***619857;Kab. Bandung;Kartu Kredit;;
+BLI26040005747;04/05/2026 12:59:28 PM;Dibatalkan;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;4;Rp 114.800;Rp 330.000;Rp 0;Rp 0;Rp 18.000;Bu*** Sa***;62895***658287;BEKASI;Transfer Bank;;
+BLI26040006397;04/17/2026 10:03:55 AM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 16.000;Rp 186.000;Rp 0;Rp 0;Rp 15.000;Di*** Wi***;62821***968680;Kab. Bekasi;COD;;
+BLI26040006920;04/26/2026 09:47:45 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;2;Rp 9.000;Rp 72.400;Rp 0;Rp 16.900;Rp 18.000;Ri*** Le***;62857***654783;Bogor;OVO;;BLIPD04
+BLI26040006885;04/26/2026 05:58:03 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 3.800;Rp 25.800;Rp 0;Rp 0;Rp 22.000;Ri*** Nu***;62813***214602;Balikpapan;Transfer Bank;;
+BLI26040005457;04/02/2026 07:22:34 PM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;Rp 0;Rp 0;Rp 0;Re*** Ku***;62896***503608;Kota Medan;Kartu Kredit;;
+BLI26040006698;04/24/2026 09:00:14 AM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;1;Rp 0;Rp 80.600;;;;Nu*** Fa***;62896***496269;Kota Medan;GoPay;;
+BLI26040005676;04/04/2026 07:09:26 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;4;Rp 30.000;Rp 112.800;;;;Sa*** Ma***;62813***463799;Kota Semarang;GoPay;;
+BLI26040006785;04/25/2026 03:13:33 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;6;Rp 42.000;Rp 380.400;;;;Si*** Pr***;62878***868096;KAB. BEKASI;COD;;
+BLI26040005983;04/09/2026 06:50:01 AM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 4.900;Rp 0;Nu*** Le***;62813***944686;KOTA PALEMBANG;Kartu Kredit;;BLIPLT04
+BLI26040006292;04/15/2026 01:55:01 PM;Selesai;SKN012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;Rp 0;Rp 10.000;Rp 0;Fa*** Hi***;62878***805258;Batam;Transfer Bank;;BLIPLT04
+BLI26040007011;04/28/2026 06:07:17 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Di*** Ut***;62813***887044;medan;Transfer Bank;;
+BLI26040006046;04/10/2026 06:20:03 PM;Dibatalkan;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;2;Rp 14.000;Rp 126.800;Rp 0;Rp 0;Rp 18.000;Di*** Ku***;62857***642624;Kota Semarang;Transfer Bank;;
+BLI26040006773;04/25/2026 11:23:47 AM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;2;Rp 19.200;Rp 101.200;;;;Si*** Se***;62852***628141;Tangsel;GoPay;;
+BLI26040007129;04/30/2026 09:39:19 AM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;5;Rp 0;Rp 250.000;Rp 0;Rp 10.000;Rp 18.000;Ma*** Sa***;62895***935898;Kota Pekanbaru;Kartu Kredit;;BLIPLT04
+BLI26040006522;04/19/2026 11:32:47 AM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 15.000;Bu*** Se***;62878***797713;Palembang;OVO;;
+BLI26040005790;04/05/2026 10:13:05 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 17.800;Rp 62.800;;;;Bu*** Pu***;62878***713390;Kab. Bekasi;Transfer Bank;BLISAVE04;BLIPLT04
+BLI26040005794;04/05/2026 10:29:59 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 14.300;Rp 45.900;Rp 0;Rp 0;Rp 12.000;An*** Sa***;62813***002157;bekasi;Kartu Kredit;;
+BLI26040006237;04/14/2026 04:49:25 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;2;Rp 0;Rp 91.800;;;;Fa*** An***;62878***677945;Kota Adm. Jakarta Barat;OVO;;
+BLI26040006632;04/22/2026 03:04:33 PM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;3;Rp 0;Rp 128.400;;;;De*** Nu***;62812***019382;Tangsel;Kartu Kredit;;
+BLI26040006483;04/18/2026 03:42:24 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 0;Na*** Ra***;62821***016342;Surabaya;COD;;
+BLI26040006192;04/13/2026 04:30:38 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;Bu*** Ma***;62821***314963;JAKARTA UTARA;GoPay;;
+BLI26040006243;04/14/2026 07:09:18 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;2;Rp 5.200;Rp 100.800;Rp 7.500;Rp 0;Rp 22.000;Di*** Ku***;62857***767682;Palembang;Transfer Bank;BLINEWB04;
+BLI26040006691;04/23/2026 05:14:43 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;;;;Re*** Nu***;62821***447118;Tangsel;Kartu Kredit;;
+BLI26040006167;04/12/2026 11:34:29 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;2;Rp 7.000;Rp 64.400;Rp 0;Rp 0;Rp 12.000;He*** Pu***;62878***075737;Kota Bogor;OVO;;
+BLI26040006855;04/26/2026 12:17:27 PM;SELESAI;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.600;Rp 45.400;;;;Di*** Sa***;62812***239986;jakarta selatan;Kartu Kredit;;BLIPD04
+BLI26040006895;04/26/2026 07:06:13 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.100;Rp 44.900;;;;Sa*** Pr***;62812***959563;DENPASAR;GoPay;;
+BLI26040006770;04/25/2026 10:20:49 AM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 7.200;Rp 35.600;Rp 0;Rp 0;Rp 0;Ek*** Sa***;62821***494396;Kota Denpasar;Transfer Bank;;
+BLI26040005580;04/04/2026 08:53:36 AM;Selesai;orl-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 8.100;Rp 34.700;Rp 0;Rp 0;Rp 0;Il*** Pe***;62896***514916;JAKARTA TIMUR;Transfer Bank;;
+BLI26040006570;04/20/2026 07:15:49 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 7.900;Rp 0;Ag*** Ku***;62813***239498;MEDAN;Kartu Kredit;;BLIPLT04
+BLI26040006694;04/24/2026 05:29:57 AM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;;;;Yo*** Le***;62821***206678;Kab. Bogor;GoPay;;BLIPLT04
+BLI26040006633;04/22/2026 04:49:24 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 9.000;In*** Le***;62852***914661;MANADO;Transfer Bank;;
+BLI26040006836;04/25/2026 10:54:46 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 9.600;Rp 50.600;;;;Nu*** Hi***;62812***740751;KOTA BANDUNG;Kartu Kredit;BLINEWB04;
+BLI26040018293;04/13/2026 12:47:39 PM;Dibatalkan;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;3;Rp 0;Rp 272.400;Rp 0;Rp 0;Rp 18.000;Fl*** Bu***;62895***214681;Medan;GoPay;;
+BLI26040006891;04/26/2026 07:00:34 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 19.400;Rp 112.200;Rp 0;Rp 8.900;Rp 0;Re*** Ku***;62857***808913;KOTA SURABAYA;GoPay;;BLIPD04
+BLI26040007057;04/29/2026 02:27:07 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 7.200;Rp 83.600;;;;Bu*** Pr***;62812***182383;jakarta selatan;Transfer Bank;BLISAVE04;
+BLI26040006259;04/14/2026 10:15:32 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 16.000;Rp 186.000;Rp 0;Rp 0;Rp 0;Pu*** Pr***;62896***422281;Tangerang;GoPay;;
+BLI26040006757;04/25/2026 07:18:31 AM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;An*** Le***;62878***451266;Kota Manado;Kartu Kredit;;BLIPD04
+BLI26040006559;04/20/2026 09:34:10 AM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;;;;Re*** Ut***;62812***970990;BANDUNG;Transfer Bank;;
+BLI26040005558;04/04/2026 12:40:58 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 4.700;Rp 19.800;Rp 0;Rp 0;Rp 0;Yo*** Hi***;62852***744079;Banjarmasin;COD;;
+BLI26040006512;04/19/2026 08:43:43 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 22.000;Na*** Pe***;62878***706229;Pekanbaru;Transfer Bank;;
+BLI26040005577;04/04/2026 08:48:01 AM;Retur;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;2;Rp 12.400;Rp 44.800;;;;Ba*** Ut***;62852***238379;KOTA SURABAYA;Transfer Bank;;
+BLI26040005639;04/04/2026 02:05:23 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;6;Rp 44.400;Rp 273.600;Rp 0;Rp 0;Rp 15.000;Ga*** Le***;62857***595420;KOTA YOGYAKARTA;GoPay;;
+BLI26040006845;04/26/2026 09:40:35 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 6.800;Rp 49.300;;;;Tr*** Ma***;62895***210862;Jaktim;Transfer Bank;;
+BLI26040006805;04/25/2026 07:53:03 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 6.800;Rp 49.300;Rp 0;Rp 0;Rp 12.000;Bu*** Ut***;62821***208946;jakarta barat;Transfer Bank;;
+BLI26040006694;04/24/2026 05:29:57 AM;Selesai;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;1;Rp 6.600;Rp 59.700;;;;Yo*** Le***;62821***206678;Kab. Bogor;GoPay;;BLIPLT04
+BLI26040006554;04/19/2026 08:15:36 PM; Selesai ;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;Ri*** Se***;62813***463964;yogyakarta;GoPay;;
+BLI26040006952;04/27/2026 02:22:22 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;3;Rp 28.800;Rp 151.800;;;;Wa*** Pu***;62852***333880;jakarta selatan;GoPay;;
+BLI26040007091;04/29/2026 09:06:11 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 0;He*** Ra***;62896***787618;Kota Jakarta Selatan;Transfer Bank;;
+BLI26040006960;04/27/2026 07:22:58 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.600;Rp 45.400;Rp 0;Rp 0;Rp 18.000;Nu*** An***;62813***342281;BATAM;Transfer Bank;;
+BLI26040006800;04/25/2026 07:50:01 PM;SELESAI;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;2;Rp 29.600;Rp 172.400;Rp 0;Rp 0;Rp 12.000;Pu*** An***;62821***054622;Kota Makassar;GoPay;;
+BLI26040006410;04/17/2026 01:25:38 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;;;;Fa*** Ut***;62813***351327;Kota Tangerang Selatan;GoPay;;
+BLI26040018305;04/13/2026 12:50:33 PM;Dibatalkan;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 0;Rp 181.600;Rp 0;Rp 0;Rp 18.000;Fl*** Bu***;62895***214681;medan;Transfer Bank;;
+BLI26040006916;04/26/2026 09:35:13 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 5.400;Rp 37.400;Rp 0;Rp 0;Rp 22.000;Ci*** Fi***;62896***483685;Tangerang Selatan;Transfer Bank;;
+BLI26040006632;04/22/2026 03:04:33 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 0;De*** Nu***;62812***019382;Tangsel;Kartu Kredit;;
+BLI26040006159;04/12/2026 10:07:10 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;;;;He*** Pr***;62813***660943;semarang;Kartu Kredit;;
+BLI26040005566;04/04/2026 06:03:31 AM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.400;Rp 45.600;Rp 0;Rp 0;Rp 22.000;Il*** An***;62852***001306;Medan;Transfer Bank;;
+BLI26040006524;04/19/2026 11:49:58 AM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;;;;Bu*** Se***;62813***788471;JAKARTA BARAT;Kartu Kredit;;
+BLI26040005753;04/05/2026 01:23:14 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 4.700;Rp 19.800;;;;Ek*** Ku***;62812***602804;Kota Adm. Jakarta Selatan;Transfer Bank;;
+BLI26040005439;04/01/2026 09:19:06 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 15.000;Bu*** Ra***;62878***379620;KOTA SURABAYA;COD;;
+BLI26040005723;04/05/2026 12:04:29 AM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;3;Rp 29.700;Rp 150.900;Rp 0;Rp 18.100;Rp 12.000;Re*** Fi***;62896***939351;Kota Yogyakarta;Transfer Bank;;BLIDD04PLT
+BLI26040006474;04/18/2026 01:20:35 PM;Dibatalkan;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;;;;An*** Ut***;62857***753652;Kota Pekanbaru;OVO;;
+BLI26040006283;04/15/2026 12:55:49 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;;;;He*** Ra***;62857***478581;Kota Adm. Jakarta Barat;COD;;
+BLI26040006694;04/24/2026 05:29:57 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;4;Rp 9.600;Rp 88.400;;;;Yo*** Le***;62821***206678;Kab. Bogor;GoPay;;BLIPLT04
+BLI26040005786;04/05/2026 08:52:27 PM; Selesai ;hcr-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 8.800;Rp 44.200;Rp 0;Rp 0;Rp 0;Ay*** Ku***;62857***758069;YOGYAKARTA;COD;;
+BLI26040006298;04/15/2026 04:28:09 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 15.000;Fa*** Ma***;62895***499113;Jakarta Timur;OVO;;
+BLI26040006483;04/18/2026 03:42:24 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 7.200;Rp 83.600;;;;Na*** Ra***;62821***016342;Surabaya;COD;;
+BLI26040006964;04/27/2026 07:41:27 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 5.400;Rp 37.400;Rp 0;Rp 0;Rp 15.000;Si*** Pe***;62821***692453;Kota Banjarmasin;OVO;;
+BLI26040007096;04/29/2026 10:04:16 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 0;Il*** Ku***;62813***804198;Kota Jakarta Timur;Kartu Kredit;;
+BLI26040006773;04/25/2026 11:23:47 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;2;Rp 24.000;Rp 198.400;;;;Si*** Se***;62852***628141;Tangsel;GoPay;;
+BLI26040005888;04/07/2026 04:20:04 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;2;Rp 7.000;Rp 64.400;Rp 0;Rp 0;Rp 18.000;Re*** Am***;62857***131962;Jakarta Barat;Transfer Bank;;
+BLI26040005836;04/06/2026 06:46:40 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Re*** Ku***;62896***503608;KOTA MEDAN;Transfer Bank;;
+BLI26040006698;04/24/2026 09:00:14 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 12.000;Nu*** Fa***;62896***496269;Kota Medan;GoPay;;
+BLI26040005718;04/04/2026 10:50:04 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 8.800;Rp 37.100;Rp 0;Rp 0;Rp 0;Yo*** Ut***;62857***826246;Jakarta Barat;Transfer Bank;;
+BLI26040006478;04/18/2026 02:58:11 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 9.000;Le*** Nu***;62812***226984;Tangerang;Transfer Bank;;
+TEST-BLI-0004;04/12/2026 11:34:29 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 100;2;Rp 0;Rp 200;Rp 0;Rp 0;Rp 12.000;tester_seller;62878***075737;Kota Bogor;OVO;;
+BLI26040006021;04/10/2026 08:36:14 AM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 0;Rp 50.000;Rp 0;Rp 0;Rp 12.000;In*** Sa***;62878***110846;Makassar;Kartu Kredit;;
+BLI26040006285;04/15/2026 01:17:30 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 12.000;Di*** Fa***;62895***864469;denpasar;Kartu Kredit;;
+BLI26040006642;04/22/2026 07:30:03 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;3;Rp 0;Rp 168.300;Rp 0;Rp 0;Rp 18.000;He*** Am***;62878***361215;Kota Denpasar;GoPay;;
+BLI26040007065;04/29/2026 03:42:08 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;An*** Wi***;62813***344673;Kota Tangerang Selatan;COD;;
+BLI26040005433;04/01/2026 08:04:02 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 15.000;Il*** Nu***;62895***856291;JAKARTA PUSAT;Kartu Kredit;;
+BLI26040005744;04/05/2026 12:45:22 PM;Dibatalkan;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;2;Rp 34.000;Rp 98.600;;;;Ma*** Sa***;62857***941829;KOTA BANJARMASIN;Transfer Bank;;
+BLI26040006512;04/19/2026 08:43:43 AM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;2;Rp 7.000;Rp 64.400;;;;Na*** Pe***;62878***706229;Pekanbaru;Transfer Bank;;
+BLI26040006451;04/17/2026 10:54:28 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;2;Rp 7.000;Rp 64.400;Rp 0;Rp 0;Rp 12.000;Ri*** Ra***;62813***672846;Kota Bandung;Transfer Bank;;
+BLI26040006293;04/15/2026 01:58:28 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 15.000;Rp 0;Rp 9.000;Pu*** Pu***;62857***548431;BEKASI;GoPay;BLISAVE04;
+BLI26040005974;04/08/2026 08:16:43 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 15.000;Na*** Le***;62813***818774;PEKANBARU;OVO;;
+BLI26040006344;04/16/2026 01:49:12 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 4.600;Rp 18.000;Ri*** Fa***;62895***621155;MEDAN;Kartu Kredit;;BLIPLT04
+BLI26040006577;04/20/2026 09:33:06 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 0;An*** An***;62821***655605;KOTA PALEMBANG;Transfer Bank;;
+BLI26040006104;04/12/2026 11:56:05 AM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 18.000;Ay*** Ra***;62821***098196;Tangerang Selatan;GoPay;;
+BLI26040005942;04/08/2026 11:17:23 AM;Selesai;MEN-004;Lumina Men Shave Gel 150ml Original;Rp 38.800;1;Rp 3.100;Rp 35.700;;;;De*** Ku***;62857***731103;Medan;Transfer Bank;;
+BLI26040006845;04/26/2026 09:40:35 AM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 6.800;Rp 49.300;;;;Tr*** Ma***;62895***210862;Jaktim;Transfer Bank;;
+BLI26040006926;04/26/2026 09:53:01 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 14.800;Rp 86.200;Rp 10.600;Rp 8.500;Rp 22.000;Di*** Ma***;62812***240332;bandung;OVO;BLISAVE04;BLIPD04
+BLI26040006745;04/24/2026 09:02:38 PM;Retur;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 15.000;Ci*** Ku***;62857***408657;Kota Makassar;Kartu Kredit;;
+BLI26040006559;04/20/2026 09:34:10 AM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 0;Re*** Ut***;62812***970990;BANDUNG;Transfer Bank;;
+BLI26040005836;04/06/2026 06:46:40 PM;Selesai;SKN-012 ;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 0;Rp 29.600;;;;Re*** Ku***;62896***503608;KOTA MEDAN;Transfer Bank;;
+BLI26040006006;04/09/2026 07:03:55 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;3;Rp 18.000;Rp 162.600;Rp 0;Rp 0;Rp 12.000;Yo*** Le***;62857***412290;Kota Banjarmasin;Transfer Bank;;
+BLI26040005406;04/01/2026 11:26:31 AM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 7.500;Rp 6.200;Rp 15.000;Di*** Fa***;62896***271828;balikpapan;Transfer Bank;BLINEWB04;BLIPLT04
+BLI26040006106;04/12/2026 11:56:13 AM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;2;Rp 10.000;Rp 90.000;;;;Ba*** Fi***;62821***909998;yogyakarta;OVO;BLISAVE04;
+BLI26040005976;04/08/2026 08:26:36 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;;;;Nu*** Fi***;62813***071958;Kota Jakarta Barat;OVO;BLINEWB04;
+BLI26040005971;04/08/2026 08:06:54 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;Rp 0;Rp 0;Rp 9.000;Di*** Pe***;62878***995096;Bekassi;Kartu Kredit;;
+BLI26040006865;04/26/2026 02:11:01 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 13.200;Rp 77.600;Rp 0;Rp 0;Rp 15.000;Le*** Wi***;62896***400341;Bogor;OVO;;
+BLI26040006880;04/26/2026 05:26:08 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.600;Rp 45.400;;;;Na*** Sa***;62895***463319;BOGOR;GoPay;BLINEWB04;BLIPLT04
+BLI26040005619;04/04/2026 12:14:51 PM;Selesai;BDY001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 10.000;Rp 50.200;Rp 0;Rp 0;Rp 0;Sa*** Se***;62896***899743;Kota Adm. Jakarta Barat;Transfer Bank;;
+BLI26040007148;04/30/2026 06:09:03 PM;Dibatalkan;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;2;Rp 14.000;Rp 126.800;Rp 0;Rp 0;Rp 0;Le*** Ra***;62852***487196;Kab. Bogor;GoPay;;
+BLI26040005515;04/03/2026 04:20:19 PM;Dibatalkan;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 8.100;Rp 41.900;Rp 0;Rp 0;Rp 0;Na*** Pu***;62878***993847;Kab. Malang;Transfer Bank;;
+BLI26040006845;04/26/2026 09:40:35 AM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 10.700;Rp 49.500;Rp 0;Rp 0;Rp 15.000;Tr*** Ma***;62895***210862;Jaktim;Transfer Bank;;
+BLI26040018322;04/13/2026 01:15:14 PM;Selesai;;  Lumina Daily Sunscreen SPF50 40ml Original ;Rp 90.800;3;Rp 0;Rp 272.400;Rp 0;Rp 0;Rp 9.000;Fl*** Bu***;62895***214681;Kota Medan;GoPay;;
+BLI26040006899;04/26/2026 07:17:59 PM;Dibatalkan;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 5.900;Rp 40.000;Rp 0;Rp 0;Rp 12.000;Ri*** Pe***;62812***948739;MAKASSAR;Kartu Kredit;;
+BLI26040006683;04/23/2026 02:55:43 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;;;;Ba*** Ra***;62812***824068;DEPOK;Transfer Bank;;
+BLI26040005518;04/03/2026 06:09:18 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 9.700;Rp 31.000;Rp 0;Rp 0;Rp 22.000;Ma*** Ra***;62878***451935;jakarta selatan;GoPay;;
+BLI26040005754;04/05/2026 01:37:14 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.400;Rp 45.600;Rp 0;Rp 0;Rp 0;Nu*** Hi***;62812***740751;Kab. Bandung;Kartu Kredit;;
+BLI26040006839;04/25/2026 11:41:43 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 5.900;Rp 40.000;Rp 15.000;Rp 13.700;Rp 0;Ay*** Ma***;62812***391890;Kab. Bandung;Kartu Kredit;BLISAVE04;BLIPD04
+BLI26040006683;04/23/2026 02:55:43 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;;;;Ba*** Ra***;62812***824068;DEPOK;Transfer Bank;;
+BLI26040006006;04/09/2026 07:03:55 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Yo*** Le***;62857***412290;Kota Banjarmasin;Transfer Bank;;
+BLI26040006598;04/21/2026 08:14:15 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;3;Rp 17.100;Rp 196.800;Rp 0;Rp 0;Rp 0;In*** Ut***;62896***345453;Makassar;Transfer Bank;;
+BLI26040007007;04/28/2026 02:09:48 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Nu*** Fa***;62812***508334;Kab. Bekasi;Transfer Bank;;
+BLI26040007115;04/30/2026 08:02:42 AM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;1;Rp 4.500;Rp 41.400;Rp 0;Rp 0;Rp 12.000;Re*** Fi***;62878***840817;DEPOK;OVO;;
+BLI26040006573;04/20/2026 08:41:32 PM;Selesai;SKN-008;  Lumina Sunscreen Stick SPF50 15g Original ;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 7.500;Rp 0;Rp 12.000;Il*** Sa***;62878***517284;KOTA PALEMBANG;Transfer Bank;BLINEWB04;
+BLI26040006059;04/10/2026 09:02:10 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 0;Rp 15.000;Il*** Am***;62895***929895;Kota Pekanbaru;Kartu Kredit;;
+BLI26040005884;04/07/2026 03:49:26 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 9.000;Fa*** Am***;62878***383248;Makassar;Transfer Bank;;
+BLI26040006790;04/25/2026 05:31:54 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 20.100;Rp 15.000;Ri*** Nu***;62813***214602;balikpapan;Kartu Kredit;;BLIPD04
+BLI26040006888;04/26/2026 06:56:30 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 5.900;Rp 40.000;Rp 0;Rp 7.700;Rp 0;In*** Ku***;62878***260262;Depok;Kartu Kredit;;BLIPLT04
+BLI26040006811;04/25/2026 08:40:48 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 11.300;Rp 60.000;Rp 15.000;Rp 0;Rp 0;Ri*** Sa***;62821***589919;JAKARTA SELATAN;OVO;BLISAVE04;
+BLI26040005577;04/04/2026 08:48:01 AM;Retur;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;1;Rp 4.900;Rp 24.700;Rp 0;Rp 0;Rp 15.000;Ba*** Ut***;62852***238379;KOTA SURABAYA;Transfer Bank;;
+BLI26040006691;04/23/2026 05:14:43 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 15.000;Re*** Nu***;62821***447118;Tangsel;Kartu Kredit;;
+BLI26040007157;04/30/2026 07:32:57 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 0;Pu*** Wi***;62821***950220;pekanbaru;Kartu Kredit;;
+BLI26040005928;04/08/2026 09:46:47 AM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;2;Rp 0;Rp 85.600;Rp 0;Rp 0;Rp 18.000;Si*** An***;62812***128426;KAB. TANGERANG;Transfer Bank;;
+BLI26040006386;04/17/2026 07:49:09 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;2;Rp 11.400;Rp 131.200;Rp 0;Rp 0;Rp 15.000;Pu*** Ma***;62857***358550;Bogor;GoPay;;
+BLI26040006754;04/24/2026 10:08:46 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;2;Rp 3.600;Rp 116.800;;;;Re*** Am***;62813***754088;Kota Adm. Jakarta Timur;GoPay;;
+BLI26040005594;04/04/2026 10:28:31 AM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;2;Rp 21.400;Rp 99.000;Rp 0;Rp 0;Rp 0;An*** Ku***;62896***676361;SURABAYA;Kartu Kredit;;
+BLI26040006362;04/16/2026 08:43:23 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Na*** Sa***;62821***009512;Kota Adm. Jakarta Barat;GoPay;BLISAVE04;
+BLI26040005869;04/07/2026 11:51:06 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;Rp 0;Rp 0;Rp 15.000;Di*** Ku***;62895***361138;surabaya;OVO;;
+BLI26040006092;04/11/2026 11:21:07 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;;;;Yo*** Ku***;62857***885280;BALIKPAPAN;Transfer Bank;;
+BLI26040005890;04/07/2026 06:04:23 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;3;Rp 7.800;Rp 151.200;;;;An*** Sa***;62813***470780;palembang;Transfer Bank;BLINEWB04;
+BLI26040006597;04/21/2026 03:10:26 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;Rp 0;Rp 0;Rp 12.000;An*** Wi***;62896***708971;Palembang;OVO;;
+BLI26040006381;04/16/2026 11:48:26 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;3;Rp 7.800;Rp 151.200;Rp 0;Rp 0;Rp 0;Bu*** Pe***;62857***318244;Kota Medan;Transfer Bank;;
+BLI26040007007;04/28/2026 02:09:48 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;1;Rp 6.500;Rp 125.100;Rp 0;Rp 0;Rp 0;Nu*** Fa***;62812***508334;Kab. Bekasi;Transfer Bank;;
+BLI26040006969;04/27/2026 09:36:04 PM;Dibatalkan;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 4.500;Rp 36.200;Rp 0;Rp 0;Rp 18.000;De*** Sa***;62857***347612;Kota Tangerang;Transfer Bank;;
+BLI26040006614;04/22/2026 09:38:35 AM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;3;Rp 21.000;Rp 190.200;;;;Di*** Am***;62895***147712;jakarta selatan;COD;;BLIPLT04
+BLI26040006274;04/15/2026 09:12:47 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 7.500;Rp 0;Rp 12.000;Ga*** Ma***;62821***102255;Kota Adm. Jakarta Pusat;Transfer Bank;BLINEWB04;
+BLI26040006773;04/25/2026 11:23:47 AM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 4.500;Rp 36.200;Rp 0;Rp 0;Rp 12.000;Si*** Se***;62852***628141;Tangsel;GoPay;;
+BLI26040005790;04/05/2026 10:13:05 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 7.800;Rp 42.200;;;;Bu*** Pu***;62878***713390;Kab. Bekasi;Transfer Bank;BLISAVE04;BLIPLT04
+BLI26040006657;04/22/2026 09:54:37 PM;Dibatalkan;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 12.000;Tr*** Ra***;62852***368845;BANJARMASIN;GoPay;;
+BLI26040006094;04/12/2026 09:22:36 AM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 4.600;Rp 15.000;In*** Ra***;62821***411862;KOTA PEKANBARU;GoPay;;BLIPLT04
+BLI26040006295;04/15/2026 03:01:37 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 0;Rp 5.500;Rp 0;Yo*** Nu***;62821***446683;TANGERANG SELATAN;Transfer Bank;;BLIPLT04
+BLI26040005522;04/03/2026 07:26:40 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 4.700;Rp 19.800;;;;In*** An***;62878***763113;Malang;Transfer Bank;;
+BLI26040005421;04/01/2026 01:22:31 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;Ga*** Sa***;62896***346185;Pekanbaru;Kartu Kredit;;
+BLI26040006499;04/18/2026 10:45:17 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 15.000;Si*** Ku***;62896***117783;Jaksel;Transfer Bank;;
+BLI26040005893;04/07/2026 06:17:08 PM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;2;Rp 5.200;Rp 100.800;Rp 0;Rp 0;Rp 0;In*** Sa***;62821***770236;KOTA PALEMBANG;Transfer Bank;;
+BLI26040006406;04/17/2026 01:16:17 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;;;;Ag*** Ku***;62896***000742;JAKARTA SELATAN;GoPay;;BLIPLT04
+BLI26040007158;04/30/2026 07:52:42 PM;Selesai;BDY-004;  Lumina Milk Body Wash 450ml Original ;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 15.000;Di*** Nu***;62895***990675;Jogja;GoPay;;
+BLI26040006430;04/17/2026 08:33:22 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 7.500;Rp 0;Rp 9.000;Ri*** Ku***;62852***197931;Kab. Tangerang;OVO;BLINEWB04;
+BLI26040007016;04/28/2026 06:35:14 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 0;Bu*** Ku***;62895***739875;Kota Makassar;Transfer Bank;;
+BLI26040005639;04/04/2026 02:05:23 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 8.800;Rp 44.200;;;;Ga*** Le***;62857***595420;KOTA YOGYAKARTA;GoPay;;
+BLI26040006305;04/15/2026 06:40:54 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 0;Rp 5.500;Rp 9.000;Ri*** Pu***;62896***353369;Bekasi;Kartu Kredit;;BLIPLT04
+BLI26040006406;04/17/2026 01:16:17 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Ag*** Ku***;62896***000742;JAKARTA SELATAN;GoPay;;BLIPLT04
+BLI26040006707;04/24/2026 10:21:08 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 22.000;An*** Nu***;62896***384214;depok;Transfer Bank;;
+BLI26040005442;04/01/2026 09:32:07 PM;Selesai;MEN-003;Lumina Men Body Spray 120ml Original;Rp 50.000;1;Rp 5.000;Rp 45.000;Rp 0;Rp 0;Rp 15.000;Ek*** Hi***;62821***265038;Kab. Bandung;Transfer Bank;;
+BLI26040006855;04/26/2026 12:17:27 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 14.800;Rp 86.200;Rp 0;Rp 10.500;Rp 22.000;Di*** Sa***;62812***239986;jakarta selatan;Kartu Kredit;;BLIPD04
+BLI26040006838;04/25/2026 11:32:12 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 9.600;Rp 50.600;;;;Ri*** Fa***;62895***621155;KOTA MEDAN;GoPay;;
+BLI26040005806;04/05/2026 10:50:22 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 24.600;Rp 66.200;Rp 10.000;Rp 10.000;Rp 12.000;Fi*** Sa***;62852***147824;Kota Adm. Jakarta Utara;OVO;;BLIDD04CF
+BLI26040007108;04/29/2026 10:30:36 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 0;Rp 0;Rp 0;Yo*** Ku***;62857***551135;makassar;Transfer Bank;;
+BLI26040005996;04/09/2026 02:18:43 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;2;Rp 3.600;Rp 116.800;Rp 7.500;Rp 5.800;Rp 0;Ci*** Sa***;62821***152620;Kota Jakarta Selatan;GoPay;BLINEWB04;BLIPLT04
+BLI26040005488;04/03/2026 09:21:45 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 28.700;Rp 82.500;;;;Ma*** Sa***;62896***598323;Kota Depok;Kartu Kredit;;
+BLI26040005770;04/05/2026 04:38:32 PM;Selesai;ORL-002 ;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 6.200;Rp 22.400;Rp 0;Rp 0;Rp 15.000;Ma*** Ut***;62821***435779;denpasar;Kartu Kredit;;
+BLI26040005790;04/05/2026 10:13:05 PM;Selesai;SKN-002;  Lumina Gentle Face Wash 200ml Original ;Rp 71.300;1;Rp 19.400;Rp 51.900;Rp 15.000;Rp 7.800;Rp 0;Bu*** Pu***;62878***713390;Kab. Bekasi;Transfer Bank;BLISAVE04;BLIPLT04
+BLI26040005626;04/04/2026 12:28:58 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 11.200;Rp 49.000;Rp 0;Rp 0;Rp 15.000;De*** Hi***;62821***602905;Semarang;Transfer Bank;;
+BLI26040005817;04/06/2026 10:02:59 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 13.500;Rp 6.700;Rp 0;Fa*** Ku***;62821***506156;jakarta timur;Kartu Kredit;BLISAVE04;BLIPLT04
+BLI26040006422;04/17/2026 07:33:45 PM; Selesai ;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 0;Si*** Fa***;62896***219491;KOTA SURABAYA;Transfer Bank;;
+BLI26040006833;04/25/2026 10:47:59 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 26.400;Rp 155.200;Rp 0;Rp 0;Rp 0;He*** Ku***;62852***981627;Makassar;Transfer Bank;;
+BLI26040006707;04/24/2026 10:21:08 AM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;;;;An*** Nu***;62896***384214;depok;Transfer Bank;;
+BLI26040007162;04/30/2026 08:19:00 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 15.000;Di*** Wi***;62821***968680;Kab. Bekasi;GoPay;;
+BLI26040007083;04/29/2026 08:02:32 PM;Selesai;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;1;Rp 6.600;Rp 59.700;Rp 0;Rp 0;Rp 15.000;Tr*** Ma***;62812***172693;Kota Yogyakarta;Kartu Kredit;;
+BLI26040006808;04/25/2026 08:27:19 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;2;Rp 21.400;Rp 99.000;Rp 0;Rp 0;Rp 15.000;An*** Pr***;62813***834485;Kota Jakarta Utara;OVO;;
+BLI26040006179;04/13/2026 01:56:31 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;2;Rp 11.400;Rp 131.200;Rp 0;Rp 0;Rp 15.000;In*** Pr***;62896***906034;Kota Jakarta Barat;Kartu Kredit;;
+BLI26040006763;04/25/2026 08:41:32 AM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 14.800;Rp 86.200;Rp 0;Rp 16.800;Rp 15.000;Ag*** Pe***;62813***925771;Kota Jakarta Pusat;Kartu Kredit;;BLIPD04
+BLI26040006990;04/28/2026 11:40:02 AM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 0;Rp 0;Rp 12.000;Ri*** Sa***;62821***690242;Kab. Malang;COD;;
+BLI26040006707;04/24/2026 10:21:08 AM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;;;;An*** Nu***;62896***384214;depok;Transfer Bank;;
+BLI26040006971;04/27/2026 10:49:54 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 4.800;Rp 30.900;Rp 0;Rp 0;Rp 0;In*** Am***;62895***332514;KOTA BANDUNG;Kartu Kredit;;
+BLI26040006339;04/16/2026 01:37:51 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 12.000;Ag*** Ut***;62813***389199;PEKANBARU;OVO;;
+BLI26040006255;04/14/2026 09:04:00 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;Rp 0;Rp 0;Rp 18.000;De*** Sa***;62813***367418;jakarta selatan;GoPay;;
+BLI26040005695;04/04/2026 08:24:34 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 25.500;Rp 75.500;Rp 7.500;Rp 0;Rp 15.000;Ba*** Sa***;62821***621573;Jaksel;GoPay;BLINEWB04;
+BLI26040005508;04/03/2026 11:32:56 AM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 8.800;Rp 44.200;Rp 0;Rp 23.400;Rp 15.000;Sa*** Am***;62821***049964;Kota Jakarta Timur;Kartu Kredit;;BLIDD04PLT
+BLI26040006292;04/15/2026 01:55:01 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;;;;Fa*** Hi***;62878***805258;Batam;Transfer Bank;;BLIPLT04
+BLI26040005845;04/06/2026 08:40:52 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;2;Rp 5.600;Rp 106.600;;;;Fi*** Hi***;62878***787453;KOTA MANADO;COD;BLINEWB04;
+BLI26040006537;04/19/2026 06:08:25 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Ag*** Pr***;62852***611675;Bekasi;Transfer Bank;;
+BLI26040006567;04/20/2026 03:28:29 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 0;Fi*** Am***;62878***568069;SEMARANG;OVO;;
+BLI26040006904;04/26/2026 08:53:14 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 14.800;Rp 86.200;Rp 0;Rp 6.300;Rp 18.000;Le*** Se***;62821***273107;KOTA BALIKPAPAN;OVO;;BLIPLT04
+BLI26040006376;04/16/2026 10:33:56 PM;Dibatalkan;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;Si*** Ku***;62821***599380;Kab. Tangerang;Transfer Bank;;
+BLI26040006327;04/16/2026 09:20:07 AM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Le*** Se***;62857***731138;Jaktim;COD;BLINEWB04;
+BLI26040006994;04/28/2026 01:16:30 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 15.000;Ba*** Sa***;62896***359486;bogor;Transfer Bank;;
+BLI26040005957;04/08/2026 03:40:57 PM; Selesai ;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;2;Rp 0;Rp 181.600;Rp 0;Rp 0;Rp 9.000;Ba*** Am***;62812***993301;Tangsel;GoPay;;
+BLI26040005497;04/03/2026 11:17:20 AM;Selesai;skn-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;3;Rp 58.200;Rp 155.700;Rp 0;Rp 9.600;Rp 18.000;Ci*** Ra***;62821***261487;Medan;Transfer Bank;;BLIPLT04
+BLI26040006041;04/10/2026 03:06:23 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Fa*** Wi***;62878***289172;Kota Jakarta Barat;GoPay;;
+BLI26040005987;04/09/2026 10:21:16 AM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 1.200;Rp 41.600;Rp 0;Rp 0;Rp 0;Si*** Am***;62852***331499;Kota Balikpapan;Transfer Bank;;
+BLI26040006694;04/24/2026 05:29:57 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 0;Rp 10.000;Rp 0;Yo*** Le***;62821***206678;Kab. Bogor;GoPay;;BLIPLT04
+BLI26040006716;04/24/2026 03:58:39 PM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;;;;Ri*** Ku***;62896***114582;balikpapan;COD;;
+BLI26040006666;04/23/2026 06:12:32 AM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 9.000;Ek*** An***;62896***895999;makassar;GoPay;;
+BLI26040006219;04/14/2026 08:02:16 AM;Selesai;SKN-008;Lumina Sunscreen Stick SPF50 15g Original;Rp 101.000;1;Rp 8.000;Rp 93.000;;;;Bu*** Nu***;62852***314955;Kab. Malang;Transfer Bank;;
+BLI26040007105;04/29/2026 10:21:17 PM;Dibatalkan;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 0;Le*** Sa***;62895***821787;KOTA MEDAN;COD;;
+BLI26040005641;04/04/2026 03:43:03 PM;Selesai;HCR-005;Lumina Keratin Hair Mask 200g Original;Rp 90.800;1;Rp 13.300;Rp 77.500;Rp 0;Rp 3.800;Rp 0;Il*** Sa***;62878***517284;PALEMBANG;OVO;;BLIPLT04
+BLI26040007113;04/29/2026 10:47:16 PM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;1;Rp 4.000;Rp 46.000;;;;Ga*** Sa***;62852***839815;TANGERANG;OVO;;
+BLI26040006488;04/18/2026 06:21:13 PM;Dibatalkan;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 5.400;Rp 15.000;Yo*** Ra***;62857***297825;Kota Tangerang;GoPay;;BLIPLT04
+BLI26040006934;04/27/2026 08:49:23 AM;Selesai;bdy-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 6.800;Rp 49.300;;;;Ay*** Ra***;62857***251334;Banjarmasin;Kartu Kredit;;
+BLI26040005522;04/03/2026 07:26:40 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;2;Rp 46.000;Rp 217.200;Rp 0;Rp 0;Rp 18.000;In*** An***;62878***763113;Malang;Transfer Bank;;
+BLI26040005830;04/06/2026 02:15:35 PM;Dibatalkan;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 22.000;Pu*** Nu***;62813***111274;MEDAN;Transfer Bank;;
+BLI26040007072;04/29/2026 04:31:38 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 0;Rp 0;Rp 12.000;Na*** An***;62812***639913;makassar;GoPay;;
+BLI26040006684;04/23/2026 03:48:06 PM;Selesai;MEN-004;Lumina Men Shave Gel 150ml Original;Rp 38.800;1;Rp 3.100;Rp 35.700;;;;Ma*** Nu***;62857***736674;Kota Adm. Jakarta Timur;Kartu Kredit;;
+BLI26040005470;04/02/2026 08:39:24 PM;Selesai;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;Rp 0;Rp 5.100;Rp 0;Tr*** Le***;62878***275416;Denpasar;OVO;;BLIPLT04
+BLI26040006227;04/14/2026 12:47:16 PM;Dibatalkan;HCR-003;Lumina Smooth Conditioner 340ml Original;Rp 53.000;1;Rp 2.600;Rp 50.400;;;;Pu*** Le***;62896***415280;Surabaya;Transfer Bank;;
+BLI26040005587;04/04/2026 09:32:44 AM;Selesai;HCR-001;Lumina Anti-Dandruff Shampoo 340ml Original;Rp 53.000;1;Rp 7.400;Rp 45.600;Rp 0;Rp 0;Rp 0;Sa*** Pr***;62852***165453;pekanbaru;Kartu Kredit;;
+BLI26040005692;04/04/2026 08:07:00 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 6.600;Rp 29.100;;;;Yo*** Ut***;62857***429822;bandung;Transfer Bank;;
+BLI26040006257;04/14/2026 10:07:06 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 12.000;Di*** Nu***;62895***990675;Yogyakarta;OVO;;
+BLI26040006860;04/26/2026 12:19:36 PM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 4.900;Rp 27.700;;;;Il*** Ma***;62821***668257;BATAM;Kartu Kredit;;BLIPLT04
+BLI26040006786;04/25/2026 05:16:00 PM;Selesai;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;2;Rp 19.600;Rp 113.000;;;;Ri*** Wi***;62812***889458;Kota Balikpapan;OVO;BLINEWB04;BLIPLT04
+BLI26040006002;04/09/2026 07:01:37 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 0;Rp 50.000;;;;Nu*** An***;62852***442179;Tangerang Selatan;Kartu Kredit;;BLIPLT04
+BLI26040005680;04/04/2026 07:11:01 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;3;Rp 29.100;Rp 93.000;Rp 0;Rp 0;Rp 15.000;Le*** Ma***;62857***124971;KOTA SURABAYA;GoPay;;
+BLI26040005494;04/03/2026 10:30:16 AM;Selesai;;Lumina Dry Shampoo Spray 150ml Original;Rp 70.400;1;Rp 17.800;Rp 52.600;Rp 0;Rp 0;Rp 9.000;Si*** Am***;62857***516412;Batam;Transfer Bank;;
+BLI26040018157;04/09/2026 08:38:18 PM;Retur;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;32;Rp 128.000;Rp 2.451.200;Rp 0;Rp 0;Rp 9.000;Gr*** To***;62852***076352;tangerang;Transfer Bank;;
+BLI26040006474;04/18/2026 01:20:35 PM;Dibatalkan;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 0;Rp 90.800;Rp 0;Rp 0;Rp 9.000;An*** Ut***;62857***753652;Kota Pekanbaru;OVO;;
+BLI26040005462;04/02/2026 08:24:30 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;4;Rp 32.000;Rp 372.000;Rp 0;Rp 0;Rp 9.000;Ay*** Ut***;62878***941191;Kota Adm. Jakarta Barat;GoPay;;
+BLI26040007075;04/29/2026 06:22:30 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;Le*** Le***;62821***480782;Kota Jakarta Barat;Kartu Kredit;;
+BLI26040005857;04/06/2026 11:39:50 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;2;Rp 0;Rp 91.800;Rp 0;Rp 0;Rp 12.000;Ba*** Ra***;62852***028095;Jakarta Timur;GoPay;;
+BLI26040007020;04/28/2026 07:07:55 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 8.000;Rp 93.000;Rp 0;Rp 0;Rp 15.000;Sa*** Le***;62812***844489;BEKASI;GoPay;;
+BLI26040006397;04/17/2026 10:03:55 AM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;;;;Di*** Wi***;62821***968680;Kab. Bekasi;COD;;
+BLI26040006145;04/12/2026 07:52:51 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;;;;Yo*** Hi***;62878***037764;surabaya;GoPay;BLISAVE04;
+BLI26040006733;04/24/2026 08:39:04 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;Rp 7.500;Rp 0;Rp 15.000;Ri*** Fi***;62896***951001;tangerang selatan;GoPay;BLINEWB04;
+BLI26040005868;04/07/2026 11:06:56 AM;Dibatalkan;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;;;;Di*** Fa***;62896***271828;BALIKPAPAN;GoPay;;
+BLI26040006903;04/26/2026 08:10:48 PM;Selesai;HCR-006;  Lumina Anti Hair-Fall Tonic 100ml Original ;Rp 66.300;1;Rp 9.800;Rp 56.500;Rp 0;Rp 0;Rp 0;In*** Pe***;62852***937411;Kota Depok;Transfer Bank;;
+BLI26040005612;04/04/2026 11:26:24 AM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;1;Rp 9.600;Rp 33.200;Rp 0;Rp 0;Rp 9.000;An*** Pr***;62813***834485;Jakarta Barat;OVO;;
+BLI26040005735;04/05/2026 10:00:42 AM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 11.200;Rp 49.000;Rp 0;Rp 0;Rp 9.000;An*** Pu***;62821***401588;Kota Yogyakarta;GoPay;;
+BLI26040018234;04/05/2026 07:09:47 PM;Selesai;SKN-003;Lumina Brightening Serum 30ml Original;Rp 131.600;31;Rp 713.000;Rp 3.366.600;Rp 0;Rp 0;Rp 12.000;Gr*** To***;62852***076352;KAB. TANGERANG;OVO;;
+BLI26040006064;04/10/2026 11:58:49 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 0;Ci*** Ma***;62895***788266;Bandung;Transfer Bank;;
+BLI26040006312;04/15/2026 09:02:48 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 0;An*** Se***;62812***261328;Makassar;Kartu Kredit;;
+BLI26040006981;04/28/2026 07:54:40 AM;Selesai;ORL-003;Lumina Mint Mouthwash 500ml Original;Rp 42.800;1;Rp 0;Rp 42.800;;;;Re*** Fi***;62896***939351;Yogyakarta;OVO;;
+BLI26040006870;04/26/2026 04:09:45 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 4.100;Rp 20.400;Rp 0;Rp 0;Rp 12.000;Yo*** Ma***;62895***285888;Kota Semarang;GoPay;;
+BLI26040006484;04/18/2026 03:42:40 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 12.000;Ag*** Ma***;62878***776761;Semarang;Transfer Bank;;
+BLI26040005992;04/09/2026 11:51:52 AM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 0;Rp 45.900;Rp 0;Rp 0;Rp 22.000;Di*** Wi***;62813***965537;Jakarta Barat;Kartu Kredit;;
+BLI26040006588;04/21/2026 10:23:20 AM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;;;;Ma*** Sa***;62895***304926;Depok;Kartu Kredit;;BLIPLT04
+BLI26040006908;04/26/2026 09:11:18 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 8.600;Rp 51.600;Rp 0;Rp 10.000;Rp 12.000;Na*** Sa***;62821***009512;Kota Adm. Jakarta Barat;GoPay;;BLIPLT04
+BLI26040006628;04/22/2026 02:37:31 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 0;Rp 50.000;Rp 0;Rp 0;Rp 9.000;De*** Le***;62821***908603;jakarta selatan;Kartu Kredit;;
+BLI26040006129;04/12/2026 05:44:29 PM;Selesai;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 0;Rp 10.000;Rp 12.000;Ay*** Ku***;62857***861085;KOTA SURABAYA;OVO;;BLIPLT04
+BLI26040006182;04/13/2026 02:30:49 PM;Selesai;SKN-010;  Lumina Calming Toner 150ml Original ;Rp 70.400;1;Rp 7.000;Rp 63.400;Rp 0;Rp 0;Rp 18.000;De*** Ma***;62857***915757;jakarta timur;GoPay;;
+BLI26040006227;04/14/2026 12:47:16 PM;Dibatalkan;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 0;Pu*** Le***;62896***415280;Surabaya;Transfer Bank;;
+BLI26040006794;04/25/2026 06:39:47 PM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;4;Rp 16.400;Rp 81.600;;;;Ek*** Wi***;62813***530415;Kota Adm. Jakarta Timur;OVO;BLINEWB04;
+BLI26040005946;04/08/2026 12:26:25 PM;Selesai;HCR-004;Lumina Repair Hair Serum 50ml Original;Rp 60.200;2;Rp 12.000;Rp 108.400;Rp 0;Rp 0;Rp 0;Ay*** Ra***;62812***182153;bandung;Kartu Kredit;;
+BLI26040007088;04/29/2026 08:08:45 PM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 4.800;Rp 55.400;;;;Ri*** Sa***;62821***291256;MAKASSAR;GoPay;;
+BLI26040005569;04/04/2026 07:28:34 AM;Selesai;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;3;Rp 13.800;Rp 84.000;;;;Ba*** Fa***;62857***462444;Denpasar;Kartu Kredit;BLISAVE04;
+BLI26040005812;04/05/2026 11:35:58 PM;Selesai;BDY-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 6.600;Rp 29.100;;;;Nu*** Ma***;62857***603355;Kota Bandung;GoPay;;
+BLI26040006400;04/17/2026 10:11:51 AM;Selesai;ORL-001;Lumina Whitening Toothpaste 150g Original;Rp 24.500;1;Rp 2.400;Rp 22.100;;;;Fa*** Nu***;62878***879938;Palembang;Transfer Bank;;BLIPLT04
+BLI26040007095;04/29/2026 10:03:04 PM;Selesai;BDY-006;Lumina Deodorant Spray 150ml Original;Rp 45.900;2;Rp 9.000;Rp 82.800;Rp 0;Rp 4.100;Rp 22.000;Ag*** Ra***;62821***391448;Pekanbaru;Transfer Bank;;BLIPLT04
+BLI26040005710;04/04/2026 10:29:00 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 9.700;Rp 31.000;Rp 0;Rp 10.000;Rp 18.000;An*** Ut***;62813***102927;Tangerang;COD;;BLIPLT04
+BLI26040006418;04/17/2026 07:02:50 PM;Selesai;BDY-004;Lumina Milk Body Wash 450ml Original;Rp 56.100;1;Rp 0;Rp 56.100;Rp 0;Rp 0;Rp 0;Pu*** Pe***;62813***649985;KAB. BEKASI;Kartu Kredit;;
+BLI26040006922;04/26/2026 09:51:42 PM;Selesai;MEN-001;Lumina Men Oil Control Face Wash 100ml Original;Rp 42.800;2;Rp 10.800;Rp 74.800;Rp 0;Rp 0;Rp 0;Na*** Le***;62895***364333;TANGERANG;GoPay;;
+BLI26040006529;04/19/2026 01:13:38 PM;Selesai;HCR-008;Lumina Shampoo Refill 700ml Original;Rp 80.600;2;Rp 0;Rp 161.200;;;;Wa*** Pr***;62813***202785;Kota Bandung;Transfer Bank;;
+BLI26040006348;04/16/2026 03:35:41 PM;Selesai;BDY-008;Lumina Coffee Body Scrub 200g Original;Rp 50.000;1;Rp 0;Rp 50.000;Rp 0;Rp 0;Rp 9.000;Wa*** Pe***;62852***043530;TANGERANG SELATAN;GoPay;;
+BLI26040005825;04/06/2026 12:31:23 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 7.500;Rp 0;Rp 22.000;Sa*** Ma***;62878***805341;KOTA BANDUNG;OVO;BLINEWB04;
+BLI26040006050;04/10/2026 07:10:02 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 18.000;Ri*** Se***;62895***120364;Jaksel;Kartu Kredit;;
+BLI26040006008;04/09/2026 07:57:02 PM;Selesai;SKN-012;Lumina Lip Balm SPF15 4g Original;Rp 29.600;3;Rp 0;Rp 88.800;Rp 7.500;Rp 0;Rp 9.000;Nu*** Fa***;62896***496269;KOTA MEDAN;Transfer Bank;BLINEWB04;
+BLI26040005803;04/05/2026 10:38:08 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 8.800;Rp 37.100;Rp 0;Rp 0;Rp 0;An*** Ra***;62812***703617;depok;Transfer Bank;;
+BLI26040006904;04/26/2026 08:53:14 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;1;Rp 5.900;Rp 40.000;;;;Le*** Se***;62821***273107;KOTA BALIKPAPAN;OVO;;BLIPLT04
+BLI26040005654;04/04/2026 05:21:16 PM;Selesai;MEN-004;Lumina Men Shave Gel 150ml Original;Rp 38.800;1;Rp 5.500;Rp 33.300;;;;Il*** Ra***;62857***766366;Jaksel;GoPay;;
+BLI26040005792;04/05/2026 10:23:58 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 10.000;Rp 50.200;Rp 0;Rp 0;Rp 15.000;Le*** Am***;62878***867804;Kota Jakarta Barat;Transfer Bank;;
+BLI26040005738;04/05/2026 10:25:42 AM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 28.700;Rp 82.500;Rp 0;Rp 0;Rp 12.000;Bu*** Ku***;62813***030570;Kota Adm. Jakarta Selatan;Kartu Kredit;;
+BLI26040007033;04/28/2026 09:22:10 PM;Selesai;SKN-009;Lumina Micellar Water 300ml Original;Rp 60.200;1;Rp 1.800;Rp 58.400;Rp 0;Rp 0;Rp 15.000;De*** Ma***;62857***915757;Kota Adm. Jakarta Timur;Transfer Bank;;
+BLI26040006085;04/11/2026 05:03:15 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 10.000;Rp 12.000;Fa*** Am***;62857***645561;Tangerang;Transfer Bank;;BLIPLT04
+BLI26040006794;04/25/2026 06:39:47 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Ek*** Wi***;62813***530415;Kota Adm. Jakarta Timur;OVO;BLINEWB04;
+BLI26040005517;04/03/2026 05:43:48 PM;Selesai;SKN-004;Lumina Niacinamide 10% Serum 20ml Original;Rp 101.000;1;Rp 25.500;Rp 75.500;Rp 0;Rp 0;Rp 0;Ri*** Wi***;62878***112722;Jakarta Selatan;OVO;;
+BLI26040006308;04/15/2026 07:36:04 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;3;Rp 0;Rp 122.100;Rp 0;Rp 10.000;Rp 9.000;Re*** Am***;62895***236349;Sby;OVO;;BLIPLT04
+BLI26040006945;04/27/2026 01:21:29 PM;Selesai;ORL-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 5.000;Rp 23.600;Rp 0;Rp 0;Rp 12.000;Yo*** Hi***;62852***957089;DEPOK;GoPay;;
+BLI26040005426;04/01/2026 05:35:39 PM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 9.000;Tr*** Pu***;62857***721462;Kota Adm. Jakarta Selatan;Transfer Bank;;
+BLI26040005932;04/08/2026 10:40:59 AM;Selesai;bdy-005;Lumina Deodorant Roll-On 50ml Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Sa*** Pu***;62812***056790;Kota Bekasi;Transfer Bank;;
+BLI26040007029;04/28/2026 08:54:51 PM;Dibatalkan;SKN-002;Lumina Gentle Face Wash 200ml Original;Rp 71.300;1;Rp 5.700;Rp 65.600;Rp 0;Rp 0;Rp 12.000;Na*** Am***;62878***871157;KOTA MAKASSAR;COD;;
+BLI26040005574;04/04/2026 07:51:17 AM;Dibatalkan;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 24.600;Rp 66.200;;;;Sa*** Le***;62813***750710;Sby;Kartu Kredit;BLINEWB04;
+BLI26040006460;04/18/2026 09:12:15 AM;Selesai;ORL-003;  Lumina Mint Mouthwash 500ml Original ;Rp 42.800;2;Rp 0;Rp 85.600;Rp 0;Rp 0;Rp 0;Ag*** Fi***;62895***333630;JAKARTA BARAT;Transfer Bank;;
+BLI26040006216;04/13/2026 11:56:05 PM;Selesai;SKN-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 15.000;An*** Se***;62813***307664;Kota Jakarta Timur;GoPay;;
+BLI26040018215;04/04/2026 04:44:54 PM;Dibatalkan;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;31;Rp 310.000;Rp 1.556.200;Rp 0;Rp 0;Rp 12.000;Gr*** To***;62895***543847;tangerang selatan;OVO;;
+BLI26040006290;04/15/2026 01:49:00 PM;Dibatalkan;BDY-007;Lumina Hand Cream 50g Original;Rp 32.600;1;Rp 0;Rp 32.600;;;;Re*** Pe***;62878***256596;Bekasi;Kartu Kredit;;
+BLI26040005563;04/04/2026 04:38:25 AM;Selesai;BDY-002;Lumina Shea Butter Body Lotion 400ml Original;Rp 60.200;1;Rp 9.900;Rp 50.300;Rp 0;Rp 0;Rp 9.000;Wa*** Fa***;62878***648227;jakarta utara;OVO;;
+BLI26040005762;04/05/2026 02:50:44 PM;Selesai;SKN-010;Lumina Calming Toner 150ml Original;Rp 70.400;1;Rp 16.800;Rp 53.600;Rp 0;Rp 0;Rp 12.000;Di*** Fa***;62895***864469;Kota Denpasar;Transfer Bank;;
+BLI26040006840;04/26/2026 08:50:18 AM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 13.200;Rp 77.600;Rp 0;Rp 0;Rp 0;Fa*** Hi***;62812***454373;Kota Depok;GoPay;;
+BLI26040006537;04/19/2026 06:08:25 PM;Selesai;BDY-005;  Lumina Deodorant Roll-On 50ml Original ;Rp 35.700;1;Rp 3.500;Rp 32.200;Rp 0;Rp 0;Rp 15.000;Ag*** Pr***;62852***611675;Bekasi;Transfer Bank;;
+BLI26040006164;04/12/2026 11:06:23 PM;Selesai;BDY-001;Lumina Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;;;;Ay*** Le***;62878***822419;Kab. Semarang;GoPay;;BLIPLT04
+BLI26040006116;04/12/2026 01:54:14 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 0;Rp 0;Di*** Am***;62896***171656;medan;Kartu Kredit;;
+BLI26040006588;04/21/2026 10:23:20 AM;Selesai;orl-002;Lumina Sensitive Toothpaste 150g Original;Rp 28.600;1;Rp 1.400;Rp 27.200;;;;Ma*** Sa***;62895***304926;Depok;Kartu Kredit;;BLIPLT04
+BLI26040006507;04/19/2026 05:33:07 AM;Selesai;BDY-001;Lumina  Brightening Body Lotion 400ml Original;Rp 60.200;1;Rp 6.000;Rp 54.200;Rp 0;Rp 0;Rp 12.000;Re*** Ra***;62895***599826;Jogja;OVO;;
+BLI26040006226;04/14/2026 11:21:03 AM;Selesai;HCR-006;Lumina Anti Hair-Fall Tonic 100ml Original;Rp 66.300;1;Rp 6.600;Rp 59.700;Rp 7.500;Rp 4.000;Rp 15.000;Ri*** Am***;62857***493342;TANGERANG;Kartu Kredit;BLINEWB04;BLIPLT04
+BLI26040005799;04/05/2026 10:30:04 PM;Selesai;SKN-007;Lumina Daily Sunscreen SPF50 40ml Original;Rp 90.800;1;Rp 24.600;Rp 66.200;Rp 0;Rp 8.300;Rp 15.000;Fa*** Pe***;62813***898083;KAB. BEKASI;Transfer Bank;;BLIPLT04
+BLI26040006124;04/12/2026 03:41:28 PM;Selesai;skn-005;Lumina Hydra Gel Moisturizer 50g Original;Rp 80.600;1;Rp 4.000;Rp 76.600;Rp 0;Rp 0;Rp 15.000;Nu*** Pu***;62896***051391;Tangerang;OVO;;
+BLI26040006650;04/22/2026 08:06:05 PM;Selesai;ORL-004;Lumina Soft Toothbrush 3-Pack Original;Rp 35.700;1;Rp 3.500;Rp 32.200;;;;Tr*** Ku***;62895***172950;Kab. Tangerang;Kartu Kredit;BLINEWB04;
+BLI26040005840;04/06/2026 07:37:04 PM;Selesai;SKN-011;Lumina Acne Spot Gel 15g Original;Rp 45.900;5;Rp 0;Rp 229.500;Rp 0;Rp 0;Rp 15.000;Di*** Wi***;62813***965537;jakarta barat;Transfer Bank;;
+BLI26040006583;04/20/2026 11:31:25 PM;Selesai;SKN-006;Lumina Barrier Repair Cream 30g Original;Rp 111.200;1;Rp 0;Rp 111.200;;;;Sa*** Sa***;62852***155248;surabaya;Transfer Bank;;
+BLI26040006444;04/17/2026 10:08:24 PM;Selesai;BDY-003;Lumina Fresh Body Wash 450ml Original;Rp 56.100;1;Rp 2.800;Rp 53.300;Rp 0;Rp 0;Rp 9.000;Fa*** Ma***;62852***646420;Kab. Bekasi;OVO;;
+BLI26040006512;04/19/2026 08:43:43 AM;Selesai;HCR-002;Lumina Smooth Shine Shampoo 340ml Original;Rp 50.000;3;Rp 12.000;Rp 138.000;;;;Na*** Pe***;62878***706229;Pekanbaru;Transfer Bank;;
+BLI26040005813;04/06/2026 06:18:55 AM;Selesai;SKN-001;Lumina Gentle Face Wash 100ml Original;Rp 40.700;1;Rp 0;Rp 40.700;Rp 0;Rp 0;Rp 0;Fi*** Hi***;62812***268147;malang;Transfer Bank;;
+BLI26040005784;04/05/2026 07:47:20 PM;Selesai;MEN-002;Lumina Men Hair Pomade 75g Original;Rp 60.200;2;Rp 21.400;Rp 99.000;;;;Ma*** Am***;62895***226720;Kota Tangerang;COD;BLISAVE04;

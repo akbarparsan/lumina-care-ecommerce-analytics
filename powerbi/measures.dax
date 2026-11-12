@@ -1,0 +1,117 @@
+// =====================================================================================
+// measures.dax : kumpulan measure Power BI untuk model Lumina Care
+// Buat tabel kosong "_Measures" (Enter Data) lalu tempel measure per kelompok.
+// Nama tabel mengikuti Power Query (powerbi/power_query.pq). Tabel fakta utama:
+//   Sales    = mart.mv_sales_daily      (grain: tanggal x platform x SKU)
+//   KPI_M    = mart.v_kpi_platform_month (grain: platform x bulan, sudah memuat CM1/CM2)
+//   Ads      = mart.v_ads_daily
+//   Voucher  = mart.v_voucher_performance
+//   Campaign = mart.v_campaign_performance
+//   JBP      = mart.v_jbp_attainment
+// Dimensi: DimDate (dwh.dim_date), DimPlatform, DimSKU, DimCampaign
+// =====================================================================================
+
+// ---------------------------------------------------------------- GMV
+Gross List GMV      = SUM ( Sales[gross_list_gmv] )
+GMV Placed          = SUM ( Sales[gmv_placed] )
+Net GMV             = SUM ( Sales[net_gmv] )
+Completed GMV       = SUM ( Sales[completed_gmv] )
+Cancelled GMV       = SUM ( Sales[gmv_cancelled] )
+Returned GMV        = SUM ( Sales[gmv_returned] )
+Net Units           = SUM ( Sales[net_units] )
+Cancel Rate         = DIVIDE ( [Cancelled GMV], [GMV Placed] )
+Return Rate         = DIVIDE ( [Returned GMV], [GMV Placed] )
+Price Discount Depth = DIVIDE ( [Gross List GMV] - [GMV Placed], [Gross List GMV] )
+Seller Voucher Cost = SUM ( Sales[seller_voucher_cost] )
+Seller Voucher Rate = DIVIDE ( [Seller Voucher Cost], [Net GMV] )
+Net Sales           = [Net GMV] - [Seller Voucher Cost]
+
+Net GMV LY          = CALCULATE ( [Net GMV], SAMEPERIODLASTYEAR ( DimDate[date] ) )
+Net GMV MTD         = CALCULATE ( [Net GMV], DATESMTD ( DimDate[date] ) )
+Net GMV MoM %       = VAR prev = CALCULATE ( [Net GMV], DATEADD ( DimDate[date], -1, MONTH ) ) RETURN DIVIDE ( [Net GMV] - prev, prev )
+Net GMV 7D Avg      = AVERAGEX ( DATESINPERIOD ( DimDate[date], MAX ( DimDate[date] ), -7, DAY ), [Net GMV] )
+Platform Share %    = DIVIDE ( [Net GMV], CALCULATE ( [Net GMV], ALL ( DimPlatform ) ) )
+
+// AOV memakai jumlah order dari KPI_M (order unik per platform-bulan; tidak dijumlah lintas SKU)
+Orders (Net)        = SUM ( KPI_M[orders_net] )
+AOV                 = DIVIDE ( SUM ( KPI_M[net_gmv] ), [Orders (Net)] )
+
+// ---------------------------------------------------------------- PROFITABILITAS (grain bulanan)
+Platform Fees       = SUM ( KPI_M[platform_fees] )
+COGS                = SUM ( KPI_M[cogs] )
+CM1                 = SUM ( KPI_M[cm1] )
+CM2                 = SUM ( KPI_M[cm2] )
+CM1 %               = DIVIDE ( [CM1], SUM ( KPI_M[net_sales] ) )
+CM2 %               = DIVIDE ( [CM2], SUM ( KPI_M[net_sales] ) )
+
+// ---------------------------------------------------------------- IKLAN (rasio hanya dari baris dengan spend andal)
+Ad Spend            = SUM ( Ads[spend] )
+Ad GMV              = SUM ( Ads[ad_gmv] )
+ROAS                = DIVIDE ( SUM ( Ads[ad_gmv_reliable] ), SUM ( Ads[spend_reliable] ) )
+CPC                 = DIVIDE ( SUM ( Ads[spend_reliable] ), SUM ( Ads[clicks_reliable] ) )
+CTR                 = DIVIDE ( SUM ( Ads[clicks] ), SUM ( Ads[impressions] ) )
+CVR                 = DIVIDE ( SUM ( Ads[ad_orders] ), SUM ( Ads[clicks] ) )
+Cost per Order      = DIVIDE ( SUM ( Ads[spend_reliable] ), SUM ( Ads[ad_orders_reliable] ) )
+TACOS               = DIVIDE ( [Ad Spend], [Net GMV] )
+Ad-Attributed Share = DIVIDE ( [Ad GMV], [GMV Placed] )
+Break-even ROAS     = DIVIDE ( 1, [CM1 %] )            // ROAS minimum agar iklan tidak merugikan margin
+ROAS Gap            = [ROAS] - [Break-even ROAS]       // negatif = iklan membakar margin
+
+// ---------------------------------------------------------------- VOUCHER
+Voucher Redemptions = SUM ( Voucher[redemptions_valid] )
+Voucher Discount    = SUM ( Voucher[discount_given] )
+Voucher Seller Cost = SUM ( Voucher[seller_cost] )
+Voucher Platform Cost = SUM ( Voucher[platform_cost] )
+Quota Burn %        = DIVIDE ( SUM ( Voucher[redemptions] ), SUM ( Voucher[quota] ) )
+Budget Utilization  = DIVIDE ( SUM ( Voucher[seller_cost] ), SUM ( Voucher[budget_idr] ) )
+GMV per Seller Rp   = DIVIDE ( SUM ( Voucher[gmv_on_voucher_orders] ), SUM ( Voucher[seller_cost] ) )
+Over-Quota Vouchers = CALCULATE ( DISTINCTCOUNT ( Voucher[voucher_code] ), FILTER ( Voucher, Voucher[quota_burn] > 1 ) )
+AOV Uplift (Voucher) = AVERAGE ( VoucherAOV[aov_uplift] )
+Voucher Penetration % = AVERAGE ( VoucherAOV[voucher_penetration_pct] ) / 100
+
+// ---------------------------------------------------------------- KAMPANYE
+Campaign Uplift %   = AVERAGE ( Campaign[gmv_uplift_vs_baseline] )
+Incremental GMV     = SUM ( Campaign[incremental_gmv] )
+Incremental CM2     = SUM ( Campaign[incremental_cm2] )
+Margin-Burning Campaigns = CALCULATE ( COUNTROWS ( Campaign ), Campaign[verdict] = "MERUGIKAN MARGIN" )
+Campaign Verdict Color = IF ( [Incremental CM2] < 0, "#C0392B", "#1E8449" )
+
+// ---------------------------------------------------------------- JBP
+JBP Completed GMV   = SUM ( JBP[completed_gmv] )
+Attainment Tier 1   = DIVIDE ( [JBP Completed GMV], SUM ( JBP[tier1_threshold] ) )
+Attainment Tier 2   = DIVIDE ( [JBP Completed GMV], SUM ( JBP[tier2_threshold] ) )
+Expected Rebate     = SUM ( JBP[expected_rebate_idr] )
+Gap to Tier 2       = SUM ( JBP[gap_to_tier2_idr] )
+Projected Q GMV     = SUM ( JBPPacing[projected_quarter_gmv] )
+Required Daily GMV  = SUM ( JBPPacing[required_daily_gmv_for_tier2] )
+Run Rate Daily GMV  = SUM ( JBPPacing[current_daily_run_rate] )
+Pacing Gap per Day  = [Run Rate Daily GMV] - [Required Daily GMV]
+
+// ---------------------------------------------------------------- KEPATUHAN HARGA & PROMO
+Active Price Alerts = COUNTROWS ( PriceAlerts )
+Critical Alerts     = CALCULATE ( COUNTROWS ( PriceAlerts ), PriceAlerts[severity] = "CRITICAL" )
+Violation Episodes  = COUNTROWS ( PriceEpisodes )
+Avg Hours Exposed   = AVERAGE ( PriceEpisodes[approx_hours_exposed] )
+Price Compliance %  = AVERAGE ( PriceComplianceDaily[compliance_rate] )
+Official Price Leakage = SUM ( PriceLeakage[leakage_idr] )
+Voucher Rule Violations = SUM ( VoucherViolations[orders] )
+Voucher Exposure Rp = SUM ( VoucherViolations[exposure_idr] )
+
+// ---------------------------------------------------------------- ORDER MENCURIGAKAN
+Flagged Orders      = COUNTROWS ( Suspicious )
+Flagged GMV         = SUM ( Suspicious[gmv_placed] )
+Critical+High Orders = CALCULATE ( COUNTROWS ( Suspicious ), Suspicious[risk_level] IN { "CRITICAL", "HIGH" } )
+Flagged Order Share = DIVIDE ( [Flagged Orders], SUM ( KPI_M[orders_placed] ) )
+
+// ---------------------------------------------------------------- REKONSILIASI & BANDING
+Claimable Amount    = SUM ( AppealPack[claim_idr] )
+Claim Cases         = SUM ( AppealPack[cases] )
+Program Shortfall   = CALCULATE ( SUM ( ProgramRecon[shortfall_idr] ), ProgramRecon[recon_status] IN { "SHORT_PAID", "UNPAID" } )
+Recovery Rate       = DIVIDE ( SUM ( AppealBoard[recovered_idr] ), SUM ( AppealBoard[claim_idr] ) )
+Unsettled Orders    = CALCULATE ( COUNTROWS ( SettlementAudit ), SettlementAudit[discrepancy_type] = "UNSETTLED_AGING" )
+
+// ---------------------------------------------------------------- KUALITAS DATA
+DQ Pass %           = DIVIDE ( CALCULATE ( COUNTROWS ( DQLatest ), DQLatest[status] = "PASS" ), CALCULATE ( COUNTROWS ( DQLatest ), DQLatest[status] IN { "PASS", "FAIL" } ) )
+DQ Critical Failed  = CALCULATE ( COUNTROWS ( DQLatest ), DQLatest[status] = "FAIL", DQLatest[severity] = "CRITICAL" )
+Data Freshness (days) = MAX ( Freshness[lag_days] )
+Publish Gate        = IF ( [DQ Critical Failed] > 0, "TAHAN PUBLIKASI", "AMAN" )

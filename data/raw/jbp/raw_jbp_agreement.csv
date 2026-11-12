@@ -1,0 +1,17 @@
+agreement_id,platform,program_code,period_type,valid_from,valid_to,metric,tier1_threshold,tier1_rate_pct,tier2_threshold,tier2_rate_pct,cap_amount,campaign_scope,notes
+JBP26-SHP-REB,Shopee,QUARTERLY_REBATE,QUARTER,2026-01-01,2026-12-31,NET_GMV_COMPLETED,750000000.0,1.0,920000000.0,1.8,,,"Rebate = tarif tier x Net GMV kuartal (order selesai, harga setelah diskon penjual, sebelum voucher)"
+JBP26-SHP-BDC,Shopee,BRAND_DAY_COFUND,CAMPAIGN,2026-01-01,2026-12-31,SELLER_VOUCHER_COST,,35.0,,,25000000.0,BRAND_DAY,Platform mengganti % biaya voucher yang didanai penjual pada order selesai selama Brand Day
+JBP26-SHP-CMD,Shopee,COMMISSION_DISCOUNT,CAMPAIGN,2026-01-01,2026-12-31,COMMISSION_PCT_POINTS,,1.5,,,,"DOUBLE_DATE,BRAND_DAY",Tarif komisi dikurangi sekian poin persen selama kampanye
+JBP26-SHP-ADC,Shopee,ADS_CREDIT,QUARTER,2026-01-01,2026-12-31,AD_SPEND,,5.0,,,60000000.0,,Bonus kredit iklan = % belanja iklan kuartal berjalan
+JBP26-TTK-REB,TikTok Shop/Tokopedia,QUARTERLY_REBATE,QUARTER,2026-01-01,2026-12-31,NET_GMV_COMPLETED,510000000.0,1.2,700000000.0,2.0,,,"Rebate = tarif tier x Net GMV kuartal (order selesai, harga setelah diskon penjual, sebelum voucher)"
+JBP26-TTK-BDC,TikTok Shop/Tokopedia,BRAND_DAY_COFUND,CAMPAIGN,2026-01-01,2026-12-31,SELLER_VOUCHER_COST,,30.0,,,20000000.0,BRAND_DAY,Platform mengganti % biaya voucher yang didanai penjual pada order selesai selama Brand Day
+JBP26-TTK-CMD,TikTok Shop/Tokopedia,COMMISSION_DISCOUNT,CAMPAIGN,2026-01-01,2026-12-31,COMMISSION_PCT_POINTS,,2.0,,,,"DOUBLE_DATE,BRAND_DAY",Tarif komisi dikurangi sekian poin persen selama kampanye
+JBP26-TTK-ADC,TikTok Shop/Tokopedia,ADS_CREDIT,QUARTER,2026-01-01,2026-12-31,AD_SPEND,,4.0,,,60000000.0,,Bonus kredit iklan = % belanja iklan kuartal berjalan
+JBP26-LZD-REB,Lazada,QUARTERLY_REBATE,QUARTER,2026-01-01,2026-12-31,NET_GMV_COMPLETED,280000000.0,0.8,300000000.0,1.5,,,"Rebate = tarif tier x Net GMV kuartal (order selesai, harga setelah diskon penjual, sebelum voucher)"
+JBP26-LZD-BDC,Lazada,BRAND_DAY_COFUND,CAMPAIGN,2026-01-01,2026-12-31,SELLER_VOUCHER_COST,,40.0,,,10000000.0,BRAND_DAY,Platform mengganti % biaya voucher yang didanai penjual pada order selesai selama Brand Day
+JBP26-LZD-CMD,Lazada,COMMISSION_DISCOUNT,CAMPAIGN,2026-01-01,2026-12-31,COMMISSION_PCT_POINTS,,1.0,,,,"DOUBLE_DATE,BRAND_DAY",Tarif komisi dikurangi sekian poin persen selama kampanye
+JBP26-LZD-ADC,Lazada,ADS_CREDIT,QUARTER,2026-01-01,2026-12-31,AD_SPEND,,6.0,,,60000000.0,,Bonus kredit iklan = % belanja iklan kuartal berjalan
+JBP26-BLI-REB,Blibli,QUARTERLY_REBATE,QUARTER,2026-01-01,2026-12-31,NET_GMV_COMPLETED,170000000.0,1.0,200000000.0,1.6,,,"Rebate = tarif tier x Net GMV kuartal (order selesai, harga setelah diskon penjual, sebelum voucher)"
+JBP26-BLI-BDC,Blibli,BRAND_DAY_COFUND,CAMPAIGN,2026-01-01,2026-12-31,SELLER_VOUCHER_COST,,25.0,,,5000000.0,BRAND_DAY,Platform mengganti % biaya voucher yang didanai penjual pada order selesai selama Brand Day
+JBP26-BLI-CMD,Blibli,COMMISSION_DISCOUNT,CAMPAIGN,2026-01-01,2026-12-31,COMMISSION_PCT_POINTS,,1.0,,,,"DOUBLE_DATE,BRAND_DAY",Tarif komisi dikurangi sekian poin persen selama kampanye
+JBP26-BLI-ADC,Blibli,ADS_CREDIT,QUARTER,2026-01-01,2026-12-31,AD_SPEND,,3.0,,,60000000.0,,Bonus kredit iklan = % belanja iklan kuartal berjalan
